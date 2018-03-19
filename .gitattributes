@@ -73,9 +73,11 @@ configure       eol=lf
 *.dcd      binary
 *.dcd      binary
 *.dll      binary
+*.DLL      binary
 *.eot      binary
 *.eps      binary
 *.exe      binary
+*.EXE      binary
 *.gif      binary
 *.gz       binary
 *.gz.asc   binary
@@ -86,10 +88,12 @@ configure       eol=lf
 *.jpg      binary
 *.keystore binary
 *.lib      binary
+*.LIB      binary
 *.lrngdevcer binary
 *.lxp      binary
 *.msg      binary
 *.MSG      binary
+*.msi      binary
 *.msm      binary
 *.otf      binary
 *.pdb      binary

@@ -819,6 +819,12 @@ FieldCompMenu.InsertEvpDynamicPicklist=動的
 FieldCompMenu.InsertEvpProgress=ﾌﾟﾛｸﾞﾚｽ ﾊﾞｰ
 FieldCompMenu.InsertEvpTrackBar=ﾄﾗｯｸ ﾊﾞｰ
 FieldCompMenu.InsertEvpSpinEdit=ｽﾋﾟﾝ ｴﾃﾞｨｯﾄ
+*** @TRANS NEW
+FieldCompMenu.InsertMdEdit=Material Design Edit Field
+FieldCompMenu.InsertMdSpinEdit=Material Design SpinEdit Field
+FieldCompMenu.InsertMdDropdown=Material Design Dropdown Field
+FieldCompMenu.InsertMdDateTime=Material Design DateTime Field
+*** @TRANS END
 FieldCompMenu.DefaultVisualization=省略値のﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝ
 FieldCompMenu.DefaultPrompter=省略値のﾌﾟﾛﾝﾌﾟﾀｰ
 FieldCompMenu.InsertPrompter=ﾌﾟﾛﾝﾌﾟﾀｰ ﾌｫｰﾑ
@@ -847,6 +853,12 @@ FieldCompMenu.InsertEvpDynamicPicklist.Tip=新しい動的ﾋﾟｯｸﾘｽﾄ
 FieldCompMenu.InsertEvpProgress.Tip=ﾌﾟﾛｸﾞﾚｽ ﾊﾞｰ
 FieldCompMenu.InsertEvpTrackBar.Tip=ﾄﾗｯｸ ﾊﾞｰ
 FieldCompMenu.InsertEvpSpinEdit.Tip=ｽﾋﾟﾝ ｴﾃﾞｨｯﾄ
+*** @TRANS NEW
+FieldCompMenu.InsertMdEdit.Tip=Material Design Edit Field
+FieldCompMenu.InsertMdSpinEdit.Tip=Material Design SpinEdit Field
+FieldCompMenu.InsertMdDropdown.Tip=Material Design Dropdown Field
+FieldCompMenu.InsertMdDateTime.Tip=Material Design DateTime Field
+*** @TRANS END
 FieldCompMenu.DefaultVisualization.Tip=省略値のﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝ
 FieldCompMenu.DefaultPrompter.Tip=省略値のﾌﾟﾛﾝﾌﾟﾀｰ
 FieldCompMenu.DefaultPicklist.Tip=省略値のﾋﾟｯｸﾘｽﾄ
@@ -952,7 +964,13 @@ MsgBox.ReadOnlyForSlave=ｽﾚｰﾌﾞ ｼｽﾃﾑで作業していますので、このｵﾌﾞｼﾞｪｸﾄは+
 継続しますか？
 
 *** @TRANS NEW
-MsgBox.ReadOnly.NotLicensed=Your system is not not licensed.+
+MsgBox.ReadOnly.NotLicensed=Your system is not licensed.+
+-
+You may open this object only in read-only mode.+
+-
+Continue?
+
+MsgBox.ReadOnly.RestrictedLicense=Your system has a restricted license.+
 -
 You may open this object only in read-only mode.+
 -
@@ -3340,6 +3358,8 @@ Editor.Home.Vlf.Header1.Caption=Launch the Developer Workbench
 Editor.Home.Vlf.Header2.Caption=Explore the Demonstration Application
 Editor.Home.Desktop.Header.Caption=Build a Desktop Application
 Editor.Home.Samples.Header.Caption=Explore the Windows DirectX Controls
+Editor.Home.SampleUnavailable.Title=Sample Unavailable
+Editor.Home.SampleUnavailable.Message=Please use Partition Initialization to import Demonstration Material
 *** @TRANS END
 
 **************************************************************************
@@ -3539,6 +3559,9 @@ Editor.Styles.Delete.Title=削除
 Editor.Styles.Delete.Hint=現在のｺﾝﾄﾛｰﾙからｽﾀｲﾙを解除
 Editor.Styles.SelectBase.Caption=基本テーマ
 Editor.Styles.SelectFont.Caption=フォント
+*** @TRANS NEW
+Editor.Styles.ResetPalette.Caption=Reset color palette to theme defaults
+*** @TRANS END
 Editor.Styles.SelectPalette.Caption=カラー パレット
 Editor.Styles.SelectDetails.Caption=ダブルクリックして詳細を開き、このテーマを修正
 Editor.Styles.SelectPreview.Caption=テーマのプレビュー
@@ -3565,7 +3588,8 @@ Editor.Styles.ThemeBackDrawStyle.Caption=色
 Editor.Styles.ThemeDividersDrawStyle.Caption=分割線
 Editor.Styles.ThemeShadowsDrawStyle.Caption=影付き
 Editor.Styles.ThemeFontDrawStyle.Caption=フォント
-Editor.Styles.ThemeControlDrawStyle.Caption=バリエーション
+Editor.Styles.ThemeControlDrawStyle.Caption=テーマの描画スタイルを制御
+Editor.Styles.ThemeVariantsDrawStyle.Caption=バリエーション
 Editor.Styles.ThemeMaterialDesign.Caption=マテリアルデザイン
 Editor.Styles.Theme2015.Caption=2015
 Editor.Styles.ThemeClassic.Caption=クラシック
@@ -3678,23 +3702,26 @@ Editor.Styles.ColorThemeA400.Caption=A400
 Editor.Styles.ColorThemeA400.Hint=
 Editor.Styles.ColorThemeA700.Caption=A700
 Editor.Styles.ColorThemeA700.Hint=
-Editor.Styles.ColorThemeAccentLight.Caption=AccentLight
+Editor.Styles.ColorThemePrimaryLight.Caption=Primary Light
+Editor.Styles.ColorThemePrimaryMedium.Caption=Primary Medium
+Editor.Styles.ColorThemePrimaryDark.Caption=Primary Dark
+Editor.Styles.ColorThemeAccentLight.Caption=Accent Light
 Editor.Styles.ColorThemeAccentLight.Hint=
-Editor.Styles.ColorThemeAccentMedium.Caption=AccentMedium
+Editor.Styles.ColorThemeAccentMedium.Caption=Accent Medium
 Editor.Styles.ColorThemeAccentMedium.Hint=
-Editor.Styles.ColorThemeAccentDark.Caption=AccentDark
+Editor.Styles.ColorThemeAccentDark.Caption=Accent Dark
 Editor.Styles.ColorThemeAccentDark.Hint=
-Editor.Styles.ColorThemeSuccessLight.Caption=SuccessLight
+Editor.Styles.ColorThemeSuccessLight.Caption=Success Light
 Editor.Styles.ColorThemeSuccessLight.Hint=
-Editor.Styles.ColorThemeSuccessMedium.Caption=SuccessMedium
+Editor.Styles.ColorThemeSuccessMedium.Caption=Success Medium
 Editor.Styles.ColorThemeSuccessMedium.Hint=
-Editor.Styles.ColorThemeSuccessDark.Caption=SuccessDark
+Editor.Styles.ColorThemeSuccessDark.Caption=Success Dark
 Editor.Styles.ColorThemeSuccessDark.Hint=
-Editor.Styles.ColorThemeErrorLight.Caption=ErrorLight
+Editor.Styles.ColorThemeErrorLight.Caption=Error Light
 Editor.Styles.ColorThemeErrorLight.Hint=
-Editor.Styles.ColorThemeErrorMedium.Caption=ErrorMedium
+Editor.Styles.ColorThemeErrorMedium.Caption=Error Medium
 Editor.Styles.ColorThemeErrorMedium.Hint=
-Editor.Styles.ColorThemeErrorDark.Caption=ErrorDark
+Editor.Styles.ColorThemeErrorDark.Caption=Error Dark
 Editor.Styles.ColorThemeErrorDark.Hint=
 Editor.Styles.ColorThemeButton.Caption=ボタン
 Editor.Styles.ColorThemeButton.Hint=
@@ -4522,6 +4549,9 @@ Editor.ControlsView.DataObject.List3.Caption=プライマリ テキスト
 Editor.ControlsView.DataObject.List4.Caption=プライマリおよびセカンダリ テキスト
 Editor.ControlsView.DataObject.List5.Caption=データ
 Editor.ControlsView.Md.Navigation.Caption=ナビゲーション
+*** @TRANS NEW
+Editor.ControlsView.Md.NavigationParent.Caption=Navigation containers
+*** @TRANS END
 Editor.ControlsView.Md.Application.Caption=アプリケーション
 Editor.ControlsView.Md.Decorations.Caption=デコレーション
 Editor.ControlsView.Md.Badges.Caption=バッジ
@@ -4581,6 +4611,20 @@ Editor.ControlsView.Md.IconsBitmap.Caption=イメージ
 Editor.ControlsView.Md.Labels.Caption=ラベル
 Editor.ControlsView.Md.Lists.Caption=リスト
 Editor.ControlsView.Md.Menus.Caption=メニュー
+*** @TRANS NEW
+Editor.ControlsView.Md.Nav1.Caption=Tabs
+Editor.ControlsView.Md.Nav1.Desc=Three top-aligned top-level destinations navigation
+Editor.ControlsView.Md.Nav2.Caption=Bottom navigation bar
+Editor.ControlsView.Md.Nav2.Desc=Three bottom-aligned top-level destinations navigation
+Editor.ControlsView.Md.Nav3.Caption=Bottom navigation bar
+Editor.ControlsView.Md.Nav3.Desc=Five bottom-aligned top-level destinations navigation
+Editor.ControlsView.Md.Nav4.Caption=Vertical navigation bar
+Editor.ControlsView.Md.Nav4.Desc=Side navigation to display many navigation targets at once
+Editor.ControlsView.Md.Nav5.Caption=Vertical navigation bar
+Editor.ControlsView.Md.Nav5.Desc=Nested side navigation to display many navigation targets at once
+Editor.ControlsView.Md.Nav6.Caption=Expanding vertical navigation bar
+Editor.ControlsView.Md.Nav6.Desc=Nested side navigation to display many navigation targets at once
+*** @TRANS END
 Editor.ControlsView.Md.MenuBar.Caption=メニューバー
 Editor.ControlsView.Md.MenuBar.Desc=メニューバーにより、アプリのトップレベル メニューのホームが提供されます。
 Editor.ControlsView.Md.PopupMenu.Caption=ポップアップメニュー
@@ -4660,6 +4704,11 @@ Editor.ControlsView.Md.NavTabs.Caption=タブ
 Editor.ControlsView.Md.NavTabs.Desc=標準タブ コントロール
 Editor.ControlsView.Md.View.Caption=ビュー
 Editor.ControlsView.Md.View.Desc=コンテンツ レイヤー
+*** @TRANS NEW
+Editor.ControlsView.Md.NavTabsItems1.Caption=ITEMS 1
+Editor.ControlsView.Md.NavTabsItems2.Caption=ITEMS 2
+Editor.ControlsView.Md.NavTabsItem.Caption=ITEM
+*** @TRANS END
 *** @TRANS NEW
 Editor.ControlsView.Avatar1.Caption=Image Avatar
 Editor.ControlsView.Avatar1.Desc=Image Avatar
@@ -4770,10 +4819,6 @@ Editor.ControlsView.Button.Success.Text=成功
 Editor.ControlsView.Button.Success.Caption=成功
 Editor.ControlsView.Button.Success.Desc=成功色ボタン
 *** @TRANS NEW
-Editor.ControlsView.Button.LeftNav.Caption=Left Navigation
-Editor.ControlsView.Button.LeftNav.Desc=App drawer button
-Editor.ControlsView.Button.TopNav.Caption=Top Navigation
-Editor.ControlsView.Button.TopNav.Desc=App menu button
 Editor.ControlsView.Button.Nav.Caption=View
 Editor.ControlsView.Images.Png.Caption=Image
 Editor.ControlsView.Images.Png.Desc=Image control suitable for displaying Repository or File images

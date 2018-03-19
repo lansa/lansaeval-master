@@ -3631,3 +3631,35 @@ VersionControl.Actions.UpdateRemote=Update Remote Repository
 VersionControl.Actions.RemoveRemote=Remove Remote Repository
 VersionControl.Actions.GetFileHistory=Retrieve File History
 VersionControl.Actions.ResolveConflict=Resolve Conflict
+
+*************************************************************
+***** Server Module validations                         *****
+*************************************************************
+DocServerModuleApiPathDuplicateVerb=Multiple operations on the same path have been assigned the same verb.
+DocServerModuleApiPathRequired=The path name is required. It cannot be blank or all spaces.
+DocServerModuleApiLeadingSlashRequired=The path name must begin with a forward slash.
+
+*************************************************************
+***** Services Model                                    *****
+*************************************************************
+SMx.EnumerationOutOfRange=Value &2 is out of range for enumeration &1.
+SMx.InvalidEnumeration=Value &2 is not valid for enumeration &1.
+
+SMx.Json.InvalidOperation=Invalid Json operation.
+SMx.JsonDom.DualDocumentRootNode=Document already has root node.
+SMx.JsonDom.DualMemberValueNode=Json member node already has a value.
+SMx.JsonDom.Import=Cannot import node of type &1.
+SMx.JsonDom.ImportNullNode=Cannot import *Null node.
+SMx.JsonDom.NodeClone=CloneNode is not supported by node type &1.
+SMx.JsonDom.NodeInsertChild= Cannot insert a *NULL node or a node that would become a child of itself.
+SMx.JsonDom.NodeInsertContainer=Insert of child is not supported by node type &1.
+SMx.JsonDom.NodeInsertContext=Json nodes can only be inserted into models belonging to same context.
+SMx.JsonDom.NodeInsertTypeConflict=Insert of specific type of node &2 is not supported by node type &1.
+SMx.JsonDom.NodeRemoveNotChild=Supplied node is *NULL or not a child.
+SMx.JsonDom.NodeRemoveNotContainer=Removal of child node is not supported by node type &1.
+SMx.JsonDom.NodeValueNotBoolean=Json node (&1) cannot be accessed as boolean value.
+SMx.JsonDom.NodeValueNotDateTime=Json node (&1) cannot be accessed as DateTime value.
+SMx.JsonDom.NodeValueNotDecimal=Json node (&1) cannot be accessed as Decimal value.
+SMx.JsonDom.NodeValueNotInt32=Json node (&1) cannot be accessed as Int32 value.
+SMx.JsonDom.NodeValueNotInt64=Json node (&1) cannot be accessed as Int64 value.
+SMx.JsonDom.NodeValueNotString=Json node (&1) cannot be accessed as String value.

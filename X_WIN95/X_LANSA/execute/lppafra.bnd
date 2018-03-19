@@ -825,6 +825,12 @@ FieldCompMenu.InsertEvpDynamicPicklist=Dynamique
 FieldCompMenu.InsertEvpProgress=Barre de progression
 FieldCompMenu.InsertEvpTrackBar=Curseur de défilement
 FieldCompMenu.InsertEvpSpinEdit=SpinEdit
+*** @TRANS NEW
+FieldCompMenu.InsertMdEdit=Material Design Edit Field
+FieldCompMenu.InsertMdSpinEdit=Material Design SpinEdit Field
+FieldCompMenu.InsertMdDropdown=Material Design Dropdown Field
+FieldCompMenu.InsertMdDateTime=Material Design DateTime Field
+*** @TRANS END
 FieldCompMenu.DefaultVisualization=Visualisation par défaut
 FieldCompMenu.DefaultPrompter=Invite de saisie par défaut
 FieldCompMenu.InsertPrompter=Formulaire d'invite
@@ -853,6 +859,12 @@ FieldCompMenu.InsertEvpDynamicPicklist.Tip=Nouvelle liste dynamique
 FieldCompMenu.InsertEvpProgress.Tip=Barre de progression
 FieldCompMenu.InsertEvpTrackBar.Tip=Curseur de défilement
 FieldCompMenu.InsertEvpSpinEdit.Tip=Zone de sélection numérique
+*** @TRANS NEW
+FieldCompMenu.InsertMdEdit.Tip=Material Design Edit Field
+FieldCompMenu.InsertMdSpinEdit.Tip=Material Design SpinEdit Field
+FieldCompMenu.InsertMdDropdown.Tip=Material Design Dropdown Field
+FieldCompMenu.InsertMdDateTime.Tip=Material Design DateTime Field
+*** @TRANS END
 FieldCompMenu.DefaultVisualization.Tip=Visualisation par défaut
 FieldCompMenu.DefaultPrompter.Tip=Invite de saisie par défaut
 FieldCompMenu.DefaultPicklist.Tip=Liste de valeurs par défaut
@@ -958,7 +970,13 @@ par conséquent cet objet sera ouvert en lecture seule.+
 Voulez-vous continuer?
 
 *** @TRANS NEW
-MsgBox.ReadOnly.NotLicensed=Your system is not not licensed.+
+MsgBox.ReadOnly.NotLicensed=Your system is not licensed.+
+-
+You may open this object only in read-only mode.+
+-
+Continue?
+
+MsgBox.ReadOnly.RestrictedLicense=Your system has a restricted license.+
 -
 You may open this object only in read-only mode.+
 -
@@ -3399,6 +3417,8 @@ Editor.Home.Vlf.Header1.Caption=Launch the Developer Workbench
 Editor.Home.Vlf.Header2.Caption=Explore the Demonstration Application
 Editor.Home.Desktop.Header.Caption=Build a Desktop Application
 Editor.Home.Samples.Header.Caption=Explore the Windows DirectX Controls
+Editor.Home.SampleUnavailable.Title=Sample Unavailable
+Editor.Home.SampleUnavailable.Message=Please use Partition Initialization to import Demonstration Material
 *** @TRANS END
 
 **************************************************************************
@@ -3607,6 +3627,7 @@ Editor.Styles.SelectPopup.Caption=Panneau contextuel de thème
 Editor.Styles.SelectBase.Caption=Base Theme
 Editor.Styles.SelectFont.Caption=Font
 Editor.Styles.SelectPalette.Caption=Color palette
+Editor.Styles.ResetPalette.Caption=Reset color palette to theme defaults
 *** @TRANS END
 Editor.Styles.SelectDrawStyles.Caption=Modifier les styles de dessin
 Editor.Styles.DrawStyles.Caption=Styles de dessin
@@ -3626,6 +3647,7 @@ Editor.Styles.ThemeType.Title=Target
 Editor.Styles.ThemeType.Hint=Définit le style de dessin utilisé comme cible des assistants du ruban
 Editor.Styles.StyleType.Title=Style cible
 Editor.Styles.StyleType.Hint=Définir le style utilisé comme cible des assistants du ruban
+Editor.Styles.ThemeControlDrawStyle.Caption=Style de dessin de contrôles du thème
 *** @TRANS NEW
 Editor.Styles.ThemeDrawStyle.Caption=Custom
 Editor.Styles.ThemeForeDrawStyle.Caption=Foreground
@@ -3633,7 +3655,7 @@ Editor.Styles.ThemeBackDrawStyle.Caption=Colors
 Editor.Styles.ThemeDividersDrawStyle.Caption=Divider
 Editor.Styles.ThemeShadowsDrawStyle.Caption=Shadow
 Editor.Styles.ThemeFontDrawStyle.Caption=Font
-Editor.Styles.ThemeControlDrawStyle.Caption=Variants
+Editor.Styles.ThemeVariantsDrawStyle.Caption=Variants
 Editor.Styles.ThemeMaterialDesign.Caption=Material Design
 Editor.Styles.Theme2015.Caption=2015
 Editor.Styles.ThemeClassic.Caption=Classic
@@ -3750,23 +3772,26 @@ Editor.Styles.ColorThemeA400.Hint=
 Editor.Styles.ColorThemeA700.Caption=A700
 Editor.Styles.ColorThemeA700.Hint=
 *** @TRANS NEW
-Editor.Styles.ColorThemeAccentLight.Caption=AccentLight
+Editor.Styles.ColorThemePrimaryLight.Caption=Primary Light
+Editor.Styles.ColorThemePrimaryMedium.Caption=Primary Medium
+Editor.Styles.ColorThemePrimaryDark.Caption=Primary Dark
+Editor.Styles.ColorThemeAccentLight.Caption=Accent Light
 Editor.Styles.ColorThemeAccentLight.Hint=
-Editor.Styles.ColorThemeAccentMedium.Caption=AccentMedium
+Editor.Styles.ColorThemeAccentMedium.Caption=Accent Medium
 Editor.Styles.ColorThemeAccentMedium.Hint=
-Editor.Styles.ColorThemeAccentDark.Caption=AccentDark
+Editor.Styles.ColorThemeAccentDark.Caption=Accent Dark
 Editor.Styles.ColorThemeAccentDark.Hint=
-Editor.Styles.ColorThemeSuccessLight.Caption=SuccessLight
+Editor.Styles.ColorThemeSuccessLight.Caption=Success Light
 Editor.Styles.ColorThemeSuccessLight.Hint=
-Editor.Styles.ColorThemeSuccessMedium.Caption=SuccessMedium
+Editor.Styles.ColorThemeSuccessMedium.Caption=Success Medium
 Editor.Styles.ColorThemeSuccessMedium.Hint=
-Editor.Styles.ColorThemeSuccessDark.Caption=SuccessDark
+Editor.Styles.ColorThemeSuccessDark.Caption=Success Dark
 Editor.Styles.ColorThemeSuccessDark.Hint=
-Editor.Styles.ColorThemeErrorLight.Caption=ErrorLight
+Editor.Styles.ColorThemeErrorLight.Caption=Error Light
 Editor.Styles.ColorThemeErrorLight.Hint=
-Editor.Styles.ColorThemeErrorMedium.Caption=ErrorMedium
+Editor.Styles.ColorThemeErrorMedium.Caption=Error Medium
 Editor.Styles.ColorThemeErrorMedium.Hint=
-Editor.Styles.ColorThemeErrorDark.Caption=ErrorDark
+Editor.Styles.ColorThemeErrorDark.Caption=Error Dark
 Editor.Styles.ColorThemeErrorDark.Hint=
 *** @TRANS END
 Editor.Styles.ColorThemeButton.Caption=Bouton
@@ -4607,6 +4632,7 @@ Editor.ControlsView.DataObject.List3.Caption=Primary Text
 Editor.ControlsView.DataObject.List4.Caption=Primary and Secondary Text
 Editor.ControlsView.DataObject.List5.Caption=Data
 Editor.ControlsView.Md.Navigation.Caption=Navigation
+Editor.ControlsView.Md.NavigationParent.Caption=Navigation containers
 Editor.ControlsView.Md.Application.Caption=Application
 Editor.ControlsView.Md.Decorations.Caption=Decorations
 Editor.ControlsView.Md.Badges.Caption=Badges
@@ -4664,6 +4690,20 @@ Editor.ControlsView.Md.IconsBitmap.Caption=Images
 Editor.ControlsView.Md.Labels.Caption=Labels
 Editor.ControlsView.Md.Lists.Caption=Lists
 Editor.ControlsView.Md.Menus.Caption=Menus
+*** @TRANS NEW
+Editor.ControlsView.Md.Nav1.Caption=Tabs
+Editor.ControlsView.Md.Nav1.Desc=Three top-aligned top-level destinations navigation
+Editor.ControlsView.Md.Nav2.Caption=Bottom navigation bar
+Editor.ControlsView.Md.Nav2.Desc=Three bottom-aligned top-level destinations navigation
+Editor.ControlsView.Md.Nav3.Caption=Bottom navigation bar
+Editor.ControlsView.Md.Nav3.Desc=Five bottom-aligned top-level destinations navigation
+Editor.ControlsView.Md.Nav4.Caption=Vertical navigation bar
+Editor.ControlsView.Md.Nav4.Desc=Side navigation to display many navigation targets at once
+Editor.ControlsView.Md.Nav5.Caption=Vertical navigation bar
+Editor.ControlsView.Md.Nav5.Desc=Nested side navigation to display many navigation targets at once
+Editor.ControlsView.Md.Nav6.Caption=Expanding vertical navigation bar
+Editor.ControlsView.Md.Nav6.Desc=Nested side navigation to display many navigation targets at once
+*** @TRANS END
 Editor.ControlsView.Md.MenuBar.Caption=Menu bar
 Editor.ControlsView.Md.MenuBar.Desc=Menu bar provides a home for the top-level menus in your app
 Editor.ControlsView.Md.PopupMenu.Caption=Popup menu
@@ -4733,6 +4773,9 @@ Editor.ControlsView.Md.NavContainer.Caption=View container
 Editor.ControlsView.Md.NavContainer.Desc=View container is used as the outer grouping component for your top-level views
 Editor.ControlsView.Md.NavTabs.Caption=Tabs
 Editor.ControlsView.Md.NavTabs.Desc=Standard tab control
+Editor.ControlsView.Md.NavTabsItems1.Caption=ITEMS 1
+Editor.ControlsView.Md.NavTabsItems2.Caption=ITEMS 2
+Editor.ControlsView.Md.NavTabsItem.Caption=ITEM
 Editor.ControlsView.Md.View.Caption=View
 Editor.ControlsView.Md.View.Desc=Content layer
 Editor.ControlsView.Avatar1.Caption=Image Avatar
@@ -4840,10 +4883,6 @@ Editor.ControlsView.Button.Error.Desc=Error color button
 Editor.ControlsView.Button.Success.Text=SUCCESS
 Editor.ControlsView.Button.Success.Caption=Success
 Editor.ControlsView.Button.Success.Desc=Success color button
-Editor.ControlsView.Button.LeftNav.Caption=Left Navigation
-Editor.ControlsView.Button.LeftNav.Desc=App drawer button
-Editor.ControlsView.Button.TopNav.Caption=Top Navigation
-Editor.ControlsView.Button.TopNav.Desc=App menu button
 Editor.ControlsView.Button.Nav.Caption=View
 Editor.ControlsView.Images.Png.Caption=Image
 Editor.ControlsView.Images.Png.Desc=Image control suitable for displaying Repository or File images

@@ -357,6 +357,9 @@ Category.Cell=Cellule
 Category.Column=Colonne
 Category.Other=Autre
 *** @TRANS NEW
+Category.MenuItem=MenuItem
+*** @TRANS END
+*** @TRANS NEW
 Category.Icon=Icon
 Category.Prompt=Prompt
 Category.Badge=Badge

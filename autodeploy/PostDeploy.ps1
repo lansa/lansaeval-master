@@ -49,7 +49,11 @@ function Execute-Process
 
         [Parameter(Mandatory=$true)]
             [String ]
-            $ErrorText
+            $ErrorText,
+
+        [Parameter(Mandatory=$false)]
+            [bool]
+            $FatalError = $false
     )
 
     if ( !(Test-Path $ExecutablePath) )
@@ -77,11 +81,14 @@ function Execute-Process
     $output    
     $errorText
 
-	# Must continue on error so that everything that can be stopped is stopped.
-	# Not all installations have everything running anyway.
+	# Must continue on error so that everything that can be started is started.
+	# Not all installations have everything installed anyway.
     if ( $p.ExitCode -ne 0 ) {
        $ErrorMessage = "$ErrorText $($p.ExitCode)."
        Write-Output "$(Log-Date) $ErrorMessage"
+       if ( $FatalError ){
+            throw
+       }
     }     
 }
 
@@ -196,9 +203,11 @@ try {
     $x_err = (Join-Path $ENV:TEMP 'x_err.log')
     Remove-Item $x_err -Force -ErrorAction SilentlyContinue
 
-    $Arguments = @("PROC=*INSTALL", "QUET=Y", "MODE=B", "BPQS=Y", "LOCK=NO")
+    # DEVF=4096 forces Alternate Name reuse so that tables with the same name in the initial MSI do not cause fatal errors to occur, like xEmployee
+    $Arguments = @("PROC=*INSTALL", "QUET=Y", "MODE=B", "BPQS=Y", "LOCK=NO", "DEVF=4096")
 
     $Auto = @(Get-Content (Join-Path $Root 'autodeploy\AutoPackageInstallParameters.txt') )
+    $Admin = @(Get-Content (Join-Path $Root 'autodeployadmin\AdminPackageInstallParameters.txt') )
     $Override = @(Get-Content (Join-Path $Root 'autodeploy\OverridePackageInstallParameters.txt') )
     foreach ( $line in $Auto ){
         $line = $line.Trim()
@@ -206,7 +215,16 @@ try {
             $Arguments += $line
         }
     }
+ 
     foreach ( $line in $Override ){
+        $line = $line.Trim()
+        if (  $line.Length -gt 0) {
+            $Arguments += $line
+        }
+    }
+
+    # Admin params must not be overriden
+    foreach ( $line in $Admin ){
         $line = $line.Trim()
         if (  $line.Length -gt 0) {
             $Arguments += $line
@@ -215,7 +233,7 @@ try {
 
     Write-Output ("$(Log-Date) Arguments = $Arguments")
 
-    Execute-Process (Join-Path $ExecuteDir 'x_run.exe') $Arguments "Package Install returned error code"
+    Execute-Process (Join-Path $ExecuteDir 'x_run.exe') $Arguments "Package Install returned error code" -FatalError $true
 
     if ( (Test-Path $x_err ) ) {
         Write-Output ("$(Log-Date) *** begin x_err.log")

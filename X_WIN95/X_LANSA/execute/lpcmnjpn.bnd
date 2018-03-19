@@ -357,6 +357,9 @@ Category.Badge=バッジ
 Category.Caption=キャプション
 Category.User=ユーザーUser
 *** @TRANS NEW
+Category.MenuItem=MenuItem
+*** @TRANS END
+*** @TRANS NEW
 Category.Prompt=Prompt
 *** @TRANS END
 

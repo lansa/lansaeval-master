@@ -356,6 +356,7 @@ Category.Column=Column
 Category.Icon=Icon
 Category.Prompt=Prompt
 Category.Badge=Badge
+Category.MenuItem=MenuItem
 Category.Caption=Caption
 Category.Other=Other
 Category.User=User

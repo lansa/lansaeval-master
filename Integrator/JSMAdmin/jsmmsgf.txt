@@ -270,6 +270,7 @@ JSM5045 Rebooting JSM
 JSM5046 Upgrade operation to follow
 JSM5047 Pending operation to follow
 JSM5048 Error 13: Cannot build User Home Path
+JSM5049 Error 14: Failed to start JSM as the JVM file is either missing or not an executable: JVM:[%s]
 #
 JSM5445 STRJSM - LANSA Integrator JSM Administrator Service
 JSM5446 Syntax: STRJSM [options]
