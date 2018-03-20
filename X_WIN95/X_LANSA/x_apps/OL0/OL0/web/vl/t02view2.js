@@ -8,7 +8,7 @@ LANSA.addComponent(
    ot: "wv", 
    tp: "View", 
    de: "View2", 
-   tl: 14020003
+   tl: 14020005
 },
 
 // ----------------
@@ -57,7 +57,7 @@ function( Lansa, objectId, undefined )
          var LAYOUT1ITEM1 = this.createReference( "LAYOUT1ITEM1", "PRIM_TBLO", "Item" );
 
          //
-         // DEFINE_COM Class(#PRIM_MD.Label) Name(#Label) Caption('Test RG 3 View2') Displayposition(1) Height(450) Iconheight(0) Left(0) Parent(#COM_OWNER) Tabposition(1) Top(0) Width(300) Captionalignment(Center) Themedrawstyle('Heading1')
+         // DEFINE_COM Class(#PRIM_MD.Label) Name(#Label) Caption('Test RG 4 View2') Displayposition(1) Height(450) Iconheight(0) Left(0) Parent(#COM_OWNER) Tabposition(1) Top(0) Width(300) Captionalignment(Center) Themedrawstyle('Heading1')
          //
          var LABEL = this.createReference( "LABEL", "PRIM_MD", "Label" );
 
@@ -92,7 +92,7 @@ function( Lansa, objectId, undefined )
          // -----------------------
          // -- Initialize #LABEL --
          // -----------------------
-         LABEL.setCaption( "Test RG 3 View2" );
+         LABEL.setCaption( "Test RG 4 View2" );
          LABEL.setDisplayPosition( 1 );
          LABEL.setHeight( 450 );
          LABEL.setIconHeight( 0 );

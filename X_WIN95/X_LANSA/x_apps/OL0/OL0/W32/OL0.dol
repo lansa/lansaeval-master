@@ -9,5 +9,8 @@ DF	WO	t02settin.js	 	 	T02SETTIN	K
 DF	WO	t02signin.js	 	 	T02SIGNIN	L	 	 	 	 
 DF	WO	t02view2.js	 	 	T02VIEW2	K	 	 	 	 
 DF	WO	t02view3.js	 	 	T02VIEW3	K	 	 	 	 
+FD	SO	xemployee.CTD	I	 	XEMPLOYEE	N	 	 	D	 
+FD	EO	xemployee.DLL	I	 	XEMPLOYEE	N	 	 	D	 
+FD	SD	xemployee.DLL	I	 	XEMPLOYEE	N	 	 	D	 
 LI	CA	 	 	 	 	 	 	 	 	 
  	 	 	 	 	 	 	 	 	 	 
