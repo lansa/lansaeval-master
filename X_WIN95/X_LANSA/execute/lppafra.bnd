@@ -4691,6 +4691,10 @@ Editor.ControlsView.Md.Labels.Caption=Labels
 Editor.ControlsView.Md.Lists.Caption=Lists
 Editor.ControlsView.Md.Menus.Caption=Menus
 *** @TRANS NEW
+Editor.ControlsView.Md.BottomNavigation.Caption=Bottom Navigation
+Editor.ControlsView.Md.Tabs.Caption=Tabs
+*** @TRANS END
+*** @TRANS NEW
 Editor.ControlsView.Md.Nav1.Caption=Tabs
 Editor.ControlsView.Md.Nav1.Desc=Three top-aligned top-level destinations navigation
 Editor.ControlsView.Md.Nav2.Caption=Bottom navigation bar

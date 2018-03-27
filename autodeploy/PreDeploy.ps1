@@ -30,6 +30,7 @@ if ($args.length -gt 0) {
 }
 
 Import-Module WebAdministration
+Add-Type -AssemblyName System.Web
 
 function Log-Date 
 {
@@ -172,6 +173,9 @@ try {
     if ( !(Test-Path $ExecuteDir -PathType Container)) {
         $ExecuteDir = Join-Path $Root 'x_win64\x_lansa\execute'
     }
+
+    $EncodedPath = $($([System.Web.HttpUtility]::UrlPathEncode($Root)) -replace "\\","%5C").ToUpper()
+    New-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'Deploying' -Value 1 -PropertyType DWORD -Force | Out-Null
 
     ###############################################################################
     Write-Output ("$(Log-Date) Stopping processes running in this installation")

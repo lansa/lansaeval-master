@@ -30,6 +30,7 @@ if ($args.length -gt 0) {
 }
 
 Import-Module WebAdministration
+Add-Type -AssemblyName System.Web
 
 function Log-Date 
 {
@@ -252,4 +253,7 @@ try {
     $e = $_.Exception
     $e|format-list -force
     throw
+} finally {
+    $EncodedPath = $($([System.Web.HttpUtility]::UrlPathEncode($Root)) -replace "\\","%5C").ToUpper()
+    New-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'Deploying' -Value 0 -PropertyType DWORD -Force | Out-Null
 }
