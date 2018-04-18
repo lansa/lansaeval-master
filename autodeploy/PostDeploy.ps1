@@ -263,6 +263,7 @@ try {
         Write-Output ("$(Log-Date) $VLWebDatFile does not exist. Presuming 64-bit vl install")    
         $VLWebDatFile = Join-Path $Root 'x_win64\x_lansa\web\vl\vlweb.dat'
     }
+    Write-Output ("$(Log-Date) Using $VLWebDatFile")
 
     if ( (Test-Path $VLWebDatFile -PathType Leaf)) {
         $TargetVLWebDatFile =  Join-Path $ENV:TEMP 'vlweb.dat'
