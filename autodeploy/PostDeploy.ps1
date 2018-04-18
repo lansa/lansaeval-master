@@ -262,11 +262,22 @@ try {
     if ( !(Test-Path $VLWebDatFile -PathType Leaf)) {
         $VLWebDatFile = Join-Path $Root 'x_win64\x_lansa\web\vl\vlweb.dat'
     }
-    $TargetVLWebDatFile =  Join-Path $ENV:TEMP 'vlweb.dat'
-    if ( (Get-FileHash $VLWebDatFile).hash  -ne (Get-FileHash $TargetVLWebDatFile).hash) {
-        Write-Output ("$(Log-Date) vlweb.dat has changed. Calling iisreset")
-        iisreset
+
+    if ( (Test-Path $VLWebDatFile -PathType Leaf)) {
+        $VLWebDatFile = Join-Path $Root 'x_win64\x_lansa\web\vl\vlweb.dat'
+        $TargetVLWebDatFile =  Join-Path $ENV:TEMP 'vlweb.dat'
+
+        if ( (Test-Path $TargetVLWebDatFile -PathType Leaf)) {
+            if ( (Get-FileHash $VLWebDatFile).hash  -ne (Get-FileHash $TargetVLWebDatFile).hash) {
+                Write-Output ("$(Log-Date) vlweb.dat has changed. Calling iisreset")
+                iisreset
+            } else {
+                Write-Output ("$(Log-Date) vlweb.dat has not changed.")
+            }
+        } else {
+            Write-Output ("$(Log-Date) $ENV:TEMP\vlweb.dat does not exist.")    
+        }
     } else {
-        Write-Output ("$(Log-Date) vlweb.dat has not changed.")
+        Write-Output ("$(Log-Date) $VLWebDatFile does not exist. This should never occur.")
     }
 }
