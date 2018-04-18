@@ -256,4 +256,17 @@ try {
 } finally {
     $EncodedPath = $($([System.Web.HttpUtility]::UrlPathEncode($Root)) -replace "\\","%5C").ToUpper()
     New-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'Deploying' -Value 0 -PropertyType DWORD -Force | Out-Null
+
+    Write-Output ("$(Log-Date) Check if vlweb.dat has been changed. If so an iisreset is required")
+    $VLWebDatFile = Join-Path $Root 'x_win95\x_lansa\web\vl\vlweb.dat'
+    if ( !(Test-Path $VLWebDatFile -PathType Leaf)) {
+        $VLWebDatFile = Join-Path $Root 'x_win64\x_lansa\web\vl\vlweb.dat'
+    }
+    $TargetVLWebDatFile =  Join-Path $ENV:TEMP 'vlweb.dat'
+    if ( (Get-FileHash $VLWebDatFile).hash  -ne (Get-FileHash $TargetVLWebDatFile).hash) {
+        Write-Output ("$(Log-Date) vlweb.dat has changed. Calling iisreset")
+        iisreset
+    } else {
+        Write-Output ("$(Log-Date) vlweb.dat has not changed.")
+    }
 }

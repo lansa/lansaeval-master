@@ -192,6 +192,13 @@ try {
         Write-Output("$(Log-Date) Stopping $($Process.ProcessName)")
         Stop-Process $process.id -Force
     }
+
+    Write-Output ("$(Log-Date) Saving copy of vlweb.dat to detect if an iisreset is required")
+    $VLWebDatFile = Join-Path $Root 'x_win95\x_lansa\web\vl\vlweb.dat'
+    if ( !(Test-Path $VLWebDatFile -PathType Leaf)) {
+        $VLWebDatFile = Join-Path $Root 'x_win64\x_lansa\web\vl\vlweb.dat'
+    }
+    Copy-Item -Path $VLWebDatFile -Destination $ENV:TEMP -Force
 } catch {
     $e = $_.Exception
     $e|format-list -force
