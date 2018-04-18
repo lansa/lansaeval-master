@@ -260,12 +260,11 @@ try {
     Write-Output ("$(Log-Date) Check if vlweb.dat has been changed. If so an iisreset is required")
     $VLWebDatFile = Join-Path $Root 'x_win95\x_lansa\web\vl\vlweb.dat'
     if ( !(Test-Path $VLWebDatFile -PathType Leaf)) {
-        Write-Output ("$(Log-Date) $VLWebDatFile does not exist. Presuming 64-bit vl install")  
+        Write-Output ("$(Log-Date) $VLWebDatFile does not exist. Presuming 64-bit vl install")    
         $VLWebDatFile = Join-Path $Root 'x_win64\x_lansa\web\vl\vlweb.dat'
     }
 
     if ( (Test-Path $VLWebDatFile -PathType Leaf)) {
-        $VLWebDatFile = Join-Path $Root 'x_win64\x_lansa\web\vl\vlweb.dat'
         $TargetVLWebDatFile =  Join-Path $ENV:TEMP 'vlweb.dat'
 
         if ( (Test-Path $TargetVLWebDatFile -PathType Leaf)) {
