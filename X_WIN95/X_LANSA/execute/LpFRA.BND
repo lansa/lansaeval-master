@@ -3493,6 +3493,9 @@ PRIM_DLG.Desc=Simple modal dialog with shroud
 PRIM_DLG_AutoClose.Name=AutoClose property
 PRIM_DLG_AutoClose.Desc=Close the dialog automatically
  
+PRIM_DLG_ClearErrors.Name=ClearErrors method
+PRIM_DLG_ClearErrors.Desc=Clears errors of fields in the dialog
+ 
 PRIM_DLG_Close.Name=Close method
 PRIM_DLG_Close.Desc=Close the dialog
  
@@ -3522,6 +3525,18 @@ PRIM_DLG_TabStop.Desc=Controls whether using tab will set focus to the dialog
  
 PRIM_DLG_Transition.Name=Transition property
 PRIM_DLG_Transition.Desc=Specifies the animation to use when showing the dialog
+ 
+PRIM_DLG_Validate.Name=Validate method
+PRIM_DLG_Validate.Desc=Uses simple repository field and table rules to validate field
+ 
+PRIM_DLG_Validate.Valid.Name=Valid parameter
+PRIM_DLG_Validate.Valid.Desc=Returns true if field passes the validation rules
+ 
+PRIM_DLG_Validate.Operation.Name=Operation parameter
+PRIM_DLG_Validate.Operation.Desc=The operation for the field to be validated against(insert, update and delete)
+ 
+PRIM_DLG_Validate.Table.Name=Table parameter
+PRIM_DLG_Validate.Table.Desc=Table to be used for validation
  
 PRIM_DTIM.Name=DateTime Picker
 PRIM_DTIM.Desc=Date and time picker lets the user select a date and a time
@@ -13690,6 +13705,9 @@ PRIM_MD.Alert_CloseIconClick.Origin.Desc=Reference to the control on which the e
 PRIM_MD.Alert_CloseIconClick.Handled.Name=Handled parameter
 PRIM_MD.Alert_CloseIconClick.Handled.Desc=Set to true to stop the event being propagated to the parent control
  
+PRIM_MD.Alert_Duration.Name=Duration property
+PRIM_MD.Alert_Duration.Desc=Duration the alert will be displayed for in milliseconds
+ 
 PRIM_MD.Alert_Ellipses.Name=Ellipses property
 PRIM_MD.Alert_Ellipses.Desc=Show ellipses for truncated text
  
@@ -13746,9 +13764,6 @@ PRIM_MD.Alert_PaddingTop.Desc=Top padding in pixels
  
 PRIM_MD.Alert_ShowAlert.Name=ShowAlert method
 PRIM_MD.Alert_ShowAlert.Desc=Show the alert popup
- 
-PRIM_MD.Alert_ShowAlert.Duration.Name=Duration parameter
-PRIM_MD.Alert_ShowAlert.Duration.Desc=Number of milliseconds before the popup closes
  
 PRIM_MD.Alert_ThemeBackground.Name=ThemeBackground property
 PRIM_MD.Alert_ThemeBackground.Desc=Background theme to be used
@@ -13825,8 +13840,17 @@ PRIM_MD.AppBar_IconOpacity.Desc=Percentage opacity of the icon
 PRIM_MD.AppDrawer.Name=Application Drawer
 PRIM_MD.AppDrawer.Desc=Popup sidebar showing navigation options
  
+PRIM_MD.AppDrawer_CloseDrawer.Name=CloseDrawer method
+PRIM_MD.AppDrawer_CloseDrawer.Desc=Causes AppDrawer to close
+ 
 PRIM_MD.AppDrawer_DrawerStyle.Name=DrawerStyle property
 PRIM_MD.AppDrawer_DrawerStyle.Desc=Specifies how the drawer will appear
+ 
+PRIM_MD.AppDrawer_IsShowing.Name=IsShowing property
+PRIM_MD.AppDrawer_IsShowing.Desc=Returns true if AppDrawer is displayed
+ 
+PRIM_MD.AppDrawer_ShowDrawer.Name=ShowDrawer method
+PRIM_MD.AppDrawer_ShowDrawer.Desc=Causes the AppDrawer to be displayed
  
 PRIM_MD.AppDrawer_ToggleDrawer.Name=ToggleDrawer method
 PRIM_MD.AppDrawer_ToggleDrawer.Desc=Show or hide the app drawer
@@ -13967,10 +13991,22 @@ PRIM_MD.DateTime_Value.Name=Value property
 PRIM_MD.DateTime_Value.Desc=Value sets or retrieves the date and time
  
 PRIM_MD.DateTimeField.Name=DateTime Entry Field
-PRIM_MD.DateTimeField.Desc=Entry field used for entering and displaying dates and times
+PRIM_MD.DateTimeField.Desc=Material Design DateTime Visualisation for DateTime fields
  
 PRIM_MD.DateTimeField_CaptionType.Name=CaptionType property
 PRIM_MD.DateTimeField_CaptionType.Desc=CaptionType determines the type of caption
+ 
+PRIM_MD.DateTimeField_Validate.Name=Validate method
+PRIM_MD.DateTimeField_Validate.Desc=Uses simple repository field and table rules to validate field
+ 
+PRIM_MD.DateTimeField_Validate.Valid.Name=Valid parameter
+PRIM_MD.DateTimeField_Validate.Valid.Desc=Returns true if field passes the validation rules
+ 
+PRIM_MD.DateTimeField_Validate.Operation.Name=Operation parameter
+PRIM_MD.DateTimeField_Validate.Operation.Desc=The operation for the field to be validated against(insert, update and delete)
+ 
+PRIM_MD.DateTimeField_Validate.Table.Name=Table parameter
+PRIM_MD.DateTimeField_Validate.Table.Desc=Table to be used for validation
  
 PRIM_MD.DateTimePicker.Name=DatePicker
 PRIM_MD.DateTimePicker.Desc=Datepicker control
@@ -14167,6 +14203,24 @@ PRIM_MD.Dropdown_SpellCheck.Desc=Use browser spell checking features
 PRIM_MD.Dropdown_Value.Name=Value property
 PRIM_MD.Dropdown_Value.Desc=Value of the dropdown
  
+PRIM_MD.DropdownField.Name=PRIM_MD.DropdownField
+PRIM_MD.DropdownField.Desc=Material Design DropDown Visualisation for edit fields
+ 
+PRIM_MD.DropdownField_CaptionType.Name=CaptionType property
+PRIM_MD.DropdownField_CaptionType.Desc=Determines the type of caption
+ 
+PRIM_MD.DropdownField_Validate.Name=Validate method
+PRIM_MD.DropdownField_Validate.Desc=Uses simple repository field and table rules to validate field
+ 
+PRIM_MD.DropdownField_Validate.Valid.Name=Valid parameter
+PRIM_MD.DropdownField_Validate.Valid.Desc=Returns true if field passes the validation rules
+ 
+PRIM_MD.DropdownField_Validate.Operation.Name=Operation parameter
+PRIM_MD.DropdownField_Validate.Operation.Desc=The operation for the field to be validated against(insert, update and delete)
+ 
+PRIM_MD.DropdownField_Validate.Table.Name=Table parameter
+PRIM_MD.DropdownField_Validate.Table.Desc=Table to be used for validation
+ 
 PRIM_MD.DropdownItem.Name=Dropdown Item
 PRIM_MD.DropdownItem.Desc=An item in a dropdown
  
@@ -14202,6 +14256,9 @@ PRIM_MD.DropdownItem_IconAlignment.Desc=Position of the icon within the item
  
 PRIM_MD.DropdownItem_IconColor.Name=IconColor property
 PRIM_MD.DropdownItem_IconColor.Desc=Color to be applied to the icon
+ 
+PRIM_MD.DropdownItem_IconFileName.Name=IconFileName property
+PRIM_MD.DropdownItem_IconFileName.Desc=FileName is the name of image file
  
 PRIM_MD.DropdownItem_IconHeight.Name=IconHeight property
 PRIM_MD.DropdownItem_IconHeight.Desc=Height of the icon in pixels
@@ -14405,10 +14462,22 @@ PRIM_MD.Edit_Value.Name=Value property
 PRIM_MD.Edit_Value.Desc=Value of the edit field
  
 PRIM_MD.EditField.Name=Edit Field
-PRIM_MD.EditField.Desc=Entry field used for entering and displaying text
+PRIM_MD.EditField.Desc=Material Design visualisation for edit fields
  
 PRIM_MD.EditField_CaptionType.Name=CaptionType property
 PRIM_MD.EditField_CaptionType.Desc=CaptionType determines the type of caption
+ 
+PRIM_MD.EditField_Validate.Name=Validate method
+PRIM_MD.EditField_Validate.Desc=Uses simple repository field and table rules to validate field
+ 
+PRIM_MD.EditField_Validate.Valid.Name=Valid parameter
+PRIM_MD.EditField_Validate.Valid.Desc=Returns true if field passes the validation rules
+ 
+PRIM_MD.EditField_Validate.Operation.Name=Operation parameter
+PRIM_MD.EditField_Validate.Operation.Desc=The operation for the field to be validated against(insert, update and delete)
+ 
+PRIM_MD.EditField_Validate.Table.Name=Table parameter
+PRIM_MD.EditField_Validate.Table.Desc=Table to be used for validation
  
 PRIM_MD.FlatButton.Name=Flat Button
 PRIM_MD.FlatButton.Desc=Button shown as a simple flat control
@@ -14734,9 +14803,6 @@ PRIM_MD.List.Desc=Simple list control with inplace designable list entry
 PRIM_MD.List_Changed.Name=Changed event
 PRIM_MD.List_Changed.Desc=Fired when the list changes
  
-PRIM_MD.List_ColumnCount.Name=ColumnCount property
-PRIM_MD.List_ColumnCount.Desc=The number of columns in a list
- 
 PRIM_MD.List_CurrentItem.Name=CurrentItem property
 PRIM_MD.List_CurrentItem.Desc=The last item in the list touched either in the UI or via a list related command
  
@@ -14809,6 +14875,18 @@ PRIM_MD.List_ItemLostSelection.Desc=ItemLostSelection happens when another item 
 PRIM_MD.List_ItemLostSelection.Item.Name=Item parameter
 PRIM_MD.List_ItemLostSelection.Item.Desc=Reference to the item
  
+PRIM_MD.List_ItemMarginBottom.Name=ItemMarginBottom property
+PRIM_MD.List_ItemMarginBottom.Desc=Bottom margin of an item in pixels
+ 
+PRIM_MD.List_ItemMarginLeft.Name=ItemMarginLeft property
+PRIM_MD.List_ItemMarginLeft.Desc=Left margin of an item in pixels
+ 
+PRIM_MD.List_ItemMarginRight.Name=ItemMarginRight property
+PRIM_MD.List_ItemMarginRight.Desc=Right margin of an item in pixels
+ 
+PRIM_MD.List_ItemMarginTop.Name=ItemMarginTop property
+PRIM_MD.List_ItemMarginTop.Desc=Top Margin of an item in pixels
+ 
 PRIM_MD.List_ItemMouseEnter.Name=ItemMouseEnter event
 PRIM_MD.List_ItemMouseEnter.Desc=The mouse has entered the bounds of the item
  
@@ -14835,6 +14913,12 @@ PRIM_MD.List_ItemRealizing.Item.Desc=Reference to the item
  
 PRIM_MD.List_Items.Name=Items property
 PRIM_MD.List_Items.Desc=Collection of all items
+ 
+PRIM_MD.List_ItemsPerRow.Name=ItemsPerRow property
+PRIM_MD.List_ItemsPerRow.Desc=Number of Items to be presented in a row
+ 
+PRIM_MD.List_ItemThemeDrawStyle.Name=ItemThemeDrawStyle property
+PRIM_MD.List_ItemThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the items
  
 PRIM_MD.List_LayoutManager.Name=LayoutManager property
 PRIM_MD.List_LayoutManager.Desc=Reference to a layout manager used to control the position of child controls
@@ -15357,8 +15441,8 @@ PRIM_MD.ListIcon_FocusItem.Desc=List icon focus item
  
 PRIM_MD.ListIcon_SortDirection.Name=SortDirection property
 PRIM_MD.ListIcon_SortDirection.Desc=SortDirection controls how list is sorted
-
-PRIM_MD.ListIcon__SortPosition.Name=SortPosition property
+ 
+PRIM_MD.ListIcon_SortPosition.Name=SortPosition property
 PRIM_MD.ListIcon_SortPosition.Desc=SortPosition determines the place of this list item in the sort order
  
 PRIM_MD.ListIcon_Source.Name=Source property
@@ -15367,41 +15451,41 @@ PRIM_MD.ListIcon_Source.Desc=Name of the repository field used to define and sto
 PRIM_MD.ListIconCurrentItem.Name=PRIM_MD.ListIconCurrentItem
 PRIM_MD.ListIconCurrentItem.Desc=List icon current item
  
-PRIM_MD.PRIM_MD.ListIconCurrentItem_Icon.Name=Icon property
-PRIM_MD.PRIM_MD.ListIconCurrentItem_Icon.Desc=Image displayed within the item
+PRIM_MD.ListIconCurrentItem_Icon.Name=Icon property
+PRIM_MD.ListIconCurrentItem_Icon.Desc=Image displayed within the item
  
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconAlignment.Name=IconAlignment property
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconAlignment.Desc=Position of the icon within the control
+PRIM_MD.ListIconCurrentItem_IconAlignment.Name=IconAlignment property
+PRIM_MD.ListIconCurrentItem_IconAlignment.Desc=Position of the icon within the contro
  
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconColor.Name=IconColor property
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconColor.Desc=Color to be applied to the icon
+PRIM_MD.ListIconCurrentItem_IconColor.Name=IconColor property
+PRIM_MD.ListIconCurrentItem_IconColor.Desc=Color to be applied to the icon
  
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconFileName.Name=IconFileName property
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconFileName.Desc=FileName is the name of image file
+PRIM_MD.ListIconCurrentItem_IconFileName.Name=IconFileName property
+PRIM_MD.ListIconCurrentItem_IconFileName.Desc=FileName is the name of image file
  
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconHeight.Name=IconHeight property
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconHeight.Desc=Height of the icon in pixels
+PRIM_MD.ListIconCurrentItem_IconHeight.Name=IconHeight property
+PRIM_MD.ListIconCurrentItem_IconHeight.Desc=Height of the icon in pixels
  
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconImage.Name=IconImage property
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconImage.Desc=Material design image to show on the control
+PRIM_MD.ListIconCurrentItem_IconImage.Name=IconImage property
+PRIM_MD.ListIconCurrentItem_IconImage.Desc=Image to be shown on the control
  
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconImageSizing.Name=IconImageSizing property
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconImageSizing.Desc=Specifies the sizing behaviour of the IconImage
+PRIM_MD.ListIconCurrentItem_IconImageSizing.Name=IconImageSizing property
+PRIM_MD.ListIconCurrentItem_IconImageSizing.Desc=Specifies the sizing behaviour of the IconImage
  
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconMarginBottom.Name=IconMarginBottom property
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconMarginBottom.Desc=Bottom margin in pixels
+PRIM_MD.ListIconCurrentItem_IconMarginBottom.Name=IconMarginBottom property
+PRIM_MD.ListIconCurrentItem_IconMarginBottom.Desc=Bottom margin in pixels
  
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconMarginLeft.Name=IconMarginLeft property
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconMarginLeft.Desc=Left margin in pixels
+PRIM_MD.ListIconCurrentItem_IconMarginLeft.Name=IconMarginLeft property
+PRIM_MD.ListIconCurrentItem_IconMarginLeft.Desc=Left margin in pixels
  
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconMarginRight.Name=IconMarginRight property
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconMarginRight.Desc=Right margin in pixels
+PRIM_MD.ListIconCurrentItem_IconMarginRight.Name=IconMarginRight property
+PRIM_MD.ListIconCurrentItem_IconMarginRight.Desc=Right margin in pixels
  
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconMarginTop.Name=IconMarginTop property
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconMarginTop.Desc=Top margin in pixels
+PRIM_MD.ListIconCurrentItem_IconMarginTop.Name=IconMarginTop property
+PRIM_MD.ListIconCurrentItem_IconMarginTop.Desc=Top margin in pixels
  
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconOpacity.Name=IconOpacity property
-PRIM_MD.PRIM_MD.ListIconCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
+PRIM_MD.ListIconCurrentItem_IconOpacity.Name=IconOpacity property
+PRIM_MD.ListIconCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
  
 PRIM_MD.ListIconCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.ListIconCurrentItem_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
@@ -15542,7 +15626,7 @@ PRIM_MD.ListLabelCurrentItem_CaptionMarginTop.Name=CaptionMarginTop property
 PRIM_MD.ListLabelCurrentItem_CaptionMarginTop.Desc=Top margin in pixels
  
 PRIM_MD.ListLabelCurrentItem_Icon.Name=Icon property
-PRIM_MD.ListLabelCurrentItem_Icon.Desc=Image displayed within the item
+PRIM_MD.ListLabelCurrentItem_Icon.Desc=Material design image to show on the control
  
 PRIM_MD.ListLabelCurrentItem_IconAlignment.Name=IconAlignment property
 PRIM_MD.ListLabelCurrentItem_IconAlignment.Desc=Position of the icon within the control
@@ -15557,7 +15641,7 @@ PRIM_MD.ListLabelCurrentItem_IconHeight.Name=IconHeight property
 PRIM_MD.ListLabelCurrentItem_IconHeight.Desc=Height of the icon in pixels
  
 PRIM_MD.ListLabelCurrentItem_IconImage.Name=IconImage property
-PRIM_MD.ListLabelCurrentItem_IconImage.Desc=Material design image to show on the control
+PRIM_MD.ListLabelCurrentItem_IconImage.Desc=Image to show on the control
  
 PRIM_MD.ListLabelCurrentItem_IconImageSizing.Name=IconImageSizing property
 PRIM_MD.ListLabelCurrentItem_IconImageSizing.Desc=Specifies the sizing behaviour of the IconImage
@@ -15629,7 +15713,7 @@ PRIM_MD.ListRaisedButtonCurrentItem_Ellipses.Name=Ellipses property
 PRIM_MD.ListRaisedButtonCurrentItem_Ellipses.Desc=Show ellipses for truncated text
  
 PRIM_MD.ListRaisedButtonCurrentItem_Icon.Name=Icon property
-PRIM_MD.ListRaisedButtonCurrentItem_Icon.Desc=Image displayed within the item
+PRIM_MD.ListRaisedButtonCurrentItem_Icon.Desc=Material design image to show on the control
  
 PRIM_MD.ListRaisedButtonCurrentItem_IconAlignment.Name=IconAlignment property
 PRIM_MD.ListRaisedButtonCurrentItem_IconAlignment.Desc=Position of the icon within the control
@@ -15644,7 +15728,7 @@ PRIM_MD.ListRaisedButtonCurrentItem_IconHeight.Name=IconHeight property
 PRIM_MD.ListRaisedButtonCurrentItem_IconHeight.Desc=Height of the icon in pixels
  
 PRIM_MD.ListRaisedButtonCurrentItem_IconImage.Name=IconImage property
-PRIM_MD.ListRaisedButtonCurrentItem_IconImage.Desc=Material design image to show on the control
+PRIM_MD.ListRaisedButtonCurrentItem_IconImage.Desc=Image to show on the control
  
 PRIM_MD.ListRaisedButtonCurrentItem_IconImageSizing.Name=IconImageSizing property
 PRIM_MD.ListRaisedButtonCurrentItem_IconImageSizing.Desc=Specifies the sizing behaviour of the IconImage
@@ -15713,7 +15797,7 @@ PRIM_MD.ListSpinEditCurrentItem_HelperText.Name=HelperText property
 PRIM_MD.ListSpinEditCurrentItem_HelperText.Desc=Text to show in the Helper area of the item
  
 PRIM_MD.ListSpinEditCurrentItem_Icon.Name=Icon property
-PRIM_MD.ListSpinEditCurrentItem_Icon.Desc=Image displayed within the item
+PRIM_MD.ListSpinEditCurrentItem_Icon.Desc=Material design image to show on the control
  
 PRIM_MD.ListSpinEditCurrentItem_IconColor.Name=IconColor property
 PRIM_MD.ListSpinEditCurrentItem_IconColor.Desc=Color to be applied to the icon
@@ -15725,7 +15809,7 @@ PRIM_MD.ListSpinEditCurrentItem_IconHeight.Name=IconHeight property
 PRIM_MD.ListSpinEditCurrentItem_IconHeight.Desc=Height of the icon in pixels
  
 PRIM_MD.ListSpinEditCurrentItem_IconImage.Name=IconImage property
-PRIM_MD.ListSpinEditCurrentItem_IconImage.Desc=Material design image to show on the control
+PRIM_MD.ListSpinEditCurrentItem_IconImage.Desc=Image to show on the control
  
 PRIM_MD.ListSpinEditCurrentItem_IconImageSizing.Name=IconImageSizing property
 PRIM_MD.ListSpinEditCurrentItem_IconImageSizing.Desc=Specifies the sizing behaviour of the IconImage
@@ -15811,11 +15895,11 @@ PRIM_MD.ListSwitchCurrentItem_PaddingTop.Desc=Top padding in pixels
 PRIM_MD.Menu.Name=PRIM_MD.Menu
 PRIM_MD.Menu.Desc=Menu container for menu items
  
-PRIM_MD.Menu_Orientation.Name=Orientation property
-PRIM_MD.Menu_Orientation.Desc=Direction which the menu items will flow
+PRIM_MD.Menu_ShowSelection.Name=ShowSelection property
+PRIM_MD.Menu_ShowSelection.Desc=Show selection when the control does not have focus
  
 PRIM_MD.MenuItem.Name=PRIM_MD.MenuItem
-PRIM_MD.MenuItem.Desc=Menu item to control webpage 
+PRIM_MD.MenuItem.Desc=Menu item to control webpage
  
 PRIM_MD.MenuItem_Dialog.Name=Dialog property
 PRIM_MD.MenuItem_Dialog.Desc=Dialog to display when the menu item is clicked
@@ -15825,6 +15909,12 @@ PRIM_MD.MenuItem_Expanded.Desc=Item is expanded or collapsed
  
 PRIM_MD.MenuItem_ParentItem.Name=ParentItem property
 PRIM_MD.MenuItem_ParentItem.Desc=Reference to the parent item of the menu item. Items at the root have a parentitem of null.
+ 
+PRIM_MD.MenuItem_SelectedStyle.Name=SelectedStyle property
+PRIM_MD.MenuItem_SelectedStyle.Desc=Style applied to the item when selected
+ 
+PRIM_MD.MenuItem_SelectedStyles.Name=SelectedStyles property
+PRIM_MD.MenuItem_SelectedStyles.Desc=Collection of styles to be applied to the item when selected
  
 PRIM_MD.MenuItem_TabSheet.Name=TabSheet property
 PRIM_MD.MenuItem_TabSheet.Desc=Tab sheet to display when the menu item is clicked.
@@ -15959,7 +16049,7 @@ PRIM_MD.RaisedButton_IconHeight.Name=IconHeight property
 PRIM_MD.RaisedButton_IconHeight.Desc=Height of the icon in pixels
  
 PRIM_MD.RaisedButton_IconImage.Name=IconImage property
-PRIM_MD.RaisedButton_IconImage.Desc=Material design image to show on the control
+PRIM_MD.RaisedButton_IconImage.Desc=Image to show on the control
  
 PRIM_MD.RaisedButton_IconImageSizing.Name=IconImageSizing property
 PRIM_MD.RaisedButton_IconImageSizing.Desc=Specifies the sizing behaviour of the IconImage
@@ -16067,7 +16157,7 @@ PRIM_MD.SpinEdit_PromptIconHeight.Name=PromptIconHeight property
 PRIM_MD.SpinEdit_PromptIconHeight.Desc=Height of the icon in pixels
  
 PRIM_MD.SpinEdit_PromptIconImage.Name=PromptIconImage property
-PRIM_MD.SpinEdit_PromptIconImage.Desc=Material design image to show on the control
+PRIM_MD.SpinEdit_PromptIconImage.Desc=Image to show on the control
  
 PRIM_MD.SpinEdit_PromptIconImageSizing.Name=PromptIconImageSizing property
 PRIM_MD.SpinEdit_PromptIconImageSizing.Desc=Specifies the sizing behaviour of the PromptIconImage
@@ -16096,14 +16186,38 @@ PRIM_MD.SpinEdit_SelectText.StartPosition.Desc=Position in the value that select
 PRIM_MD.SpinEdit_SelectText.Length.Name=Length parameter
 PRIM_MD.SpinEdit_SelectText.Length.Desc=Number of characters to select
  
+PRIM_MD.SpinEdit_Validate.Name=Validate method
+PRIM_MD.SpinEdit_Validate.Desc=Uses simple repository field and table rules to validate field
+ 
+PRIM_MD.SpinEdit_Validate.Valid.Name=Valid parameter
+PRIM_MD.SpinEdit_Validate.Valid.Desc=Returns true if field passes the validation rules
+ 
+PRIM_MD.SpinEdit_Validate.Operation.Name=Operation parameter
+PRIM_MD.SpinEdit_Validate.Operation.Desc=The operation for the field to be validated against(insert, update and delete)
+ 
+PRIM_MD.SpinEdit_Validate.Table.Name=Table parameter
+PRIM_MD.SpinEdit_Validate.Table.Desc=Table to be used for validation
+ 
 PRIM_MD.SpinEdit_Value.Name=Value property
 PRIM_MD.SpinEdit_Value.Desc=Value of the spin edit
  
 PRIM_MD.SpinEditField.Name=Spin Edit Field
-PRIM_MD.SpinEditField.Desc=Numeric edit with up and down arrows to change the value
+PRIM_MD.SpinEditField.Desc=Material Design SpinEdit Visualisation for numeric fields
  
 PRIM_MD.SpinEditField_CaptionType.Name=CaptionType property
 PRIM_MD.SpinEditField_CaptionType.Desc=CaptionType determines the type of caption
+ 
+PRIM_MD.SpinEditField_Validate.Name=Validate method
+PRIM_MD.SpinEditField_Validate.Desc=Uses simple repository field and table rules to validate field
+ 
+PRIM_MD.SpinEditField_Validate.Valid.Name=Valid parameter
+PRIM_MD.SpinEditField_Validate.Valid.Desc=Returns true if field passes the validation rules
+ 
+PRIM_MD.SpinEditField_Validate.Operation.Name=Operation parameter
+PRIM_MD.SpinEditField_Validate.Operation.Desc=The operation for the field to be validated against(insert, update and delete)
+ 
+PRIM_MD.SpinEditField_Validate.Table.Name=Table parameter
+PRIM_MD.SpinEditField_Validate.Table.Desc=Table to be used for validation
  
 PRIM_MD.Switch.Name=Switch
 PRIM_MD.Switch.Desc=Simple on or off control
@@ -16170,6 +16284,33 @@ PRIM_MD.Switch_PaddingTop.Desc=Top padding in pixels
  
 PRIM_MD.Switch_WordWrap.Name=WordWrap property
 PRIM_MD.Switch_WordWrap.Desc=Wrap text on to the next line if there is insufficient space
+ 
+PRIM_MD.Tab.Name=PRIM_MD.Tab
+PRIM_MD.Tab.Desc=Material Design Tab
+ 
+PRIM_MD.Tab_ShowSelection.Name=ShowSelection property
+PRIM_MD.Tab_ShowSelection.Desc=Show selection when the control does not have focus
+ 
+PRIM_MD.Tab_ViewStyle.Name=ViewStyle property
+PRIM_MD.Tab_ViewStyle.Desc=Defines the appearance and behaviour of the tabs pages in the bottom dock area
+ 
+PRIM_MD.TabItem.Name=PRIM_MD.TabItem
+PRIM_MD.TabItem.Desc=Control contained in prim_md.Tab
+ 
+PRIM_MD.TabItem_Dialog.Name=Dialog property
+PRIM_MD.TabItem_Dialog.Desc=Dialog to be opened when tab item is pressed
+ 
+PRIM_MD.TabItem_SelectedStyle.Name=SelectedStyle property
+PRIM_MD.TabItem_SelectedStyle.Desc=Style applied to the item when selected
+ 
+PRIM_MD.TabItem_SelectedStyles.Name=SelectedStyles property
+PRIM_MD.TabItem_SelectedStyles.Desc=Collection of styles to be applied to the item when selected
+ 
+PRIM_MD.TabItem_TabSheet.Name=TabSheet property
+PRIM_MD.TabItem_TabSheet.Desc=Tabsheet to be displayed when item is pressed
+ 
+PRIM_MD.TabItem_View.Name=View property
+PRIM_MD.TabItem_View.Desc=View to be displayed when Item is pressed
  
 PRIM_MD.ViewContainer.Name=View Container
 PRIM_MD.ViewContainer.Desc=View collector used to organise views within an application
@@ -21703,6 +21844,9 @@ PRIM_VIEW.Desc=Application View
 PRIM_VIEW_Caption.Name=Caption property
 PRIM_VIEW_Caption.Desc=Text displayed for the view
  
+PRIM_VIEW_ClearErrors.Name=ClearErrors method
+PRIM_VIEW_ClearErrors.Desc=Clears errors of fields in the view
+ 
 PRIM_VIEW_IsActiveView.Name=IsActiveView property
 PRIM_VIEW_IsActiveView.Desc=True if this is the active view
  
@@ -21711,6 +21855,18 @@ PRIM_VIEW_Prepare.Desc=The view is about to be shown
  
 PRIM_VIEW_Show.Name=Show method
 PRIM_VIEW_Show.Desc=Show the view
+ 
+PRIM_VIEW_Validate.Name=Validate method
+PRIM_VIEW_Validate.Desc=Uses simple repository field and table rules to validate field
+ 
+PRIM_VIEW_Validate.Valid.Name=Valid parameter
+PRIM_VIEW_Validate.Valid.Desc=Returns true if field passes the validation rules
+ 
+PRIM_VIEW_Validate.Operation.Name=Operation parameter
+PRIM_VIEW_Validate.Operation.Desc=The operation for the field to be validated against(insert, update and delete)
+ 
+PRIM_VIEW_Validate.Table.Name=Table parameter
+PRIM_VIEW_Validate.Table.Desc=Table to be used for validation
  
 PRIM_VPAN.Name=Video Panel
 PRIM_VPAN.Desc=Plays and rewinds a multimedia file

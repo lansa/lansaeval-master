@@ -95,7 +95,7 @@
             <map extension="numbers"  type="application/vnd.apple.numbers"/>
         </mimetype>
 
-        <virtual host="*" active="true">
+        <virtual host="*" active="true" root="" index="">
             <access>
                 <!--
                     Once a true condition occurs no more evaluations are done.
@@ -161,19 +161,26 @@
                 -->
 
             </access>
+
+            <!--
+                  Note: match 'uri' is a case insensitive 'starts with' compare, both the resource path and the 'uri' values are lowercased before comparing
+
+                  Note: if the 'uri' path ends with a / then a no slash resource match is also done
+            -->
+
             <protect>
                 <realm name="Area 51">
                     <!-- access is a hash of user, password and realm -->
                     <user name="user" access="bb644a9819425bfd8586b408896a1031"/>
                 </realm>
-                <match uri="/restricted" rewrite="" realm="Area 51" authentication="basic,digest"/>
+                <match uri="/restricted" realm="Area 51" authentication="basic,digest"/>
             </protect>
 
             <script>
                 <!--
                       Database Manager
                 -->
-                <match uri="/axes/dbmservice.jsp" rewrite="" class="com.lansa.mobile.service.HTTPServiceQuery" trace="false" clienttrace="false">
+                <match uri="/axes/dbmservice.jsp" class="com.lansa.mobile.service.HTTPServiceQuery" trace="false" clienttrace="false">
                     <parameter name="service.default.host"      value="LOCAL"/>
                     <parameter name="service.remote.activation" value=""/>
                     <host name="LOCAL" system="LOCALHOST">
@@ -188,7 +195,7 @@
                 <!--
                       Spooled File Manager
                 -->
-                <match uri="/axes/sfmservice.jsp" rewrite="" class="com.lansa.mobile.service.HTTPServiceSpool" trace="false" clienttrace="false">
+                <match uri="/axes/sfmservice.jsp" class="com.lansa.mobile.service.HTTPServiceSpool" trace="false" clienttrace="false">
                     <parameter name="service.default.host"      value="LOCAL"/>
                     <parameter name="service.remote.activation" value=""/>
                     <parameter name="service.origin"            value="*"/>
@@ -215,7 +222,7 @@
                 <!--
                       LongReach
                 -->
-                <match uri="/service/longreach.jsp" rewrite="" class="com.lansa.mobile.service.HTTPServiceLongReach" trace="false" clienttrace="false">
+                <match uri="/service/longreach.jsp" class="com.lansa.mobile.service.HTTPServiceLongReach" trace="false" clienttrace="false">
                     <parameter name="service.default.host"      value="LOCAL"/>
                     <parameter name="service.remote.activation" value=""/>
                     <host name="LOCAL" system="LOCALHOST">
@@ -362,7 +369,7 @@
                 <!--
                       Connector
                 -->
-                <match uri="/service/connector.jsp" rewrite="" class="com.lansa.mobile.service.HTTPServiceConnector" trace="false" clienttrace="false">
+                <match uri="/service/connector.jsp" class="com.lansa.mobile.service.HTTPServiceConnector" trace="false" clienttrace="false">
                     <parameter name="service.default.host"      value="LOCAL"/>
                     <parameter name="service.remote.activation" value=""/>
                     <parameter name="service.origin"            value="*"/>
@@ -427,7 +434,7 @@
                 <!--
                       Connector Spooled File data
                 -->
-                <match uri="/service/connectorsf.jsp" rewrite="" class="com.lansa.mobile.service.HTTPServiceConnectorSpooledFile" trace="false" clienttrace="false">
+                <match uri="/service/connectorsf.jsp" class="com.lansa.mobile.service.HTTPServiceConnectorSpooledFile" trace="false" clienttrace="false">
                     <parameter name="service.default.host"      value="LOCAL"/>
                     <parameter name="service.remote.activation" value=""/>
                     <parameter name="service.origin"            value="*"/>
@@ -445,7 +452,7 @@
                 <!--
                     Web IFS
                 -->
-                <match uri="/service/webifs.jsp" rewrite="" class="com.lansa.mobile.service.HTTPServiceWebIFS" trace="false" clienttrace="false">
+                <match uri="/service/webifs.jsp" class="com.lansa.mobile.service.HTTPServiceWebIFS" trace="false" clienttrace="false">
                     <!--
                         Note: WebIFS requires HTTP Basic Authentication use SSL for user/password protection
 
@@ -499,7 +506,7 @@
                 <!--
                       DAV IFS
                 -->
-                <match uri="/service/davifs.jsp" rewrite="" class="com.lansa.mobile.service.HTTPServiceDAVIFS" trace="false" clienttrace="false">
+                <match uri="/service/davifs.jsp" class="com.lansa.mobile.service.HTTPServiceDAVIFS" trace="false" clienttrace="false">
                     <!--
                         Note: DAVIFS requires HTTP Basic Authentication use SSL for user/password protection
 
@@ -552,7 +559,7 @@
                 <!--
                       WebQuery
                 -->
-                <match uri="/axes/webquery.jsp" rewrite="" class="com.lansa.mobile.service.HTTPServiceWebQuery" trace="false" clienttrace="false">
+                <match uri="/axes/webquery.jsp" class="com.lansa.mobile.service.HTTPServiceWebQuery" trace="false" clienttrace="false">
                     <!--
                         Note: WebQuery requires HTTP Basic Authentication use SSL for user/password protection
                     -->
@@ -575,7 +582,7 @@
                 <!--
                       WebQueue
                 -->
-                <match uri="/service/webqueue.jsp" rewrite="" class="com.lansa.mobile.service.HTTPServiceWebQueue" trace="false" clienttrace="false">
+                <match uri="/service/webqueue.jsp" class="com.lansa.mobile.service.HTTPServiceWebQueue" trace="false" clienttrace="false">
                     <parameter name="service.default.host" value="LOCAL"/>
                     <parameter name="service.remote.activation" value=""/>
                     <parameter name="service.origin"            value="*"/>
@@ -666,7 +673,7 @@
                 <!--
                       Ping
                 -->
-                <match uri="/ping.jsp" rewrite="" class="com.lansa.jsm.JSMHTTPServicePing" trace="false" clienttrace="false">
+                <match uri="/ping.jsp" class="com.lansa.jsm.JSMHTTPServicePing" trace="false" clienttrace="false">
                     <parameter name="service.origin" value="*"/>
                 </match>
 

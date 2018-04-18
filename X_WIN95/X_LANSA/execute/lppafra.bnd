@@ -1271,7 +1271,11 @@ FormatOptions.Caption=Paramètres LANSA
 FormatOptions.FunctionLabel=Fonctions
 FormatOptions.ComponentLabel=Composants
 FormatOptions.CommandLabel=Commandes
-FormatOptions.KeywordLabel=Mots-clés
+*** @TRANS CHANGED
+*** FormatOptions.KeywordLabel=Mots-clés
+*** @TRANS NEW
+FormatOptions.ParameterLabel=Parameters
+*** @TRANS END
 FormatOptions.SelectorLabel=Sélecteurs
 FormatOptions.LowerCaseLabel=Minuscules
 FormatOptions.UpperCaseLabel=Majuscules
@@ -1464,6 +1468,7 @@ FormatOptions.Item.VersionControl.Add.Caption=Add
 FormatOptions.Item.VersionControl.Delete.Caption=Remove
 FormatOptions.Item.VersionControl.RemoteRepo.Name.Caption=Name
 FormatOptions.Item.VersionControl.RemoteRepo.Path.Caption=Path
+FormatOptions.Item.Cloud.ApplicationUrl.Caption=Cloud Application URL
 *** @TRANS END
 
 FormatOptions.Xsl.General.Caption=Général
@@ -1526,6 +1531,8 @@ FormatOptions.Style.SampleText=Texte exemple
 FormatOptions.StringFormattingLabel=Automatic String Quote
 FormatOptions.AutoSingleQuoteLabel=Single Quote
 FormatOptions.AutoDoubleQuoteLabel=Double Quote
+FormatOptions.AutoQuoteLabel=Auto Convert Unquoted Literals
+FormatOptions.AutoCaseAdjustLabel=Auto Adjust Identifier Case
 
 *** @TRANS END
 
@@ -1665,6 +1672,9 @@ RepBrowser.MenuItem.FullCheck=Contrôle complet
 RepBrowser.MenuItem.Build=Générer
 RepBrowser.MenuItem.Compile=Compiler
 RepBrowser.MenuItem.Execute=Exécuter
+*** @TRANS NEW
+RepBrowser.MenuItem.ExecuteInCloud=Execute in Cloud
+*** @TRANS END
 RepBrowser.MenuItem.Debug=Déboguer
 RepBrowser.MenuItem.Find=Rechercher
 RepBrowser.MenuItem.IsFavorite=Est un favori

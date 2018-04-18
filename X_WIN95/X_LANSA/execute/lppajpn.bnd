@@ -1259,7 +1259,11 @@ FormatOptions.Caption=LANSA の設定
 FormatOptions.FunctionLabel=ﾌｧﾝｸｼｮﾝ
 FormatOptions.ComponentLabel=ｺﾝﾎﾟｰﾈﾝﾄ
 FormatOptions.CommandLabel=ｺﾏﾝﾄﾞ
-FormatOptions.KeywordLabel=ｷｰﾜｰﾄﾞ
+*** @TRANS CHANGED
+*** FormatOptions.KeywordLabel=ｷｰﾜｰﾄﾞ
+*** @TRANS NEW
+FormatOptions.ParameterLabel=Parameters
+*** @TRANS END
 FormatOptions.SelectorLabel=選択機能
 FormatOptions.LowerCaseLabel=小文字
 FormatOptions.UpperCaseLabel=大文字
@@ -1270,6 +1274,12 @@ FormatOptions.SystemValueLabel=システム値
 FormatOptions.StringFormattingLabel=自動文字列引用符
 FormatOptions.AutoSingleQuoteLabel=単一引用符
 FormatOptions.AutoDoubleQuoteLabel=二重引用符
+
+*** @TRANS NEW
+FormatOptions.AutoQuoteLabel=Auto Convert Unquoted Literals
+FormatOptions.AutoCaseAdjustLabel=Auto Adjust Identifier Case
+*** @TRANS EN
+
 FormatOptions.IgnoreLabel=無視
 FormatOptions.ReformatStatements=形式の自動設定
 FormatOptions.Page.General.Caption=一般
@@ -1442,6 +1452,9 @@ FormatOptions.Item.VersionControl.Add.Caption=追加
 FormatOptions.Item.VersionControl.Delete.Caption=削除
 FormatOptions.Item.VersionControl.RemoteRepo.Name.Caption=名前
 FormatOptions.Item.VersionControl.RemoteRepo.Path.Caption=パス
+*** @TRANS NEW
+FormatOptions.Item.Cloud.ApplicationUrl.Caption=Cloud Application URL
+*** @TRANS END
 
 FormatOptions.Xsl.General.Caption=一般
 FormatOptions.Xsl.Design.Caption=ﾃﾞｻﾞｲﾝ
@@ -1636,6 +1649,9 @@ RepBrowser.MenuItem.FullCheck=全ての検査
 RepBrowser.MenuItem.Build=生成
 RepBrowser.MenuItem.Compile=ｺﾝﾊﾟｲﾙ
 RepBrowser.MenuItem.Execute=実行
+*** @TRANS NEW
+RepBrowser.MenuItem.ExecuteInCloud=Execute in Cloud
+*** @TRANS END
 RepBrowser.MenuItem.Debug=ﾃﾞﾊﾞｯｸﾞ
 RepBrowser.MenuItem.Find=検索
 RepBrowser.MenuItem.IsFavorite=お気に入りに追加

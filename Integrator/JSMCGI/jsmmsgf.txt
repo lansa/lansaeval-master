@@ -250,7 +250,6 @@ JSM5025 Error 8: Cannot build environment variables
 JSM5026 Error 9: Cannot set environment variables
 JSM5027 Error 4: Cannot build JSM command
 JSM5028 Error 5: Cannot build Class Path
-JSM5029 Error 10: Cannot build Endorsed Path
 JSM5030 Error 11: Cannot build full command line
 JSM5031 Error 12: Failed to start JSM: JVM:[%s]
 JSM5032 Service has started. JSM Process Id: <%ld> Instance is: <%s>

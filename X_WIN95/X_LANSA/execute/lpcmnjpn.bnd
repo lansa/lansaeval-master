@@ -356,33 +356,28 @@ Category.Icon=アイコン
 Category.Badge=バッジ
 Category.Caption=キャプション
 Category.User=ユーザーUser
-*** @TRANS NEW
-Category.MenuItem=MenuItem
-*** @TRANS END
-*** @TRANS NEW
-Category.Prompt=Prompt
-*** @TRANS END
+Category.MenuItem=メニュー アイテム
+Category.Prompt=プロンプト
 
-*** @TRANS NEW
-Rx.UnexpectedEndOfPattern=Unexpected end of regular expression pattern.
-Rx.InvalidAlternation=Invalid alternation. Too many | in (?()|)."
-Rx.BadQuantifier=Bad quantifier at &1.
-Rx.UnmatchedCloseParens=Unmatched close parenthesis at &1.
-Rx.UnmatchedOpenParens=Unmatched open parenthesis at &1.
-Rx.BadOptionChar=Value &2 at &1 is an invalid option character.
-Rx.BadGroupName=Empty, invalid or undelimited group name at &1.
-Rx.BadBalancingGroupName=Empty, invalid or undelimited balancing group name at &1.
-Rx.BadConditional=Invalid conditional expression at &1.
-Rx.UnterminatedComment=Unterminated comment. Should take the form (?#comment).
-Rx.BadGroupingConstruct=Invalid grouping construct at &1.
-Rx.RangeInReverseOrder=Range [x-y] at &1 in reverse order.
-Rx.UnterminatedSquareBracket=Unterminated [] pair near &1.
-Rx.BoundsMaximumExceeded=Bounds values {x, y} exceed maximum near &1. Maximum of 65535."
-Rx.BoundsIllegalValues="Bounds values {x, y} near &1 are illegal as x > y."
-Rx.UnknownProperty=Unknown unicode category name - &1.
-Rx.IncompleteCharacterEscape=Incomplete character escape at &1. Should take the form \p{name}.
-Rx.MalformedNamedBackreference= Malformed named backreference at &1. Should take the form \k<name> or \k'name'.
-Rx.ReferenceToUndefinedGroupName=Reference to undefined group named &1.
-Rx.InsufficientHexDigits=Insufficient hexadecimal digits at &1.
-Rx.UnrecognizedControlCharacter=Unrecognized control character of &2 at &1.
-*** @TRANS END
+Rx.UnexpectedEndOfPattern=正規表現のパターンの予期せぬ終わり。
+Rx.InvalidAlternation=無効な交代。(?()|) に | が多過ぎます。"
+Rx.BadQuantifier=&1 で不良な修飾子。
+Rx.UnmatchedCloseParens=&1 で終わりかっこの不一致。
+Rx.UnmatchedOpenParens=&1 で始めかっこの不一致。
+Rx.BadOptionChar=値 &2 (&1) は無効なオプション文字です。
+Rx.BadGroupName=&1 で空、または無効の、もしくは区切り記号の無いグループ名。
+Rx.BadBalancingGroupName=&1 で空、または無効の、もしくは区切り記号の無い分散グループ名。
+Rx.BadConditional=&1 で無効な条件式。
+Rx.UnterminatedComment=閉じられていないコメント。 (?#comment) の形式を取らなければいけません。
+Rx.BadGroupingConstruct=&1 で無効なグループ コンストラクト。
+Rx.RangeInReverseOrder=&1 の範囲 [x-y] が逆順
+Rx.UnterminatedSquareBracket=&1 付近で閉じられていない [] のペア。
+Rx.BoundsMaximumExceeded=&1 付近で境界値 {x, y} が最大値を超えています。最大値は 65535。"
+Rx.BoundsIllegalValues="&1 付近で境界値 {x, y} は x > y のため不正です。"
+Rx.UnknownProperty=不明な Unicode カテゴリ名 - &1。
+Rx.IncompleteCharacterEscape=&1 で不完全なエスケープ文字。\p{名前} の形式を取らなければいけません。
+Rx.MalformedNamedBackreference= &1 で誤った形式名の前方参照。\k<名前> または \k'名前' の形式を取らなければいけません。
+Rx.ReferenceToUndefinedGroupName=&1 という名前の未定義グループへの参照。
+Rx.InsufficientHexDigits=&1 で不十分な 16 進数の数字。
+Rx.UnrecognizedControlCharacter=認識されないコントロール文字 &2 (&1)
+
