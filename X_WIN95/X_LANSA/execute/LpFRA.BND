@@ -15895,6 +15895,18 @@ PRIM_MD.ListSwitchCurrentItem_PaddingTop.Desc=Top padding in pixels
 PRIM_MD.Menu.Name=PRIM_MD.Menu
 PRIM_MD.Menu.Desc=Menu container for menu items
  
+PRIM_MD.Menu_ItemCollapsed.Name=ItemCollapsed event
+PRIM_MD.Menu_ItemCollapsed.Desc=Fires when a menu parent item is collapsed
+ 
+PRIM_MD.Menu_ItemCollapsed.Item.Name=Item parameter
+PRIM_MD.Menu_ItemCollapsed.Item.Desc=Returns the collapsed menu item
+ 
+PRIM_MD.Menu_ItemExpanded.Name=ItemExpanded event
+PRIM_MD.Menu_ItemExpanded.Desc=Fires when a menu parent item is expanded
+ 
+PRIM_MD.Menu_ItemExpanded.Item.Name=Item parameter
+PRIM_MD.Menu_ItemExpanded.Item.Desc=Returns the expanded menu item
+ 
 PRIM_MD.Menu_ShowSelection.Name=ShowSelection property
 PRIM_MD.Menu_ShowSelection.Desc=Show selection when the control does not have focus
  
@@ -16287,6 +16299,9 @@ PRIM_MD.Switch_WordWrap.Desc=Wrap text on to the next line if there is insuffici
  
 PRIM_MD.Tab.Name=PRIM_MD.Tab
 PRIM_MD.Tab.Desc=Material Design Tab
+ 
+PRIM_MD.Tab_SelectionColor.Name=SelectionColor property
+PRIM_MD.Tab_SelectionColor.Desc=Underline color displayed on tab menu item that is associated with active view or tab sheet
  
 PRIM_MD.Tab_ShowSelection.Name=ShowSelection property
 PRIM_MD.Tab_ShowSelection.Desc=Show selection when the control does not have focus
