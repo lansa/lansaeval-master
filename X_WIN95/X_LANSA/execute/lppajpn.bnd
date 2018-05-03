@@ -819,12 +819,10 @@ FieldCompMenu.InsertEvpDynamicPicklist=動的
 FieldCompMenu.InsertEvpProgress=ﾌﾟﾛｸﾞﾚｽ ﾊﾞｰ
 FieldCompMenu.InsertEvpTrackBar=ﾄﾗｯｸ ﾊﾞｰ
 FieldCompMenu.InsertEvpSpinEdit=ｽﾋﾟﾝ ｴﾃﾞｨｯﾄ
-*** @TRANS NEW
-FieldCompMenu.InsertMdEdit=Material Design Edit Field
-FieldCompMenu.InsertMdSpinEdit=Material Design SpinEdit Field
-FieldCompMenu.InsertMdDropdown=Material Design Dropdown Field
-FieldCompMenu.InsertMdDateTime=Material Design DateTime Field
-*** @TRANS END
+FieldCompMenu.InsertMdEdit=マテリアルデザイン編集フィールド
+FieldCompMenu.InsertMdSpinEdit=マテリアルデザイン スピン編集フィールド
+FieldCompMenu.InsertMdDropdown=マテリアルデザイン ドロップダウン フィールド
+FieldCompMenu.InsertMdDateTime=マテリアルデザイン 日時フィールド
 FieldCompMenu.DefaultVisualization=省略値のﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝ
 FieldCompMenu.DefaultPrompter=省略値のﾌﾟﾛﾝﾌﾟﾀｰ
 FieldCompMenu.InsertPrompter=ﾌﾟﾛﾝﾌﾟﾀｰ ﾌｫｰﾑ
@@ -853,12 +851,10 @@ FieldCompMenu.InsertEvpDynamicPicklist.Tip=新しい動的ﾋﾟｯｸﾘｽﾄ
 FieldCompMenu.InsertEvpProgress.Tip=ﾌﾟﾛｸﾞﾚｽ ﾊﾞｰ
 FieldCompMenu.InsertEvpTrackBar.Tip=ﾄﾗｯｸ ﾊﾞｰ
 FieldCompMenu.InsertEvpSpinEdit.Tip=ｽﾋﾟﾝ ｴﾃﾞｨｯﾄ
-*** @TRANS NEW
-FieldCompMenu.InsertMdEdit.Tip=Material Design Edit Field
-FieldCompMenu.InsertMdSpinEdit.Tip=Material Design SpinEdit Field
-FieldCompMenu.InsertMdDropdown.Tip=Material Design Dropdown Field
-FieldCompMenu.InsertMdDateTime.Tip=Material Design DateTime Field
-*** @TRANS END
+FieldCompMenu.InsertMdEdit.Tip=マテリアルデザイン編集フィールド
+FieldCompMenu.InsertMdSpinEdit.Tip=マテリアルデザイン スピン編集フィールド
+FieldCompMenu.InsertMdDropdown.Tip=マテリアルデザイン ドロップダウン フィールド
+FieldCompMenu.InsertMdDateTime.Tip=マテリアルデザイン日時フィールド
 FieldCompMenu.DefaultVisualization.Tip=省略値のﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝ
 FieldCompMenu.DefaultPrompter.Tip=省略値のﾌﾟﾛﾝﾌﾟﾀｰ
 FieldCompMenu.DefaultPicklist.Tip=省略値のﾋﾟｯｸﾘｽﾄ
@@ -963,19 +959,17 @@ MsgBox.ReadOnlyForSlave=ｽﾚｰﾌﾞ ｼｽﾃﾑで作業していますので、このｵﾌﾞｼﾞｪｸﾄは+
 -
 継続しますか？
 
-*** @TRANS NEW
-MsgBox.ReadOnly.NotLicensed=Your system is not licensed.+
+MsgBox.ReadOnly.NotLicensed=システムにライセンスがありません。+
 -
-You may open this object only in read-only mode.+
+このオブジェクトを読み取り専用モードでのみ開くことができます。+
 -
-Continue?
+続行しますか?
 
-MsgBox.ReadOnly.RestrictedLicense=Your system has a restricted license.+
+MsgBox.ReadOnly.RestrictedLicense=システムのライセンスは制限付きです。+
 -
-You may open this object only in read-only mode.+
+このオブジェクトを読み取り専用モードでのみ開くことができます。+
 -
-Continue?
-*** @TRANS END
+続行しますか?
 
 MsgBox.ReadOnlyForPartition=このｵﾌﾞｼﾞｪｸﾄを更新できません。+
 +
@@ -1259,11 +1253,7 @@ FormatOptions.Caption=LANSA の設定
 FormatOptions.FunctionLabel=ﾌｧﾝｸｼｮﾝ
 FormatOptions.ComponentLabel=ｺﾝﾎﾟｰﾈﾝﾄ
 FormatOptions.CommandLabel=ｺﾏﾝﾄﾞ
-*** @TRANS CHANGED
-*** FormatOptions.KeywordLabel=ｷｰﾜｰﾄﾞ
-*** @TRANS NEW
-FormatOptions.ParameterLabel=Parameters
-*** @TRANS END
+FormatOptions.ParameterLabel=パラメータ
 FormatOptions.SelectorLabel=選択機能
 FormatOptions.LowerCaseLabel=小文字
 FormatOptions.UpperCaseLabel=大文字
@@ -1274,14 +1264,10 @@ FormatOptions.SystemValueLabel=システム値
 FormatOptions.StringFormattingLabel=自動文字列引用符
 FormatOptions.AutoSingleQuoteLabel=単一引用符
 FormatOptions.AutoDoubleQuoteLabel=二重引用符
-
-*** @TRANS NEW
-FormatOptions.AutoQuoteLabel=Auto Convert Unquoted Literals
-FormatOptions.AutoCaseAdjustLabel=Auto Adjust Identifier Case
-*** @TRANS EN
-
+FormatOptions.AutoQuoteLabel=引用符なしの文字列を自動変換
 FormatOptions.IgnoreLabel=無視
 FormatOptions.ReformatStatements=形式の自動設定
+FormatOptions.AutoCaseAdjustLabel=識別子のフォーマットを自動調整
 FormatOptions.Page.General.Caption=一般
 FormatOptions.Page.Editor.Caption=ｴﾃﾞｨﾀ
 FormatOptions.Page.Formatting.Caption=形式設定
@@ -1452,9 +1438,7 @@ FormatOptions.Item.VersionControl.Add.Caption=追加
 FormatOptions.Item.VersionControl.Delete.Caption=削除
 FormatOptions.Item.VersionControl.RemoteRepo.Name.Caption=名前
 FormatOptions.Item.VersionControl.RemoteRepo.Path.Caption=パス
-*** @TRANS NEW
-FormatOptions.Item.Cloud.ApplicationUrl.Caption=Cloud Application URL
-*** @TRANS END
+FormatOptions.Item.Cloud.ApplicationUrl.Caption=クラウド アプリケーション URL
 
 FormatOptions.Xsl.General.Caption=一般
 FormatOptions.Xsl.Design.Caption=ﾃﾞｻﾞｲﾝ
@@ -1487,9 +1471,7 @@ FormatOptions.Xsl.General.Options.Caption=ｵﾌﾟｼｮﾝ
 FormatOptions.Xsl.General.Debugging.Caption=ﾃﾞﾊﾞｯｸﾞ
 FormatOptions.Xsl.General.WebServices.Caption=Webｻｰﾋﾞｽ
 FormatOptions.Xsl.General.UrlTest.Caption=ﾃｽﾄ
-*** @TRANS NEW
-FormatOptions.Xsl.Design.TemporaryCache.FolderBrowse.Caption=Choose temporary cache folder
-*** @TRANS END
+FormatOptions.Xsl.Design.TemporaryCache.FolderBrowse.Caption=一時キャッシュ フォルダの選択
 FormatOptions.Xsl.Design.StyleSheetLocation.FolderBrowse.Caption=ｴｸｽﾃﾝｼｮﾝ ｽﾀｲﾙｼｰﾄのﾊﾟｽを選択してください
 FormatOptions.Xsl.Design.MappedImagesFolder.FolderBrowse.Caption=ﾏｯﾋﾟﾝｸﾞされているｲﾒｰｼﾞ ﾌｫﾙﾀﾞを選択してください
 FormatOptions.Xsl.OpenWebViews.Caption=ﾃﾞｻﾞｲﾝの時にWebﾋﾞｭｰを開く
@@ -1649,9 +1631,7 @@ RepBrowser.MenuItem.FullCheck=全ての検査
 RepBrowser.MenuItem.Build=生成
 RepBrowser.MenuItem.Compile=ｺﾝﾊﾟｲﾙ
 RepBrowser.MenuItem.Execute=実行
-*** @TRANS NEW
-RepBrowser.MenuItem.ExecuteInCloud=Execute in Cloud
-*** @TRANS END
+RepBrowser.MenuItem.ExecuteInCloud=クラウドで実行
 RepBrowser.MenuItem.Debug=ﾃﾞﾊﾞｯｸﾞ
 RepBrowser.MenuItem.Find=検索
 RepBrowser.MenuItem.IsFavorite=お気に入りに追加
@@ -2081,7 +2061,7 @@ LpPaRepFindDialog.Framework=ﾌﾚｰﾑﾜｰｸ：
 LpPaRepFindDialog.Group=ｸﾞﾙｰﾌﾟ：
 LpPaRepFindDialog.ModAfter=以降に更新：
 LpPaRepFindDialog.ModBefore=以前に更新：
-LpPaRepFindDialog.TargetPlatform=ﾀｰｹﾞｯﾄﾌﾟﾗｯﾄﾌｫｰﾑ：
+LpPaRepFindDialog.TargetPlatform=ターゲット：
 LpPaRepFindDialog.VcsState=バージョン コントロール状態:
 LpPaRepFindDialog.VcsGitState=Git 状態:
 LpPaRepFindDialog.SaveDlgCaption=結果の保存
@@ -3187,9 +3167,7 @@ VersionControl.Actions.DiscardChanges=現在のブランチの変更をすべて破棄
 VersionControl.Actions.ShowItemFolderView=フォルダ ビューに表示
 VersionControl.Actions.ShowRepoFolderView=リポジトリ表示
 VersionControl.Actions.ShowHistory=履歴表示
-*** @TRANS NEW
-VersionControl.Actions.ResolveConflict=Resolve Conflict
-*** @TRANS END
+VersionControl.Actions.ResolveConflict=競合の解決
 
 VersionControl.Status.New=新規作成
 VersionControl.Status.Unchanged=変更なし
@@ -3357,26 +3335,25 @@ Editor.Home.Support.Caption=ｻﾎﾟｰﾄ
 Editor.Home.Support.Contents.Caption=Visual LANSAｻﾎﾟｰﾄ ｾﾝﾀｰ
 Editor.Home.Demos.Caption=ﾃﾞﾓ
 Editor.Home.Demos.Contents.Caption=Visual LANSAﾃﾞﾓ
-*** @TRANS NEW
-Editor.Home.Recent.Caption=Recent Web Applications
-Editor.Home.ContactUs.Caption=Contact Us
-Editor.Home.Welcome.Caption=Welcome Screen
-Editor.Home.Samples.Caption=Samples
-Editor.Home.Education.Caption=Education
-Editor.Home.DevCenter.Caption=Developer Center
-Editor.Home.Web.Caption=Create Web Browser and Mobile Applications
-Editor.Home.Vlf.Caption=Prototype & Build using our Application Framework
-Editor.Home.Windows.Caption=Create Windows Desktop Applications
-Editor.Home.Discover.Caption=Discover
-Editor.Home.Web.Header.Caption=Build a Mobile Web Application
-Editor.Home.Md.Header.Caption=Explore the Material Design Controls
-Editor.Home.Vlf.Header1.Caption=Launch the Developer Workbench
-Editor.Home.Vlf.Header2.Caption=Explore the Demonstration Application
-Editor.Home.Desktop.Header.Caption=Build a Desktop Application
-Editor.Home.Samples.Header.Caption=Explore the Windows DirectX Controls
-Editor.Home.SampleUnavailable.Title=Sample Unavailable
-Editor.Home.SampleUnavailable.Message=Please use Partition Initialization to import Demonstration Material
-*** @TRANS END
+Editor.Home.Recent.Caption=最近の Web アプリケーション
+Editor.Home.ContactUs.Caption=問い合わせ
+Editor.Home.Welcome.Caption=ようこそ画面
+Editor.Home.Samples.Caption=サンプル
+Editor.Home.Feedback.Caption=フィードバックする
+Editor.Home.Education.Caption=教育
+Editor.Home.DevCenter.Caption=開発者センター
+Editor.Home.Web.Caption=Web ブラウザとモバイル アプリケーションの作成
+Editor.Home.Vlf.Caption=アプリケーション フレームワークを使用したプロトタイプと生成
+Editor.Home.Windows.Caption=Windows デスクトップ アプリケーションの作成
+Editor.Home.Discover.Caption=ディスカバー
+Editor.Home.Web.Header.Caption=モバイル Web アプリケーションの生成
+Editor.Home.Md.Header.Caption=マテリアルデザイン コントロールを探す
+Editor.Home.Vlf.Header1.Caption=開発者ワークベンチの起動
+Editor.Home.Vlf.Header2.Caption=デモ アプリケーションを見る
+Editor.Home.Desktop.Header.Caption=デスクトップ アプリケーションの生成
+Editor.Home.Samples.Header.Caption=Windows DirectX コントロールを探す
+Editor.Home.SampleUnavailable.Title=利用できないサンプル
+Editor.Home.SampleUnavailable.Message=デモ マテリアルのインポートは区画の初期化を使用してください。
 
 **************************************************************************
 *** Editor Ribbon Key Tips - Grouped by scope to help avoid conflict *****
@@ -3575,9 +3552,7 @@ Editor.Styles.Delete.Title=削除
 Editor.Styles.Delete.Hint=現在のｺﾝﾄﾛｰﾙからｽﾀｲﾙを解除
 Editor.Styles.SelectBase.Caption=基本テーマ
 Editor.Styles.SelectFont.Caption=フォント
-*** @TRANS NEW
-Editor.Styles.ResetPalette.Caption=Reset color palette to theme defaults
-*** @TRANS END
+Editor.Styles.ResetPalette.Caption=カラー パレットをテーマのデフォルトにリセット
 Editor.Styles.SelectPalette.Caption=カラー パレット
 Editor.Styles.SelectDetails.Caption=ダブルクリックして詳細を開き、このテーマを修正
 Editor.Styles.SelectPreview.Caption=テーマのプレビュー
@@ -4174,7 +4149,7 @@ Editor.Design.Custom.Desc=カスタム デザインの作成およびアクティブ化
 
 Editor.Annotation.Select.Caption=選択
 Editor.Annotation.Delete.Hint=現在のステートメントから注釈を削除
-Editor.Annotation.Enabled.Hint=注釈の有効\無効の状態を切替
+Editor.Annotation.Enabled.Hint=注釈の有効／無効の状態を切替
 Editor.Annotation.Width.Caption=幅
 Editor.Annotation.Height.Caption=高さ
 
@@ -4548,10 +4523,8 @@ Editor.ControlsView.RibbonGroup.Caption=ﾘﾎﾞﾝ ｸﾞﾙｰﾌﾟ
 Editor.ControlsView.DockingTab.Caption=ﾀﾌﾞ ﾄﾞｯｷﾝｸﾞ ﾌﾚｰﾑﾜｰｸ
 Editor.ControlsView.DockingTab.Desc=LANSAｴﾃﾞｨﾀｰで使用されているﾄﾞｯｷﾝｸﾞ ﾌﾚｰﾑﾜｰｸによく似ています。
 Editor.ControlsView.Entities.Caption=エンティティ
-*** @TRANS NEW
-Editor.ControlsView.MaterialDesign.Caption=Material Design Style Controls for Web Applications
-Editor.ControlsView.Desktop.Caption=Desktop Style Controls for Windows and Web Applications
-*** @TRANS END
+Editor.ControlsView.MaterialDesign.Caption=Web アプリケーション用マテリアルデザイン スタイル コントロール
+Editor.ControlsView.Desktop.Caption=Windows および Web アプリケーション用デスクトップ スタイル コントロール
 Editor.ControlsView.App.AppBar.Caption=アプリ バー
 Editor.ControlsView.App.Footer.Caption=フッター
 Editor.ControlsView.App.Sidebar.Caption=サイドバー
@@ -4565,9 +4538,7 @@ Editor.ControlsView.DataObject.List3.Caption=プライマリ テキスト
 Editor.ControlsView.DataObject.List4.Caption=プライマリおよびセカンダリ テキスト
 Editor.ControlsView.DataObject.List5.Caption=データ
 Editor.ControlsView.Md.Navigation.Caption=ナビゲーション
-*** @TRANS NEW
-Editor.ControlsView.Md.NavigationParent.Caption=Navigation containers
-*** @TRANS END
+Editor.ControlsView.Md.NavigationParent.Caption=ナビゲーション コンテナ
 Editor.ControlsView.Md.Application.Caption=アプリケーション
 Editor.ControlsView.Md.Decorations.Caption=デコレーション
 Editor.ControlsView.Md.Badges.Caption=バッジ
@@ -4600,51 +4571,49 @@ Editor.ControlsView.Md.Views.View2LineList.Caption=2 行リスト
 Editor.ControlsView.Md.Views.View3LineList.Caption=3 行リスト
 Editor.ControlsView.Md.Images.Caption=イメージ
 Editor.ControlsView.Md.Icons.Caption=アイコン
-*** @TRANS NEW
-Editor.ControlsView.Md.Icons.Action.Caption=Action
-Editor.ControlsView.Md.Icons.Alert.Caption=Alert
-Editor.ControlsView.Md.Icons.Av.Caption=Av
-Editor.ControlsView.Md.Icons.Communicaiton.Caption=Communication
-Editor.ControlsView.Md.Icons.Content.Caption=Content
-Editor.ControlsView.Md.Icons.Device.Caption=Device
-Editor.ControlsView.Md.Icons.Editor.Caption=Editor
-Editor.ControlsView.Md.Icons.File.Caption=File
-Editor.ControlsView.Md.Icons.Hardware.Caption=Hardware
-Editor.ControlsView.Md.Icons.Icons.Caption=Icons
-Editor.ControlsView.Md.Icons.Maps.Caption=Maps
-Editor.ControlsView.Md.Icons.Navigation.Caption=Navigation
-Editor.ControlsView.Md.Icons.Notification.Caption=Notification
-Editor.ControlsView.Md.Icons.Places.Caption=Places
-Editor.ControlsView.Md.Icons.Social.Caption=Social
-Editor.ControlsView.Md.Icons.Toggle.Caption=Toggle
-Editor.ControlsView.Md.Icons.MdUpper.Caption=MATERIAL DESIGN
+Editor.ControlsView.Md.Icons.Action.Caption=アクション
+Editor.ControlsView.Md.Icons.Alert.Caption=警告
+Editor.ControlsView.Md.Icons.Av.Caption=AV
+Editor.ControlsView.Md.Icons.Communicaiton.Caption=通信
+Editor.ControlsView.Md.Icons.Content.Caption=コンテンツ
+Editor.ControlsView.Md.Icons.Device.Caption=デバイス
+Editor.ControlsView.Md.Icons.Editor.Caption=エディター
+Editor.ControlsView.Md.Icons.File.Caption=ファイル
+Editor.ControlsView.Md.Icons.Hardware.Caption=ハードウェア
+Editor.ControlsView.Md.Icons.Icons.Caption=アイコン
+Editor.ControlsView.Md.Icons.Maps.Caption=マップ
+Editor.ControlsView.Md.Icons.Navigation.Caption=ナビゲーション
+Editor.ControlsView.Md.Icons.Notification.Caption=通知
+Editor.ControlsView.Md.Icons.Places.Caption=場所
+Editor.ControlsView.Md.Icons.Social.Caption=ソーシャル
+Editor.ControlsView.Md.Icons.Toggle.Caption=切り替え
+Editor.ControlsView.Md.Icons.MdUpper.Caption=マテリアルデザイン
 Editor.ControlsView.Md.Icons.FaUpper.Caption=FONT AWESOME
-Editor.ControlsView.Md.Icons.MdLower.Caption=Material Design
+Editor.ControlsView.Md.Icons.MdLower.Caption=マテリアルデザイン
 Editor.ControlsView.Md.Icons.FaLower.Caption=Font Awesome
-*** @TRANS END
 Editor.ControlsView.Md.IconsFont.Caption=フォント アイコン
 Editor.ControlsView.Md.IconsBitmap.Caption=イメージ
 Editor.ControlsView.Md.Labels.Caption=ラベル
 Editor.ControlsView.Md.Lists.Caption=リスト
+Editor.ControlsView.Md.BottomNavigation.Caption=下部ナビゲーション
+Editor.ControlsView.Md.Tabs.Caption=タブ
 Editor.ControlsView.Md.Menus.Caption=メニュー
-*** @TRANS NEW
-Editor.ControlsView.Md.BottomNavigation.Caption=Bottom Navigation
-Editor.ControlsView.Md.Tabs.Caption=Tabs
-*** @TRANS END
-*** @TRANS NEW
-Editor.ControlsView.Md.Nav1.Caption=Tabs
-Editor.ControlsView.Md.Nav1.Desc=Three top-aligned top-level destinations navigation
-Editor.ControlsView.Md.Nav2.Caption=Bottom navigation bar
-Editor.ControlsView.Md.Nav2.Desc=Three bottom-aligned top-level destinations navigation
-Editor.ControlsView.Md.Nav3.Caption=Bottom navigation bar
-Editor.ControlsView.Md.Nav3.Desc=Five bottom-aligned top-level destinations navigation
-Editor.ControlsView.Md.Nav4.Caption=Vertical navigation bar
-Editor.ControlsView.Md.Nav4.Desc=Side navigation to display many navigation targets at once
-Editor.ControlsView.Md.Nav5.Caption=Vertical navigation bar
-Editor.ControlsView.Md.Nav5.Desc=Nested side navigation to display many navigation targets at once
-Editor.ControlsView.Md.Nav6.Caption=Expanding vertical navigation bar
-Editor.ControlsView.Md.Nav6.Desc=Nested side navigation to display many navigation targets at once
-*** @TRANS END
+Editor.ControlsView.Md.Nav1.Caption=タブ
+Editor.ControlsView.Md.Nav1.Desc=上部に配置された 3 つの最上位の行き先へのナビゲーション
+Editor.ControlsView.Md.Nav2.Caption=下部ナビゲーションバー
+Editor.ControlsView.Md.Nav2.Desc=下部に配置された 3 つの最上位の行き先へのナビゲーション
+Editor.ControlsView.Md.Nav3.Caption=下部ナビゲーションバー
+Editor.ControlsView.Md.Nav3.Desc=下部に配置された 5 つの最上位の行き先へのナビゲーション
+Editor.ControlsView.Md.Nav4.Caption=垂直ナビゲーションバー
+Editor.ControlsView.Md.Nav4.Desc=一度に多くのナビゲーション ターゲットを表示するサイド ナビゲーション
+Editor.ControlsView.Md.Nav5.Caption=垂直ナビゲーションバー
+Editor.ControlsView.Md.Nav5.Desc=一度に多くのナビゲーション ターゲットを表示する入れ子になっているサイド ナビゲーション
+Editor.ControlsView.Md.Nav6.Caption=垂直ナビゲーションバーの展開
+Editor.ControlsView.Md.Nav6.Desc=一度に多くのナビゲーション ターゲットを表示する入れ子になっているサイド ナビゲーション
+Editor.ControlsView.Md.Menus.Side.Caption=サイド ナビゲーション
+Editor.ControlsView.Md.Menus.Side.Desc=行き先へのサイド ナビゲーション
+Editor.ControlsView.Md.Menus.Side2.Caption=サイド ナビゲーション
+Editor.ControlsView.Md.Menus.Side2.Desc=5 つの最上位の行き先へのナビゲーション
 Editor.ControlsView.Md.MenuBar.Caption=メニューバー
 Editor.ControlsView.Md.MenuBar.Desc=メニューバーにより、アプリのトップレベル メニューのホームが提供されます。
 Editor.ControlsView.Md.PopupMenu.Caption=ポップアップメニュー
@@ -4654,9 +4623,7 @@ Editor.ControlsView.Md.NavBars.Caption=ナビゲーションバー
 Editor.ControlsView.Md.Panels.Caption=パネル (複数)
 Editor.ControlsView.Md.Panel.Caption=パネル
 Editor.ControlsView.Md.Panel.Desc=コントロールの親レイヤー
-*** @TRANS NEW
-Editor.ControlsView.Md.DateTime.Caption=Dates
-*** @TRANS END
+Editor.ControlsView.Md.DateTime.Caption=日付
 Editor.ControlsView.Md.Date.Caption=日付
 Editor.ControlsView.Md.Time.Caption=時間
 Editor.ControlsView.Md.CheckBox.Caption=チェックボックス(複数)
@@ -4669,98 +4636,86 @@ Editor.ControlsView.Md.Table.Caption=データテーブル
 Editor.ControlsView.Md.Table.String.Caption=文字列の列
 Editor.ControlsView.Md.Table.Number.Caption=数値の列
 Editor.ControlsView.Md.Table.Col.Caption=列
-*** @TRANS NEW
-Editor.ControlsView.Md.Table.Col1.Caption=Text
+Editor.ControlsView.Md.Table.Col1.Caption=テキスト
 Editor.ControlsView.Md.Table.Col2.Caption=No.
-Editor.ControlsView.Md.Table.Col3.Caption=Date
+Editor.ControlsView.Md.Table.Col3.Caption=日付
 Editor.ControlsView.Md.Text.Caption=テキスト
 Editor.ControlsView.Md.TextWithImage.Caption=アイコン付きテキスト
-Editor.ControlsView.Md.TextInput.Caption=Inputs
-Editor.ControlsView.Md.Text.Edit.Caption=Edit
-Editor.ControlsView.Md.Text.Edit.Desc=Edits allow users to input, edit, and select text
-Editor.ControlsView.Md.Text.Field.Caption=Edit
-Editor.ControlsView.Md.Text.FieldBox.Caption=Edit box
-Editor.ControlsView.Md.Text.FieldBox.Desc=Edit with increased identifiability
-Editor.ControlsView.Md.Text.Field.Desc=Edit allow users to input, edit, and select text
-Editor.ControlsView.Md.Text.Field.Label=Caption
-Editor.ControlsView.Md.Text.DateField.Caption=Date 
-Editor.ControlsView.Md.Text.DateField.Desc=Date allow users to input, edit, and select a date
-Editor.ControlsView.Md.Text.ListField.Caption=Dropdown 
-Editor.ControlsView.Md.Text.ListField.Desc=Dropdown allow users to input, edit, and select from a list of options
-Editor.ControlsView.Md.Text.SpinEditField.Caption=Spin edit 
-Editor.ControlsView.Md.Text.SpinEditField.Desc=Spin edit allow users to input, edit, and select numeric text
-Editor.ControlsView.Md.Text.Search.Caption=Search Edit
-Editor.ControlsView.Md.Text.Search.Desc=Search Edit allow users to search or filter
-Editor.ControlsView.Md.Text.MultilineField.Caption=Multi-line Edit
-Editor.ControlsView.Md.Text.MultilineField.Desc=Multi-line Edit allow users to input, edit, and select multi-line text
-Editor.ControlsView.Md.Text.Password.Caption=Password Edit
-Editor.ControlsView.Md.Text.Password.Desc=Password edit allow users to input passwords
+Editor.ControlsView.Md.TextInput.Caption=入力
+Editor.ControlsView.Md.Text.Edit.Caption=編集
+Editor.ControlsView.Md.Text.Edit.Desc=編集を使ってユーザーはテキストの入力、編集および選択ができます
+Editor.ControlsView.Md.Text.Field.Caption=編集
+Editor.ControlsView.Md.Text.FieldBox.Caption=編集ボックス
+Editor.ControlsView.Md.Text.FieldBox.Desc=識別度がより高い編集
+Editor.ControlsView.Md.Text.Field.Desc=編集を使ってユーザーはテキストの入力、編集および選択ができます
+Editor.ControlsView.Md.Text.Field.Label=キャプション
+Editor.ControlsView.Md.Text.DateField.Caption=日付 
+Editor.ControlsView.Md.Text.DateField.Desc=日付を使ってユーザーは日付の入力、編集および選択ができます
+Editor.ControlsView.Md.Text.ListField.Caption=ドロップダウン 
+Editor.ControlsView.Md.Text.ListField.Desc=ドロップダウンを使ってユーザーはオプションのリストからの入力、編集および選択ができます。
+Editor.ControlsView.Md.Text.SpinEditField.Caption=スピン編集 
+Editor.ControlsView.Md.Text.SpinEditField.Desc=スピン編集を使ってユーザーは数値テキストの入力、編集および選択ができます
+Editor.ControlsView.Md.Text.Search.Caption=検索編集
+Editor.ControlsView.Md.Text.Search.Desc=検索編集により、ユーザーは検索やフィルタリングができます
+Editor.ControlsView.Md.Text.MultilineField.Caption=複数行編集
+Editor.ControlsView.Md.Text.MultilineField.Desc=複数行編集により、ユーザーは複数行テキストの入力、編集および選択ができます
+Editor.ControlsView.Md.Text.Password.Caption=パスワード編集
+Editor.ControlsView.Md.Text.Password.Desc=パスワード編集により、ユーザーはパスワードを入力できます
 Editor.ControlsView.Md.Text.Label=ラベル
-Editor.ControlsView.Md.AppBar.Caption=App bars
-Editor.ControlsView.Md.AppBar.Title=Title
-Editor.ControlsView.Md.AppBar.Search=Search
-Editor.ControlsView.Md.AppBar.Save=Save
-*** @TRANS END
+Editor.ControlsView.Md.AppBar.Caption=アプリ バー
+Editor.ControlsView.Md.AppBar.Title=タイトル
+Editor.ControlsView.Md.AppBar.Save=保存
+Editor.ControlsView.Md.AppBar.Search=検索
 Editor.ControlsView.Md.AppBar.Desc=アプリケーション ツールバー
 Editor.ControlsView.Md.Footer.Caption=フッター
 Editor.ControlsView.Md.Footer.Desc=下に配置されたレイヤー
-*** @TRANS NEW
-Editor.ControlsView.Md.AppDrawer.Caption=App drawers
-*** @TRANS END
+Editor.ControlsView.Md.AppDrawer.Caption=アプリのドロワー
 Editor.ControlsView.Md.AppDrawer.Desc=アプリ ドロワーには、アプリのナビゲーション先が含まれます。
-*** @TRANS NEW
 Editor.ControlsView.Md.AppDrawer.User.Caption=Julie Donaldson
-Editor.ControlsView.Md.AppDrawer.View1.Caption=View 1
-Editor.ControlsView.Md.AppDrawer.View2.Caption=View 2
-Editor.ControlsView.Md.AppDrawer.View3.Caption=View 3
-Editor.ControlsView.Md.AppDrawer.View4.Caption=Settings
-Editor.ControlsView.Md.Avatar.Caption=Avatars
-*** @TRANS END
+Editor.ControlsView.Md.AppDrawer.View1.Caption=ビュー 1
+Editor.ControlsView.Md.AppDrawer.View2.Caption=ビュー 2
+Editor.ControlsView.Md.AppDrawer.View3.Caption=ビュー 3
+Editor.ControlsView.Md.AppDrawer.View4.Caption=設定
+Editor.ControlsView.Md.Avatar.Caption=アバター
 Editor.ControlsView.Md.NavButton.Caption=ナビゲーション ボタン
 Editor.ControlsView.Md.NavButton.Desc=ナビゲーション ボタンはトップレベルのビュー表示をコントロールします。
 Editor.ControlsView.Md.NavContainer.Caption=ビュー コンテナ
 Editor.ControlsView.Md.NavContainer.Desc=ビュー コンテナは、トップレベルのビューの外部グループ コンポーネントとして使用されます。
 Editor.ControlsView.Md.NavTabs.Caption=タブ
 Editor.ControlsView.Md.NavTabs.Desc=標準タブ コントロール
+Editor.ControlsView.Md.NavTabsItems1.Caption=アイテム 1
+Editor.ControlsView.Md.NavTabsItems2.Caption=アイテム 2
+Editor.ControlsView.Md.NavTabsItem.Caption=アイテム
 Editor.ControlsView.Md.View.Caption=ビュー
 Editor.ControlsView.Md.View.Desc=コンテンツ レイヤー
-*** @TRANS NEW
-Editor.ControlsView.Md.NavTabsItems1.Caption=ITEMS 1
-Editor.ControlsView.Md.NavTabsItems2.Caption=ITEMS 2
-Editor.ControlsView.Md.NavTabsItem.Caption=ITEM
-*** @TRANS END
-*** @TRANS NEW
-Editor.ControlsView.Avatar1.Caption=Image Avatar
-Editor.ControlsView.Avatar1.Desc=Image Avatar
-Editor.ControlsView.Avatar2.Caption=Icon Avatar
-Editor.ControlsView.Avatar2.Desc=Primary Icon Avatar
-Editor.ControlsView.Avatar3.Caption=Icon Avatar
-Editor.ControlsView.Avatar3.Desc=Accent Icon Avatar
-Editor.ControlsView.Avatar4.Caption=Initials Avatar
-Editor.ControlsView.Avatar4.Desc=Primary Initials Avatar
-Editor.ControlsView.Avatar5.Caption=Initials Avatar
-Editor.ControlsView.Avatar5.Desc=Accent Initials Avatar
-*** @TRANS END
+Editor.ControlsView.Avatar1.Caption=イメージ アバター
+Editor.ControlsView.Avatar1.Desc=イメージ アバター
+Editor.ControlsView.Avatar2.Caption=アイコン アバター
+Editor.ControlsView.Avatar2.Desc=プライマリ アイコン アバター
+Editor.ControlsView.Avatar3.Caption=アイコン アバター
+Editor.ControlsView.Avatar3.Desc=アクセント アイコン アバター
+Editor.ControlsView.Avatar4.Caption=イニシャル アバター
+Editor.ControlsView.Avatar4.Desc=プライマリ イニシャル アバター
+Editor.ControlsView.Avatar5.Caption=イニシャル アバター
+Editor.ControlsView.Avatar5.Desc=アクセント イニシャル アバター
 Editor.ControlsView.Badge1.Caption=右上揃え
 Editor.ControlsView.Badge1.Desc=通知バッジ
 Editor.ControlsView.Badge2.Caption=右上揃え
 Editor.ControlsView.Badge2.Desc=プライマリ バッジ
 Editor.ControlsView.Badge3.Caption=右上揃え
 Editor.ControlsView.Badge3.Desc=アクセント バッジ
-*** @TRANS NEW
-Editor.ControlsView.Badge4.Caption=Center Right Aligned
+Editor.ControlsView.Badge4.Caption=中央右揃え
 Editor.ControlsView.Badge4.Desc=通知バッジ
-Editor.ControlsView.Badge5.Caption=Center Right Aligned
+Editor.ControlsView.Badge5.Caption=中央右揃え
 Editor.ControlsView.Badge5.Desc=プライマリ バッジ
-Editor.ControlsView.Badge6.Caption=Center Right Aligned
+Editor.ControlsView.Badge6.Caption=中央右揃え
 Editor.ControlsView.Badge6.Desc=アクセント バッジ
-Editor.ControlsView.Badge7.Caption=Bottom Right Aligned
+Editor.ControlsView.Badge7.Caption=下右揃え
 Editor.ControlsView.Badge7.Desc=通知バッジ
-Editor.ControlsView.Badge8.Caption=Bottom Right Aligned
+Editor.ControlsView.Badge8.Caption=下右揃え
 Editor.ControlsView.Badge8.Desc=プライマリ バッジ
-Editor.ControlsView.Badge9.Caption=Bottom Right Aligned
+Editor.ControlsView.Badge9.Caption=下右揃え
 Editor.ControlsView.Badge9.Desc=アクセント バッジ
-*** @TRANS END
 Editor.ControlsView.BadgeSettings.Caption=設定
 Editor.ControlsView.Decoration.Search.Caption=検索
 Editor.ControlsView.Decoration.Search.Desc=イメージ デコレーションの検索
@@ -4838,11 +4793,9 @@ Editor.ControlsView.Button.Error.Desc=エラー色ボタン
 Editor.ControlsView.Button.Success.Text=成功
 Editor.ControlsView.Button.Success.Caption=成功
 Editor.ControlsView.Button.Success.Desc=成功色ボタン
-*** @TRANS NEW
-Editor.ControlsView.Button.Nav.Caption=View
-Editor.ControlsView.Images.Png.Caption=Image
-Editor.ControlsView.Images.Png.Desc=Image control suitable for displaying Repository or File images
-*** @TRANS END
+Editor.ControlsView.Button.Nav.Caption=ビュー
+Editor.ControlsView.Images.Png.Caption=イメージ
+Editor.ControlsView.Images.Png.Desc=ファイルのイメージやリポジトリ表示に適したイメージ コントロール
 Editor.ControlsView.Divider.Vertical.Caption=垂直分割線
 Editor.ControlsView.Divider.Vertical.Desc=コンテンツの左端または右端に添って配置された分割線
 Editor.ControlsView.Divider.Horizontal.Caption=水平分割線
@@ -4869,9 +4822,7 @@ Editor.ControlsView.Card.Phone1.Caption=(613) 555-1212
 Editor.ControlsView.Card.Phone2.Caption=(613) 222-8989
 Editor.ControlsView.Card.LoremShort.Caption=Lorem ipsum dolor sit amet, gravida ultrices, neque id, leo nonummy.
 Editor.ControlsView.Card.LoremMedium.Caption=Lorem ipsum dolor sit amet, gravida ultrices, neque id, leo nonummy. Tellus imperdiet, vivamus mi ultricies, proin varius lorem. Lorem ultricies, ut wisi. Turpis dolore. A nonummy.
-*** @TRANS NEW
-Editor.ControlsView.List.Name.Caption=Name
-*** @TRANS END
+Editor.ControlsView.List.Name.Caption=名前
 Editor.ControlsView.List.1Line.Caption=1 行アイテム
 Editor.ControlsView.List.2Line.Caption=2 行アイテム
 Editor.ControlsView.List.3Line.Caption=3 行アイテム

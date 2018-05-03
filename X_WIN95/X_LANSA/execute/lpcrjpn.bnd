@@ -234,14 +234,8 @@ DisplayName.DBDiagram=ÃŞ°ÀÍŞ°½ÀŞ²±¸Ş×Ñ
 DisplayName.DBDiagramNote=ÃŞ°ÀÍŞ°½ÀŞ²±¸Ş×Ñ ’
 DisplayName.JobItem=¼Ş®ÌŞ ±²ÃÑ
 DisplayName.JobList=¼Ş®ÌŞ Ø½Ä
-*** @TRANS OLD
-*** DisplayName.LogicalFile=˜_—Ì§²Ù
-*** @TRANS NEW
-DisplayName.LogicalFile=Index
-*** @TRANS OLD
-*** DisplayName.LogicalFileField=˜_—Ì§²Ù Ì¨°ÙÄŞ
-*** @TRANS NEW
-DisplayName.LogicalFileField=Index Column
+DisplayName.LogicalFile=ƒCƒ“ƒfƒbƒNƒX
+DisplayName.LogicalFileField=ƒCƒ“ƒfƒbƒNƒX—ñ
 DisplayName.SecurityInfo=¾·­ØÃ¨î•ñ
 DisplayName.Provider=ÌßÛÊŞ²ÀŞ
 DisplayName.TechService=Ã¸ÉÛ¼Ş »°ËŞ½
@@ -260,9 +254,7 @@ DisplayName.FolderWebImages=Web²Ò°¼Ş Ì«ÙÀŞ
 DisplayName.SystemInformation=¼½ÃÑî•ñ
 DisplayName.WebFolderViews=ƒrƒ…[
 DisplayName.WebFolderDialogs=ƒ_ƒCƒAƒƒO
-*** @TRANS ADD
-DisplayName.WebFolderServerModules=Server Modules
-*** @TRANS END
+DisplayName.WebFolderServerModules=ƒT[ƒo[ ƒ‚ƒWƒ…[ƒ‹
 DisplayName.WebFolderParts=Ä—˜—p‰Â”\ƒp[ƒc
 DisplayName.WebFolderResources=ƒŠƒ\[ƒX
 
@@ -624,10 +616,7 @@ MaxNumericDigits=’l&1‚ª‹–‰Â‚³‚ê‚½Å‘åŒ…”‚ğ’´‚¦‚Ä‚¢‚Ü‚·BÅ‘å’l‚Í&2‚Å‚·B
 MaxNumericDigits.Id=169
 MaxNumericDecimals=’l&1‚ª‹–‰Â‚³‚ê‚½Å‘å‘”“_ˆÈ‰º‚ÌŒ…”‚ğ‰z‚¦‚Ä‚¢‚Ü‚·BÅ‘å’l‚Í&2‚Å‚·B
 MaxNumericDecimals.Id=170
-*** @TRANS OLD
-*** RDMLXInvalidFile=Full RDMLX‚ªg—p‰Â”\‚Å‚Í‚ ‚è‚Ü‚¹‚ñBRDMLXÌ§²Ù&1‚Íg—p‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-RDMLXInvalidFile=Full RDMLX is not enabled. RDMLX Table &1 cannot be used.
+RDMLXInvalidFile=Full RDMLX ‚ª–³Œø‚Å‚·BRDMLX ƒe[ƒuƒ‹ &1 ‚Íg—p‚Å‚«‚Ü‚¹‚ñB
 RDMLXInvalidFile.Id=171
 RDMLXInvalidField=Full RDMLX‚ªg—p‰Â”\‚Å‚Í‚ ‚è‚Ü‚¹‚ñBRDMLXÌ¨°ÙÄŞ&1‚Íg—p‚Å‚«‚Ü‚¹‚ñB
 RDMLXInvalidField.Id=172
@@ -649,10 +638,7 @@ MsgFileMissing=MSGDTAÊß×Ò°À‚ªw’è‚³‚ê‚Ü‚µ‚½‚ªAMSGFÊß×Ò°À‚Ì’è‹`‚ª‚ ‚è‚Ü‚¹‚ñB
 MsgFileMissing.Id=180
 MsgIdMissing=MSGDTAÊß×Ò°À‚ªw’è‚³‚ê‚Ü‚µ‚½‚ªAMSGFÊß×Ò°À‚Ì’è‹`‚ª‚ ‚è‚Ü‚¹‚ñB
 MsgIdMissing.Id=181
-*** @TRANS OLD
-*** RDMLXLOBFieldInFile=•¨—Ì§²Ù&1‚ÍI/O‚ÅiSeriesã‚ÌSQL‚ğg—p‚ª•K{‚Æ‚È‚éBLOB/CLOBÌ¨°ÙÄŞ‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-RDMLXLOBFieldInFile=Table &1 contains BLOB/CLOB fields that will force this I/O to use SQL on the IBM i. It is recommended practice that this access uses an index so IBM i Native I/O can be used.
+RDMLXLOBFieldInFile=ƒe[ƒuƒ‹ &1 ‚É‚ÍA‚±‚Ì I/O ‚Å‹­§“I‚É IBM i ‚Ì SQL ‚ğg—p‚³‚¹‚é BLOB/CLOB ƒtƒB[ƒ‹ƒh‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B‚±‚ÌƒAƒNƒZƒX‚Å‚ÍƒCƒ“ƒfƒbƒNƒX‚ğ—˜—p‚µ‚ÄAIBM i ƒlƒCƒeƒBƒu I/O ‚ğg—p‚Å‚«‚é‚æ‚¤‚É‚·‚éŠµK‚ª„§‚³‚ê‚Ä‚¢‚Ü‚·B
 RDMLXLOBFieldInFile.Id=182
 RDMLXInvalidLOBUsage=•\®&2‚Åg—p‚³‚ê‚Ä‚¢‚éê‡A&1Ì¨°ÙÄŞÀ²Ìß‚Í»Îß°Ä‚³‚ê‚Ä‚Ü‚¹‚ñBÌ¨°ÙÄŞÀ²Ìß‚Í*SQLNULL‚É‚Â‚¢‚ÄÃ½Ä‚·‚é‚±‚Æ‚ª‚Å‚«‚é‚¾‚¯‚Å‚·B
 RDMLXInvalidLOBUsage.Id=183
@@ -748,39 +734,21 @@ GroupByNotAllowed=GroupBy,List‹y‚ÑReport¯•Êq&1‚Íg—p‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñB
 GroupByNotAllowed.Id=228
 FieldHidesIdentifier=Ì¨°ÙÄŞ–¼&1‚Í“¯‚¶–¼‘O‚ÌØÎß°ÄAØ½ÄAÌ¨°ÙÄŞ‚Ì’è‹`‚ğ‰B‚µ‚Ü‚·B
 FieldHidesIdentifier.Id=229
-*** @TRANS OLD
-*** RDMLXExpressionLengthCheck=•\®‚ÌÀsŒ‹‰Ê&1‚ÍÌ§²Ù‚Ì·°Ì¨°ÙÄŞ&2(&3‚ÌÅ‘å’·)‚É‡’v‚·‚é‚±‚Æ‚ğŠm”F‚·‚é‚½‚ß‚ÉÁª¯¸‚³‚ê‚Ü‚·B
-*** @TRANS NEW
-RDMLXExpressionLengthCheck=The result of executing expression &1 will be checked to ensure it matches table key &2 (maximum length of &3).
+RDMLXExpressionLengthCheck=® &1 ‚ÌÀsŒ‹‰Ê‚ªŠmÀ‚Éƒe[ƒuƒ‹‚ÌƒL[ &2  (Å‘å’· &3) ‚Éˆê’v‚µ‚Ä‚¢‚é‚±‚Æ‚ªŠm”F‚³‚ê‚Ü‚·B
 RDMLXExpressionLengthCheck.Id=230
-*** @TRANS OLD
-*** InvalidAlphanumericLength=‰p”š‚Ì•\®&1‚ÍÌ§²Ù‚Ì·°Ì¨°ÙÄŞ&2‚Ì•K—vğŒ‚É‡’v‚µ‚Ü‚¹‚ñBÅ‘å’·‚Í&3‚Å‚·B
-*** @TRANS NEW
-InvalidAlphanumericLength=Alphanumeric expression &1 does not match requirements of table key &2. Maximum length is &3.
+InvalidAlphanumericLength=‰p”š‚Ì® &1 ‚ÍAƒe[ƒuƒ‹‚ÌƒL[ &2 ‚Ì•K—vğŒ‚Éˆê’v‚µ‚Ü‚¹‚ñBÅ‘å’·‚Í &3 ‚Å‚·B
 InvalidAlphanumericLength.Id=231
-*** @TRANS OLD
-*** InvalidNumericLength=”š‚Ì•\®&1‚ÍÌ§²Ù‚Ì·°Ì¨°ÙÄŞ&2‚Ì•K—vğŒ‚É‡’v‚µ‚Ü‚¹‚ñBÅ‘å’·‚Í&3‚Å‚·B
-*** @TRANS NEW
-InvalidNumericLength=Numeric expression &1 does not match requirements of table key &2. Maximum length is &3.
+InvalidNumericLength=”®  &1 ‚ÍAƒe[ƒuƒ‹‚ÌƒL[ &2 ‚Ì•K—vğŒ‚Éˆê’v‚µ‚Ü‚¹‚ñBÅ‘å’·‚Í &3 ‚Å‚·B
 InvalidNumericLength.Id=232
-*** @TRANS OLD
-*** RDMLXExpressionDecimalsCheck=•\®‚ÌÀsŒ‹‰Ê&1‚ÍÌ§²Ù‚Ì·°Ì¨°ÙÄŞ&2(&3‚ÌÅ‘å¬”“_ˆÈ‰º‚ÌŒ…”)‚É‡’v‚·‚é‚±‚Æ‚ğŠm”F‚·‚é‚½‚ß‚ÉÁª¯¸‚³‚ê‚Ü‚·B
-*** @TRANS NEW
-RDMLXExpressionDecimalsCheck=The result of executing expression &1 will be checked to ensure it matches table key &2 (maximum decimals of &3).
+RDMLXExpressionDecimalsCheck=® &1 ‚ÌÀsŒ‹‰Ê‚ÍAŠmÀ‚Éƒe[ƒuƒ‹‚ÌƒL[ &2 (Å‘å‚Ì¬”“_ˆÈ‰º‚ÌŒ…” &3) ‚Éˆê’v‚µ‚Ä‚¢‚é‚±‚Æ‚ªŠm”F‚³‚ê‚Ü‚·B
 RDMLXExpressionDecimalsCheck.Id=233
-*** @TRANS OLD
-*** InvalidNumericDecimals=”š‚Ì•\®&1‚ÍÌ§²Ù‚Ì·°Ì¨°ÙÄŞ&2‚Ì•K—vğŒ‚É‡’v‚µ‚Ü‚¹‚ñBÅ‘å¬”“_ˆÈ‰º‚ÌŒ…”‚Í&3‚Å‚·B
-*** @TRANS NEW
-InvalidNumericDecimals=Numeric expression &1 does not match requirements of table key &2. Maximum decimals is &3.
+InvalidNumericDecimals=”® &1 ‚ÍAƒe[ƒuƒ‹‚ÌƒL[ &2 ‚Ì•K—vğŒ‚Éˆê’v‚µ‚Ü‚¹‚ñBÅ‘å‚Ì¬”“_ˆÈ‰º‚ÌŒ…”‚Í &3 ‚Å‚·B
 InvalidNumericDecimals.Id=234
 GroupByFollowedInList=&1‚ÍÌ¨°ÙÄŞØ½Ä‚Ì‘¼‚Ì´İÄØ‚É‘±‚­Group_By, Def_List,etc‚ğ¯•Ê‚µ‚Ü‚·B
 GroupByFollowedInList.Id=235
 GroupByNotFirstInList=&1‚ÍÌ¨°ÙÄŞØ½Ä‚ÌÅ‰‚Ì´İÄØ‚Å‚Í‚È‚¢Group_By, Def_List,etc‚ğ¯•Ê‚µ‚Ü‚·B
 GroupByNotFirstInList.Id=236
-*** @TRANS OLD
-*** NoCorrespondingKeyInFile=’l&1‚ÉÌ§²Ù&2‚É‘Î‰‚·‚é·°Ì¨°ÙÄŞ‚ª‚ ‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-NoCorrespondingKeyInFile=Value &1 does not have a corresponding key in table &2.
+NoCorrespondingKeyInFile=’l &1 ‚Íƒe[ƒuƒ‹ &2 ‚É‘Î‰‚·‚éƒL[‚ª‚ ‚è‚Ü‚¹‚ñB
 NoCorrespondingKeyInFile.Id=237
 RecommendExpandableGroupAndLOBInFile=¯•Êq&1‚ÉBLOB/CLOBÌ¨°ÙÄŞÀ²Ìß‚ª‚ ‚è‚Ü‚·BÊßÌ«°Ïİ½‚Ì——R‚©‚çALOBÌ¨°ÙÄŞÀ²Ìß‚ğŠÜ‚ŞÌ§²Ù‚Å*ALL, *All_REAL,*ALL_VIRT‚ğg—p‚µ‚È‚¢‚±‚Æ‚ğ„§‚µ‚Ü‚·B
 RecommendExpandableGroupAndLOBInFile.Id=238
@@ -1020,10 +988,7 @@ RDMLXInvalidDateFormat=“ú•t‚ÌÌ«°Ï¯Ä&1‚ÍFull RDMLX Date/DateTimeÌ¨°ÙÄŞ‚Å‚Íg—p‰Â”
 RDMLXInvalidDateFormat.Id=355
 RDMLXUnsupportedFieldType=•\®&1‚ÍFull RDMLX‚ğg—p‚µ‚Ä‚¢‚éÌ¨°ÙÄŞ‚ğ¯•Ê‚µ‚Ü‚·B‚»‚µ‚ÄÌ¨°ÙÄŞÀ²Ìß‚Í‚±‚ÌºÏİÄŞ‚Å»Îß°Ä‚³‚ê‚Ü‚¹‚ñB
 RDMLXUnsupportedFieldType.Id=356
-*** @TRANS OLD
-*** FileNotFound=Ì§²Ù&1‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-FileNotFound=Table &1 not found.
+FileNotFound=ƒe[ƒuƒ‹ &1 ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB
 FileNotFound.Id=357
 RangeValueAssumed=”ÍˆÍ‚Ì’l‚ª¶×Ñ&1‚Å’ñ‹Ÿ‚³‚ê‚Ü‚¹‚ñB|*NULL‚Æ‚İ‚È‚³‚ê‚Ü‚·B
 RangeValueAssumed.Id=358
@@ -1111,10 +1076,7 @@ RemoteSystemVariable=¼½ÃÑ•Ï”&1‚ÍØÓ°Ä‚É‘¶İ‚µ‚Ä‚¢‚Ü‚·B‚±‚ÌºİÎß°ÈİÄ‚ğì¬‰Â”\‚É‚
 RemoteSystemVariable.Id=399
 InvalidNumericLiteral=”’lÚ“ª«‚ÌØÃ×Ù&1‚Í³‚µ‚­‚È‚¢”’l‚Å‚·B
 InvalidNumericLiteral.Id=400
-*** @TRANS OLD
-*** FileIoWithGt100Fields=Ì§²Ù&1‚ÍÌÙRDMLX‚ğ»Îß°Ä‚µ‚Ä‚¨‚ç‚¸A100ˆÈã‚ÌÌ¨°ÙÄŞ‚É±¸¾½‚µ‚Ä‚¢‚Ü‚·BÌ§²Ù‚ªiSeriesã‚Å±¸¾½‚³‚ê‚½ê‡A‚±‚ÌÃŞ°ÀÍŞ°½ºÏİÄŞ‚ÍÀs‚É¸”s‚µ‚Ü‚·B
-*** @TRANS NEW
-FileIoWithGt100Fields=Table &1 does not support Full RDMLX and is being accessed for more than 100 columns. This database command will fail at runtime if the table is accessed on an IBM i.
+FileIoWithGt100Fields=ƒe[ƒuƒ‹ &1 ‚Íƒtƒ‹ RDMLX ‚ğƒTƒ|[ƒg‚µ‚Ä‚¨‚ç‚¸A100 ‚ğ’´‚¦‚é—ñ‚ÉƒAƒNƒZƒX‚³‚ê‚Ä‚¢‚Ü‚·B‚±‚Ìƒe[ƒuƒ‹‚ª IBM i ‚ÅƒAƒNƒZƒX‚³‚ê‚é‚ÆAÀs‚É‚±‚Ìƒf[ƒ^ƒx[ƒX ƒRƒ}ƒ“ƒh‚ÍƒGƒ‰[‚É‚È‚è‚Ü‚·B
 FileIoWithGt100Fields.Id=401
 RangeValueMissing=ƒJƒ‰ƒ€ &1 ‚ÍA—v‹‚³‚ê‚½’l‚Ì”ÍˆÍ‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
 RangeValueMissing.Id=402
@@ -1132,27 +1094,15 @@ NameConflictWithRepComponent=•Ï”–¼ &1 ‚ÍŠù‚ÉØÎß¼ŞÄØ“à‚ÌºİÎß°ÈİÄ‚Åg—p‚³‚ê‚Ä‚¢‚Ü
 NameConflictWithRepComponent.Id=408
 NameConflictWithRepField=•Ï”–¼ &1 ‚ÍŠù‚ÉØÎß¼ŞÄØ“à‚ÌÌ¨°ÙÄŞ‚Åg—p‚³‚ê‚Ä‚¢‚Ü‚·BŠô‚Â‚©‚Ì RDML ºÏİÄŞ‚ª‚±‚Ì–¼‘O‚ğØÎß¼ŞÄØ“à‚ÌÌ¨°ÙÄŞ‚Æ‰ğß‚·‚é‰Â”\«‚ª‚ ‚è‚Ü‚·B‚±‚Ì–¼‘O‚ğg—p‚·‚é‚ÆºİÊß²Ù‚É´×°‚ª”­¶‚·‚é‰Â”\«‚ª‚ ‚è‚Ü‚·B
 NameConflictWithRepField.Id=409
-*** @TRANS OLD
-*** RemoteFile=Ì§²Ù &1 ‚Í»°ÊŞ°‚É‘¶İ‚µ‚Ä‚¢‚Ü‚·BµÌŞ¼Şª¸Ä‚ğ¶¬‚·‚é‘O‚ÉÁª¯¸±³Ä‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
-*** @TRANS NEW
-RemoteFile=Table &1 is remotely located. It needs to be checked out before this object can be built.
+RemoteFile=ƒe[ƒuƒ‹ &1 ‚ÌêŠ‚ÍƒŠƒ‚[ƒg‚Å‚·B‚±‚ÌƒIƒuƒWƒFƒNƒg‚ğ¶¬‚·‚é‘O‚Éƒ`ƒFƒbƒNƒAƒEƒg‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
 RemoteFile.Id=410
-*** @TRANS OLD
-*** InvalidNumericByteLength=”® &1 ‚ÍÌ§²Ù‚Ì•K—v‚Æ‚·‚é·°Ì¨°ÙÄŞ &2 ‚Éˆê’v‚µ‚Ü‚¹‚ñBÅ‘åŒ…”‚Í &3 ‚Å‚·B
-*** @TRANS NEW
-InvalidNumericByteLength=Numeric expression &1 does not match requirements of table key &2. Maximum byte length is &3.
+InvalidNumericByteLength=”® &1 ‚Íƒe[ƒuƒ‹‚ÌƒL[ &2 ‚Ì•K—vğŒ‚Éˆê’v‚µ‚Ü‚¹‚ñBÅ‘åƒoƒCƒg’·‚Í &3 ‚Å‚·B
 InvalidNumericByteLength.Id=411
 FloatAndWithKeyUsage=·° &2 ‚Ì® &1 ‚ÍFloat’l‚ğ¶‚¶‚Ü‚·BFloat’l‚Í³Šm‚Å‚Í‚ ‚è‚Ü‚¹‚ñB]‚Á‚ÄAŠú‘Ò’l‚ğ“¾‚é‚±‚Æ‚Å‚«‚È‚¢‚©‚à‚µ‚ê‚Ü‚¹‚ñB‚±‚Ìƒ^ƒCƒv‚Ìg—p‚ğ”ğ‚¯‚é‚©AŠú‘Ò’l‚ğ“¾‚é‚½‚ß‚ÉƒeƒXƒg‚ğÀ{‚µ‚Ä‰º‚³‚¢B
 FloatAndWithKeyUsage.Id=412
-*** @TRANS OLD
-*** InvalidIntegerLength=”® &1 ‚ÍÌ§²Ù‚Ì•K—v‚Æ‚·‚é·°Ì¨°ÙÄŞ &2 ‚É“K‡‚µ‚Ü‚¹‚ñBinteger‚ÌÅ‘åŒ…”‚Í &3 ‚Å‚·B
-*** @TRANS NEW
-InvalidIntegerLength=Numeric expression &1 does not match requirements of table key &2. Maximum integer length is &3 bytes.
+InvalidIntegerLength=”® &1 ‚Íƒe[ƒuƒ‹‚ÌƒL[ &2 ‚Ì•K—vğŒ‚Éˆê’v‚µ‚Ü‚¹‚ñB®”‚ÌÅ‘å’·‚Í &3 ƒoƒCƒg‚Å‚·B
 InvalidIntegerLength.Id=413
-*** @TRANS OLD
-*** RDMLXExpressionIntegerLengthCheck=® &1 ‚ÌÀsŒ‹‰Ê‚ªÌ§²Ù‚Ì·°Ì¨°ÙÄŞ &2 ‚ÆŠmÀ‚Éˆê’v‚·‚é‚©Šm”F‚µ‚Ü‚·B(&3 ÊŞ²Ä‚ÌintegerÅ‘åŒ…”)
-*** @TRANS NEW
-RDMLXExpressionIntegerLengthCheck=The result of executing expression &1 will be checked to ensure it matches table key &2 (maximum integer length of &3 bytes).
+RDMLXExpressionIntegerLengthCheck=® &1 ‚ÌÀsŒ‹‰Ê‚ª ƒe[ƒuƒ‹‚ÌƒL[ &2 (®”‚ÌÅ‘å’· &3 ƒoƒCƒg) ‚ÆŠmÀ‚Éˆê’v‚·‚é‚©Šm”F‚µ‚Ü‚·B
 RDMLXExpressionIntegerLengthCheck.Id=414
 UseMaximumIntegerLength=”® &1 ŠÖ”‚Ì•K—vğŒ‚Éˆê’v‚µ‚Ü‚¹‚ñBinteger‚ÌÅ‘åŒ…”‚Í &2 ÊŞ²Ä‚Å‚·B
 UseMaximumIntegerLength.Id=415
@@ -1234,10 +1184,7 @@ TargetsNotLicensedForComponent=ŠJ”­ŠÂ‹«‚Í•¡”À°¹Ş¯Ä‚É×²¾İ½‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 TargetsNotLicensedForComponent.Id=504
 ArrayOverlayLengthExceeded=”z—ñ‚ÌÊŞ²Ä’·‚ª OVERLAYING Êß×Ò°À‚Åw’è‚³‚ê‚½Ì¨°ÙÄŞ‚ÌÊŞ²Ä’·‚ğ’´‚¦‚Ä‚¢‚Ü‚·B&1 ‚Í &2 ‚Å‚·‚ª &3 ‚Í &4 ‚Å‚·B
 ArrayOverlayLengthExceeded.Id=505
-*** @TRANS OLD
-*** FileFieldNotFound=Ì¨°ÙÄŞ &1 ‚ÍÌ§²Ù &2 ‚Ì’è‹`‚Ìˆê•”‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-FileFieldNotFound=Field &1 is not part of the definition of table &2.
+FileFieldNotFound=ƒtƒB[ƒ‹ƒh &1 ‚Íƒe[ƒuƒ‹ &2 ‚Ì’è‹`‚Ìˆê•”‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
 FileFieldNotFound.Id=506
 ConditionAllLiterals=ğŒ®‚Í2‚Â‚Ì’è”‚ğ”äŠr‚µ‚Ä‚¢‚Ü‚· - &1 ‚Æ &2 ‚Í—¼•û‚Æ‚àØÃ×Ù‚Å‚·B
 ConditionAllLiterals.Id=507
@@ -1253,11 +1200,7 @@ NameConflictUseAlias=–¼‘O&1‚ÍºİÎß°ÈİÄ–¼‚Ü‚½‚ÍÛ°¶Ù‚Å’è‹`‚³‚ê‚½Ì¨°ÙÄŞ–¼‚Å‚·B´²Ø±½
 NameConflictUseAlias.Id=512
 NameDuplicateOfRepObject=•Ï”–¼&1‚Í‚·‚Å‚ÉØÎß¼ŞÄØ‚Ì•Ê‚ÌµÌŞ¼Şª¸Ä–¼‚Æ‚µ‚ÄŠ„‚è“–‚Ä‚ç‚ê‚Ä‚¢‚Ü‚·
 NameDuplicateOfRepObject.Id=513
-*** @TRANS CHANGED
-*** InvalidUseOfLongName=&1‚ÍÛİ¸Ş È°Ñ‚È‚Ì‚ÅAÌÙ RDMLX »Îß°Ä‚ª•K—v‚Å‚·
-*** @TRANS NEW
-InvalidUseOfLongName=&1 is a long name and requires RDMLX support.
-*** @TRANS END
+InvalidUseOfLongName=&1 ‚Íƒƒ“ƒOƒl[ƒ€‚Ì‚½‚ßARDMLX ƒTƒ|[ƒg‚ª•K—v‚Å‚·B
 InvalidUseOfLongName.Id=514
 NameNotObservable=&1‚ªºİÎß°ÈİÄ‚Å‚È‚¢A‚à‚µ‚­‚ÍºİÎß°ÈİÄ‚Ì²ÍŞİÄ‚ªŒ»İ‚Ì”ÍˆÍ‚É‚ ‚è‚Ü‚¹‚ñ
 NameNotObservable.Id=515
@@ -1561,7 +1504,7 @@ SearchCriterion.ModifiedAfter=C³Œã
 *************************************************************
 ******** Default Object list names/descriptions    **********
 *************************************************************
-ObjectList.File.Desc=Ì§²Ù
+ObjectList.File.Desc=ƒe[ƒuƒ‹
 ObjectList.Field.Desc=Ì¨°ÙÄŞ
 ObjectList.Process.Desc=ÌßÛ¾½
 ObjectList.Form.Desc=Ì«°Ñ
@@ -1574,7 +1517,6 @@ ObjectList.VisualStyle.Desc=ËŞ¼Ş­±Ù ½À²Ù
 ObjectList.Theme.Desc=ƒe[ƒ}
 ObjectList.ComProxy.Desc=ActiveX ºİÄÛ°Ù
 ObjectList.SystemVariable.Desc=¼½ÃÑ•Ï”
-ObjectList.MtxtVariable.Name=MTXTVAR
 ObjectList.MtxtVariable.Desc=Œ¾Œê•Ï”
 ObjectList.DotNetProxy.Desc=.NET ºİÎß°ÈİÄ 
 ObjectList.WebServiceProxy.Desc=Web »°ËŞ½
@@ -1598,24 +1540,12 @@ ObjectList.Yes=‚Í‚¢
 ObjectList.Unknown=•s–¾
 
 ObjectList.FileType.Unknown=•s–¾
-ObjectList.FileType.LansaFile=LANSAÌ§²Ù
-*** @TRANS OLD
-*** ObjectList.FileType.PCOtherFile=PCŠO•”Ì§²Ù
-*** @TRANS NEW
-ObjectList.FileType.PCOtherFile=Imported File
+ObjectList.FileType.LansaFile=LANSA ƒe[ƒuƒ‹
+ObjectList.FileType.PCOtherFile=ƒCƒ“ƒ|[ƒg‚³‚ê‚½ƒe[ƒuƒ‹
 ObjectList.FileType.LansaSQLView=LANSA SQLËŞ­°
-*** @TRANS OLD
-*** ObjectList.FileType.IBMiOtherFile=IBM i ŠO•”Ì§²Ù
-*** @TRANS NEW
-ObjectList.FileType.IBMiOtherFile=IBM i File
-*** @TRANS OLD
-*** ObjectList.FileType.PCOtherSQLView=PCŠO•”SQËŞ­°
-*** @TRANS NEW
-ObjectList.FileType.PCOtherSQLView=Imported SQL View
-*** @TRANS OLD
-*** ObjectList.FileType.IBMiOtherSQLView=IBM i ŠO•”SQLËŞ­°
-*** @TRANS NEW
-ObjectList.FileType.IBMiOtherSQLView=IBM i SQL View
+ObjectList.FileType.IBMiOtherFile=IBM i ƒe[ƒuƒ‹
+ObjectList.FileType.PCOtherSQLView=ƒCƒ“ƒ|[ƒg‚³‚ê‚½ SQL ƒrƒ…[
+ObjectList.FileType.IBMiOtherSQLView=IBM i SQL ƒrƒ…[
 ObjectList.SysVar.Static.Derivation=Ã“I
 ObjectList.SysVar.Dynamic.Derivation=“®“I
 ObjectList.SysVar.Unknown.Derivation=•s–¾
@@ -1654,6 +1584,7 @@ Cmd.DefinePty.Desc=ºİÎß°ÈİÄ‚ÌÌßÛÊßÃ¨‚Ì’è‹`
 Cmd.EvtRoutine.Desc=ºİÎß°ÈİÄ‚Ì²ÍŞİÄ‚ğˆ—‚·‚éÙ°Áİ‚ÌŠJn
 Cmd.MthRoutine.Desc=Ò¿¯ÄŞ Ù°Áİ‚ÌŠJn
 Cmd.WebRoutine.Desc=WebRoutine ‚ÌŠJn
+Cmd.SrvRoutine.Desc=ƒT[ƒo[ ƒ‹[ƒ`ƒ“‚ÌŠJn
 Cmd.PtyRoutine.Desc=ÌßÛÊßÃ¨ Ù°Áİ‚ÌŠJn
 Cmd.Assign.Desc=®‚ÌŒ‹‰Ê‚ğŠ„‚è“–‚Ä‚é
 Cmd.Import.Desc=×²ÌŞ×Ø‚ÌÒ¿¯ÄŞ‚Ì²İÎß°Ä
@@ -1673,9 +1604,9 @@ Cmd.TemplateLabel.Desc=‘¼‚ÌºÏİÄŞ‚Ì»ÌŞ¼Şª¸Ä‚Ì×ÍŞÙ
 Cmd.TemplateMakLsts.Desc=‘¼‚ÌØ½Ä‚©‚ç‘I‘ğ‚³‚ê‚½Ì¨°ÙÄŞ‚ÌØ½Ä‚ğì¬
 Cmd.TemplateMrgLsts.Desc=‘¼‚ÌØ½Ä‚©‚ç‚ÌÏ°¼Ş
 Cmd.TemplateQuestion.Desc=¿–â‚Æ•Ô“š‚ğó‚¯æ‚é
-Cmd.TemplateRtvFlds.Desc=Ì§²Ù‚ÌÌ¨°ÙÄŞ‚ÌŒŸõ
-Cmd.TemplateRtvKeys.Desc=Ì§²Ù‚Ì·°Ì¨°ÙÄŞ‚ÌŒŸõ
-Cmd.TemplateRtvReln.Desc=2‚Â‚ÌÌ§²Ù‚ÌØÚ°¼®İ‚ğŒŸõ
+Cmd.TemplateRtvFlds.Desc=ƒe[ƒuƒ‹‚ÌƒtƒB[ƒ‹ƒh‚Ìæ“¾
+Cmd.TemplateRtvKeys.Desc=ƒe[ƒuƒ‹‚ÌƒL[‚Ìæ“¾
+Cmd.TemplateRtvReln.Desc=2 ‚Â‚Ìƒe[ƒuƒ‹‚ÌƒŠƒŒ[ƒVƒ‡ƒ“‚ğæ“¾
 Cmd.TemplateSetIdx.Desc=w’è’l‚Ì¾¯Ä
 Cmd.FieldMap.Desc=ƒtƒB[ƒ‹ƒh ƒ}ƒbƒsƒ“ƒO‚ğ’è‹`‚µ‚Ü‚·
 Cmd.ListMap.Desc=ƒŠƒXƒg ƒ}ƒbƒsƒ“ƒO‚ğ’è‹`‚µ‚Ü‚·
@@ -1715,10 +1646,7 @@ Cmd.RoleView=´İÃ¨Ã¨ ËŞ­°
 Cmd.RoleEntity=´İÃ¨Ã¨‚Ì’è‹`
 Cmd.RoleService=´İÃ¨Ã¨ »°ËŞ½
 Cmd.RoleIdentifier=´İÃ¨Ã¨‚Ì¯•Êq
-*** @TRANS OLD
-*** Cmd.RoleExtendsFileName=Ì§²Ù–¼‚ÌŠg’£
-*** @TRANS NEW
-Cmd.RoleExtendsFileName=Extend table name
+Cmd.RoleExtendsFileName=ƒe[ƒuƒ‹–¼‚ÌŠg’£
 Cmd.RoleExtendsClassName=¸×½–¼‚ÌŠg’£
 Cmd.RoleImplementsInterfaceName=²İÀÌª°½–¼‚ğÀ‘•
 Cmd.RoleVisualClassName=ËŞ¼Ş­±Ù ¸×½‚Ì Ancestor –¼
@@ -1805,7 +1733,7 @@ Cmd.TemplateCommentComment=ºÒİÄ Ã·½Ä
 Cmd.TemplateDecIdxIdxName=²İÃŞ¯¸½–¼
 Cmd.TemplateGetFilsFrom=Å‰‚ÌÌ§²Ù”
 Cmd.TemplateGetFilsTo=ÅŒã‚ÌÌ§²Ù”
-Cmd.TemplateGetFilsPhyOnly=•¨—Ì§²Ù‚Ì‚İ
+Cmd.TemplateGetFilsPhyOnly=•¨—ƒe[ƒuƒ‹‚Ì‚İ
 Cmd.TemplateGetFilsSglOnly=’PˆêØÚ°¼®İ‚Ì‚İ
 Cmd.TemplateGetFilsPrompt=ÌßÛİÌßÄ Ã·½Ä
 Cmd.TemplateGetFilsExtend=Šg’£ÌßÛİÌßÄ Ã·½Ä
@@ -2132,45 +2060,21 @@ Rep.KS.Unicode.Desc=Unicode
 **********************************************
 ***** File Document Messages           *******
 **********************************************
-*** @TRANS OLD
-*** DocFileNameRequired=Ì§²Ù–¼‚ª•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Íg—p‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileNameRequired=Table name is required. It cannot be null or all spaces.
+DocFileNameRequired=ƒe[ƒuƒ‹–¼‚Í•K{‚Å‚·BNULL ‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocFileNameRequired.Id=1000
-*** @TRANS OLD
-*** DocFileNameTooLong=Ì§²Ù–¼‚ª&1•¶š‚ÌÅ‘å”‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileNameTooLong=Table name has exceeded the maximum length of &1 characters.
+DocFileNameTooLong=ƒe[ƒuƒ‹–¼‚ªÅ‘å’l‚Ì &1 •¶š‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileNameTooLong.Id=1001
-*** @TRANS OLD
-*** DocFileNameTooRPGIV=Ì§²Ù–¼‚ª&1•¶š‚ÌÅ‘å”‚ğ’´‚¦‚Ä‚¢‚Ü‚·B*RPGIV¼½ÃÑİ’è‚ª‰Â”\‚Å‚È‚¢‚½‚ßA‚±‚ÌÅ‘å”‚Í‹­§‚³‚ê‚Ü‚·B
-*** @TRANS NEW
-DocFileNameTooRPGIV=Table name has exceeded the maximum length of &1 characters. This maximum is enforced because the *RPGIV system setting is not enabled.
+DocFileNameTooRPGIV=ƒe[ƒuƒ‹–¼‚ªÅ‘å’l‚Ì &1 •¶š‚ğ’´‚¦‚Ä‚¢‚Ü‚·B*RPGIV ƒVƒXƒeƒ€İ’è‚ª—LŒø‚É‚È‚Á‚Ä‚¢‚È‚¢‚½‚ßA‚±‚ÌÅ‘å’l‚ª‹­§‚³‚ê‚Ü‚·B
 DocFileNameTooRPGIV.Id=1002
-*** @TRANS OLD
-*** DocFileNameInvalid=Ì§²Ù–¼‚ª–³Œø‚Å‚·B–³Œø‚È•¶š‚©ÌŞ×İ¸‚ğŠÜ‚ñ‚Å‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileNameInvalid=Table name is invalid. It contains blanks or invalid characters.
+DocFileNameInvalid=ƒe[ƒuƒ‹–¼‚ª–³Œø‚Å‚·Bƒuƒ‰ƒ“ƒN‚Ü‚½‚Í–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 DocFileNameInvalid.Id=1003
-*** @TRANS OLD
-*** DocFileDescRequired=Œ¾Œê&1‚ÌÌ§²Ù‹Lq‚ª•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Íg—p‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileDescRequired=Table description is required for language &1. It cannot be null or all spaces.
+DocFileDescRequired=Œ¾Œê &1 ‚Ìƒe[ƒuƒ‹‹Lq‚ª•K—v‚Å‚·BNULL ‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocFileDescRequired.Id=1004
-*** @TRANS OLD
-*** DocFileDescTooLong=Œ¾Œê&1‚ÌÌ§²Ù‹Lq‚ªÅ‘å’·&2‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileDescTooLong=Table description for language &1 has exceeded the maximum length of &2.
+DocFileDescTooLong=Œ¾Œê &1 ‚Ìƒe[ƒuƒ‹‹Lq‚ªÅ‘å’· &2 ‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileDescTooLong.Id=1005
-*** @TRANS OLD
-*** DocFileDescTooLongEBCDIC=Œ¾Œê&1‚ÌÌ§²Ù‹Lq‚ª&2‚ÌÅ‘åEBCDIC’·‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileDescTooLongEBCDIC=Table description for language &1 has exceeded the maximum EBCDIC length of &2.
+DocFileDescTooLongEBCDIC=Œ¾Œê &1 ‚Ìƒe[ƒuƒ‹‹Lq‚ªÅ‘å EBCDIC ’· &2 ‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileDescTooLongEBCDIC.Id=1006
-*** @TRANS OLD
-*** DocFileDescInvalid=Œ¾Œê&1Ì§²Ù‹Lq‚ª–³Œø‚Å‚·B–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileDescInvalid=Table description for language &1 is invalid. It contains invalid characters.
+DocFileDescInvalid=Œ¾Œê &1 ‚Ìƒe[ƒuƒ‹‹Lq‚ª–³Œø‚Å‚·B–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 DocFileDescInvalid.Id=1007
 DocFileAccessRouteKeepLastRangeInvalid=KeepLast‚Í0‚©‚ç999‚Ü‚Å‚Ì’l‚ğŠÜ‚ñ‚Å‚¢‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñB
 DocFileAccessRouteKeepLastRangeInvalid.Id=1008
@@ -2182,10 +2086,7 @@ DocFileAccessRouteNameTooLong=±¸¾½Œo˜H–¼‚ª&1•¶š‚ÌÅ‘å’·‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileAccessRouteNameTooLong.Id=1011
 DocFileAccessRouteNameInvalid=±¸¾½Œo˜H–¼‚ª–³Œø‚Å‚·B–³Œø‚È•¶š‚©ÌŞ×İ¸‚ğŠÜ‚ñ‚Å‚¢‚Ü‚·B
 DocFileAccessRouteNameInvalid.Id=1012
-*** @TRANS OLD
-*** DocFileAccessRouteNameNotUnique=±¸¾½Œo˜H–¼&1‚ÍŠù‚ÉÌ§²Ù‚É‘¶İ‚µ‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileAccessRouteNameNotUnique=Access route name &1 already exists in the table.
+DocFileAccessRouteNameNotUnique=ƒAƒNƒZƒXŒo˜H–¼ &1 ‚Í‚·‚Å‚Éƒe[ƒuƒ‹‚É‘¶İ‚µ‚Ü‚·B
 DocFileAccessRouteNameNotUnique.Id=1013
 DocFileAccessRouteDescRequired=±¸¾½Œo˜H‚Ì‹Lq‚ª•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Íg—p‚Å‚«‚Ü‚¹‚ñB
 DocFileAccessRouteDescRequired.Id=1014
@@ -2197,25 +2098,13 @@ DocFileAccessRouteDescInvalid=±¸¾½Œo˜H‚Ì‹Lq‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 DocFileAccessRouteDescInvalid.Id=1017
 DocFileAccessRouteKeyMissing=­‚È‚­‚Æ‚à1‚ÂˆÈã‚Ì·°‚ğ±¸¾½Œo˜H‚É’è‹`‚µ‚Ä‚­‚¾‚³‚¢B
 DocFileAccessRouteKeyMissing.Id=1018
-*** @TRANS OLD
-*** DocFileAccessRouteKeyTooMany=±¸¾½Œo˜H‚Åw’è‚³‚ê‚½·°Ì¨°ÙÄŞ/’l‚Í±¸¾½‚³‚ê‚½Ì§²Ù‚Å’è‹`‚³‚ê‚Ä‚¢‚é·°‚Ì”‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileAccessRouteKeyTooMany=Keys/Values defined on access route exceed the number of keys defined on the accessed file.
+DocFileAccessRouteKeyTooMany=ƒAƒNƒZƒXŒo˜H‚Å’è‹`‚³‚ê‚½ƒL[/’l‚ªAƒAƒNƒZƒX‚³‚ê‚½ƒe[ƒuƒ‹‚É’è‹`‚³‚ê‚Ä‚¢‚éƒL[‚Ì”‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileAccessRouteKeyTooMany.Id=1019
-*** @TRANS OLD
-*** DocFileAccessRouteKeyMismatch=Œx: ±¸¾½Œo˜H‚Åw’è‚³‚ê‚½·°Ì¨°ÙÄŞ/’l‚Í±¸¾½‚³‚ê‚½Ì§²Ù‚Å’è‹`‚³‚ê‚Ä‚¢‚é·°‚Ì”‚Æ‡’v‚µ‚Ä‚¢‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileAccessRouteKeyMismatch=Warning: Keys/Values defined on access route do not match the number of keys defined on the accessed file.
+DocFileAccessRouteKeyMismatch=Œx: ƒAƒNƒZƒXŒo˜H‚Å’è‹`‚³‚ê‚½ƒL[/’l‚ªAƒAƒNƒZƒX‚³‚ê‚½ƒe[ƒuƒ‹‚É’è‹`‚³‚ê‚Ä‚¢‚éƒL[‚Ì”‚Éˆê’v‚µ‚Ü‚¹‚ñB
 DocFileAccessRouteKeyMismatch.Id=1020
-*** @TRANS OLD
-*** DocFileAccessRouteFileRequired=±¸¾½Œo˜H‚Å±¸¾½Ì§²Ù–¼‚Í•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Íg—p‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileAccessRouteFileRequired=Accessed Table name is required for access route. It cannot be null or all spaces.
+DocFileAccessRouteFileRequired=ƒAƒNƒZƒX ƒe[ƒuƒ‹–¼‚ÍƒAƒNƒZƒXŒo˜H‚É•K{‚Å‚·BNULL ‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 DocFileAccessRouteFileRequired.Id=1021
-*** @TRANS OLD
-*** DocFileAccessRouteFileNotFound=×²ÌŞ×Ø&2‚Ì±¸¾½Ì§²Ù&1‚ÍLANSA‚Å’è‹`‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileAccessRouteFileNotFound=Accessed Table &1 of schema &2 is not defined to LANSA.
+DocFileAccessRouteFileNotFound=ƒAƒNƒZƒX‚³‚ê‚½ƒe[ƒuƒ‹ &1 (ƒXƒL[ƒ} &2) ‚Í LANSA ‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocFileAccessRouteFileNotFound.Id=1022
 DocFileAccessRouteKeyTooLong=’l&1‚ª&2•¶š‚ÌÅ‘å’·‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileAccessRouteKeyTooLong.Id=1023
@@ -2225,10 +2114,7 @@ DocFileAccessRouteKeyIsLOB=LOBÃŞ°ÀÍŞ°½—ñ‚Æ‚È‚èAÊßÌ«°Ïİ½‚ğ‘¹‚È‚¤‰Â”\«‚ª‚ ‚é‚½‚ß
 DocFileAccessRouteKeyIsLOB.Id=1025
 DocFileAccessRouteKeyNotFound=Ì¨°ÙÄŞ–¼&1‚ÍŒ»s‚Ì’è‹`‚Å‚Í‰ğŒˆ‚³‚ê‚Ü‚¹‚ñ‚Å‚µ‚½B
 DocFileAccessRouteKeyNotFound.Id=1026
-*** @TRANS OLD
-*** DocFileBatchControlNotSupported=ÊŞ¯Á§Œä‚ÍPC Other Ì§²Ù‚Å‚Íw’è‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileBatchControlNotSupported=Batch control cannot be assigned to an Imported File.
+DocFileBatchControlNotSupported=ƒoƒbƒ`§Œä‚ÍƒCƒ“ƒ|[ƒg‚³‚ê‚½ƒe[ƒuƒ‹‚ÉŠ„‚è“–‚Ä‚ç‚ê‚Ü‚¹‚ñB
 DocFileBatchControlNotSupported.Id=1027
 DocFileBatchControlDescRequired=ÊŞ¯Á§Œä‚Ì‹Lq‚Í•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Íg—p‚Å‚«‚Ü‚¹‚ñB
 DocFileBatchControlDescRequired.Id=1028
@@ -2240,47 +2126,23 @@ DocFileBatchControlDescInvalid=ÊŞ¯Á§Œä‚Ì‹Lq‚ª–³Œø‚Å‚·B–³Œø‚È•¶š‚ğŠÜ‚ñ‚Å‚¢‚Ü‚
 DocFileBatchControlDescInvalid.Id=1031
 DocFileBatchControlKeyMissing=­‚È‚­‚Æ‚à1‚ÂˆÈã‚Ì·°‚ğÊŞ¯Á§Œä‚É’è‹`‚µ‚Ä‚­‚¾‚³‚¢B
 DocFileBatchControlKeyMissing.Id=1032
-*** @TRANS OLD
-*** DocFileBatchControlKeyTooMany=ÊŞ¯Á§Œä‚Åw’è‚³‚ê‚½·°Ì¨°ÙÄŞ/’l‚Í§ŒäÌ§²Ù‚Å’è‹`‚³‚ê‚Ä‚¢‚é·°‚Ì”‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileBatchControlKeyTooMany=Key field/value(s) defined to batch control exceed the number of keys defined on the controlled table.
+DocFileBatchControlKeyTooMany=ƒoƒbƒ`§Œä‚É’è‹`‚³‚ê‚½ƒL[ ƒtƒB[ƒ‹ƒh/’l‚ªA§Œäƒe[ƒuƒ‹‚É’è‹`‚³‚ê‚½ƒL[‚Ì”‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileBatchControlKeyTooMany.Id=1033
-*** @TRANS OLD
-*** DocFileBatchControlKeyMismatch=Œx: ÊŞ¯Á§Œä‚Åw’è‚³‚ê‚½·°Ì¨°ÙÄŞ/’l‚Í§ŒäÌ§²Ù‚Å’è‹`‚³‚ê‚Ä‚¢‚é·°‚Ì”‚Æ‡’v‚µ‚Ä‚¢‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileBatchControlKeyMismatch=Warning: Keys/Values defined to batch control do not match the number of keys defined on the controlled table.
+DocFileBatchControlKeyMismatch=Œx: ƒoƒbƒ`§Œä‚É’è‹`‚³‚ê‚½ƒL[/’l‚ªA§Œäƒe[ƒuƒ‹‚É’è‹`‚³‚ê‚½ƒL[‚Ì”‚Æˆê’v‚µ‚Ü‚¹‚ñB
 DocFileBatchControlKeyMismatch.Id=1034
 DocFileBatchControlLinkMissing=­‚È‚­‚Æ‚à1‚ÂˆÈã‚ÌØİ¸‚ğÊŞ¯Á§Œä‚É’è‹`‚µ‚Ä‚­‚¾‚³‚¢B
 DocFileBatchControlLinkMissing.Id=1035
-*** @TRANS OLD
-*** DocFileBatchControlControlRequired=ÊŞ¯Á§Œä‚Å§ŒäÌ§²Ù–¼‚Í•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Íg—p‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileBatchControlControlRequired=Controlled table name is required for batch control. It cannot be null or all spaces.
+DocFileBatchControlControlRequired=ƒoƒbƒ`§Œä‚É§Œäƒe[ƒuƒ‹–¼‚Í•K{‚Å‚·BNULL ‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocFileBatchControlControlRequired.Id=1036
-*** @TRANS OLD
-*** DocFileBatchControlControlNotFound=×²ÌŞ×Ø&2‚Ì§ŒäÌ§²Ù&1‚ÍLANSA‚Å’è‹`‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileBatchControlControlNotFound=Controlled table &1 of schema &2 is not defined to LANSA.
+DocFileBatchControlControlNotFound=§Œäƒe[ƒuƒ‹ &1 (ƒXƒL[ƒ} &2) ‚Í LANSA ‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocFileBatchControlControlNotFound.Id=1037
-*** @TRANS OLD
-*** DocFileBatchControlControlNotControlled=Ì§²Ù–¼&1‚ª–³Œø‚Å‚·B§ŒäÌ§²Ù‚ÍÊŞ¯Á§Œä‚ğŠÜ‚ŞÌ§²Ù‚ğg—p‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileBatchControlControlNotControlled=Table name &1 is not valid. The controlled table cannot be the table that contains the batch control.
+DocFileBatchControlControlNotControlled=ƒe[ƒuƒ‹–¼ &1 ‚Í–³Œø‚Å‚·B§Œäƒe[ƒuƒ‹‚Íƒoƒbƒ`§Œä‚ğŠÜ‚Şƒe[ƒuƒ‹‚É‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 DocFileBatchControlControlNotControlled.Id=1038
-*** @TRANS OLD
-*** DocFileBatchControlControlNotLogical=˜_—Ì§²Ù–¼&1‚ª–³Œø‚Å‚·B§ŒäÌ§²Ù‚ÍÊŞ¯Á§Œä‚ğŠÜ‚ŞÌ§²Ù‚Ì˜_—Ì§²Ù‚ğg—p‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileBatchControlControlNotLogical=Index name &1 is not valid. The controlled table cannot be an index of the table that contains the batch control.
+DocFileBatchControlControlNotLogical=ƒCƒ“ƒfƒbƒNƒX–¼ &1 ‚Í–³Œø‚Å‚·B§Œäƒe[ƒuƒ‹‚Íƒoƒbƒ`§Œä‚ğŠÜ‚Şƒe[ƒuƒ‹‚ÌƒCƒ“ƒfƒbƒNƒX‚É‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 DocFileBatchControlControlNotLogical.Id=1039
-*** @TRANS OLD
-*** DocFileBatchControlControlNotPCOF=Ì§²Ù–¼&1‚ª–³Œø‚Å‚·B§ŒäÌ§²Ù‚ÍPC Other Ì§²Ù‚Íg—p‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileBatchControlControlNotPCOF=Table name &1 is not valid. The controlled table cannot be an Imported Table.
+DocFileBatchControlControlNotPCOF=ƒe[ƒuƒ‹–¼ &1 ‚Í–³Œø‚Å‚·B§Œäƒe[ƒuƒ‹‚ÍƒCƒ“ƒ|[ƒg ƒe[ƒuƒ‹‚É‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 DocFileBatchControlControlNotPCOF.Id=1041
-*** @TRANS OLD
-*** DocFileBatchControlControlHasLOBs=Ì§²Ù–¼&1‚ª–³Œø‚Å‚·B§ŒäÌ§²Ù‚ÍBLOB/CLOBÌ¨°ÙÄŞÀ²Ìß‚ª‘¶İ‚µ‚Ä‚¢‚é‚©ABLOB/CLOBÌ¨°ÙÄŞÀ²Ìß‚ÅÀs‚·‚é•K—v‚Ì‚ ‚éÌ¨°ÙÄŞ‚ğŠÜ‚ñ‚Å‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileBatchControlControlHasLOBs=Table name &1 is not valid. The controlled table contains one or more columns that either have a BLOB/CLOB field type or must be implemented with a BLOB/CLOB field type.
+DocFileBatchControlControlHasLOBs=ƒe[ƒuƒ‹–¼ &1 ‚Í–³Œø‚Å‚·B§Œäƒe[ƒuƒ‹‚Í BLOB/CLOB ƒ^ƒCƒv‚Ì 1 ‚ÂˆÈã‚Ì—ñ‚ªŠÜ‚Ü‚ê‚Ä‚¢‚é‚© BLOB/CLOB ƒtƒB[ƒ‹ƒh ƒ^ƒCƒv‚ÅÀ‘•‚³‚ê‚Ä‚¢‚é•K—v‚ª‚ ‚è‚Ü‚·B
 DocFileBatchControlControlHasLOBs.Id=1042
 DocFileBatchControlKeyTooLong=’l&1‚ª&2•¶š‚ÌÅ‘å’·‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileBatchControlKeyTooLong.Id=1043
@@ -2288,60 +2150,31 @@ DocFileBatchControlRouteKeyTooLongEBCDIC=’l&1‚ª&2‚ÌÅ‘åEBCDIC’·‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileBatchControlRouteKeyTooLongEBCDIC.Id=1044
 DocFileBatchControlKeyNotFound=Ì¨°ÙÄŞ–¼&1‚ÍŒ»s‚Ì’è‹`‚Å‚Í‰ğŒˆ‚³‚ê‚Ü‚¹‚ñ‚Å‚µ‚½B
 DocFileBatchControlKeyNotFound.Id=1045
-*** @TRANS OLD
-*** DocFileBatchControlSourceNotFound=ÊŞ¯Á§ŒäÌ¨°ÙÄŞ–¼&1‚ÍLANSA‚Å’è‹`‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileBatchControlSourceNotFound=Batch control source column name &1 is not defined to LANSA.
+DocFileBatchControlSourceNotFound=ƒoƒbƒ`§Œäƒ\[ƒX—ñ–¼ &1 ‚Í LANSA ‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocFileBatchControlSourceNotFound.Id=1046
-*** @TRANS OLD
-*** DocFileBatchControlSourceNotNumeric=ÊŞ¯Á§ŒäÌ¨°ÙÄŞ–¼&1‚Í”šÌ¨°ÙÄŞÀ²Ìß‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileBatchControlSourceNotNumeric=Batch control source column name &1 is not a numeric field type.
+DocFileBatchControlSourceNotNumeric=ƒoƒbƒ`§Œäƒ\[ƒX—ñ–¼ &1 ‚Í”’lƒtƒB[ƒ‹ƒh ƒ^ƒCƒv‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
 DocFileBatchControlSourceNotNumeric.Id=1047
-*** @TRANS OLD
-*** DocFileBatchControlSourceNotInFile=ÊŞ¯Á§ŒäÌ¨°ÙÄŞ–¼&1‚Í§ŒäÌ§²Ù‚ÌÌ¨°ÙÄŞ‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileBatchControlSourceNotInFile=Batch control source column name &1 is not a field in the source file.
+DocFileBatchControlSourceNotInFile=ƒoƒbƒ`§Œäƒ\[ƒX—ñ–¼ &1 ‚Íƒ\[ƒX ƒe[ƒuƒ‹‚ÌƒtƒB[ƒ‹ƒh‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
 DocFileBatchControlSourceNotInFile.Id=1048
 DocFileBatchControlTargetNotFound=ÊŞ¯Á§ŒäÀ°¹Ş¯ÄÌ¨°ÙÄŞ–¼&1‚ÍLANSA‚Å’è‹`‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocFileBatchControlTargetNotFound.Id=1049
 DocFileBatchControlTargetNotNumeric=ÊŞ¯Á§ŒäÀ°¹Ş¯ÄÌ¨°ÙÄŞ–¼&1‚Í”šÌ¨°ÙÄŞÀ²Ìß‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
 DocFileBatchControlTargetNotNumeric.Id=1050
-DocFileBatchControlTargetNotInFile=ÊŞ¯Á§ŒäÀ°¹Ş¯ÄÌ¨°ÙÄŞ–¼&1‚ÍÀ°¹Ş¯ÄÌ§²Ù‚ÌÌ¨°ÙÄŞ‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
+DocFileBatchControlTargetNotInFile=ƒoƒbƒ`§Œäƒ^[ƒQƒbƒgƒtƒB[ƒ‹ƒh–¼ &1 ‚Íƒ^[ƒQƒbƒg ƒe[ƒuƒ‹‚ÌƒtƒB[ƒ‹ƒh‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
 DocFileBatchControlTargetNotInFile.Id=1051
-*** @TRANS OLD
-*** DocFileDatabaseTypeTooManyKeys=&1: Ì§²Ù’è‹`‚Í&2Ìß×²ÏØ·°Ì¨°ÙÄŞ‚Ì‘€ì‰Â”\‚ÈŒÀ“x‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileDatabaseTypeTooManyKeys=&1: Table definition exceeds operational limit of &2 keys.
+DocFileDatabaseTypeTooManyKeys=&1: ƒe[ƒuƒ‹’è‹`‚Í‘€ì§ŒÀ‚Ì &2 ƒL[‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileDatabaseTypeTooManyKeys.Id=1052
-*** @TRANS OLD
-*** DocFileDatabaseRowTooLong=&1: &2‚ÌÌ§²Ù’è‹`‚Ì‰¡ÊŞ²Ä’·‚Í&3ÊŞ²Ä‚Ì‘€ì‰Â”\‚ÈŒÀ“x‚ğ’´‚¦‚Ä‚¢‚Ü‚·B‚±‚ÌÌ§²Ù‚Í³‚µ‚­ì¬‚³‚ê‚È‚¢‰Â”\«‚ª‚ ‚è‚Ü‚·B
-*** @TRANS NEW
-DocFileDatabaseRowTooLong=&1: The table definition's row byte length of &2 exceeds the operational limit of &3 bytes. This table may not be created correctly.
+DocFileDatabaseRowTooLong=&1: ƒe[ƒuƒ‹’è‹`‚ÌsƒoƒCƒg’· &2 ‚Í‘€ì§ŒÀ‚Ì &3 ƒoƒCƒg‚ğ’´‚¦‚Ä‚¢‚Ü‚·B‚±‚Ìƒe[ƒuƒ‹‚Í³‚µ‚­ì¬‚³‚ê‚È‚¢‰Â”\«‚ª‚ ‚è‚Ü‚·B
 DocFileDatabaseRowTooLong.Id=1053
-*** @TRANS OLD
-*** DocFileDatabaseKeyTooLong=&1: Ì§²Ù’è‹`‚ÌÌß×²ÏØ·°‚Í&3ÊŞ²Ä‚Ì‘€ì‰Â”\‚ÈŒÀ“x‚ğ‰z‚¦‚Ä&2ÊŞ²Ä‚Ì’·‚³‚Å²İÃŞ¯¸½‚ğì¬‚µ‚Ü‚·B‚±‚ÌÌ§²Ù‚Í³‚µ‚­ì¬‚³‚ê‚È‚¢‰Â”\«‚ª‚ ‚è‚Ü‚·B
-*** @TRANS NEW
-DocFileDatabaseKeyTooLong=&1: The table definition's primary key will create an index with a byte length of &2 which exceeds the operational limit of &3 bytes. This table may not be created correctly.DocFileDatabaseKeyTooLong.Id=1054
-*** @TRANS OLD
-*** DocFileDatabaseRowBufferTooLong=&1: &2‚ÌÌ§²Ù’è‹`‚Ì‰¡ÊŞ¯Ì§’·‚Í&3ÊŞ²Ä‚Ì‘€ì‰Â”\‚ÈŒÀ“x‚ğ’´‚¦‚Ä‚¢‚Ü‚·B‚±‚ÌÌ§²Ù‚Í³‚µ‚­ì¬‚³‚ê‚È‚¢‰Â”\«‚ª‚ ‚è‚Ü‚·B
-*** @TRANS NEW
-DocFileDatabaseRowBufferTooLong=&1: The table definition's row buffer size of &2 exceeds the operational limit of &3 bytes. This table may not be created correctly.
+DocFileDatabaseKeyTooLong=&1: ƒe[ƒuƒ‹’è‹`‚Ìƒvƒ‰ƒCƒ}ƒŠ ƒL[‚Í &2 ƒoƒCƒg’·‚ÌƒCƒ“ƒfƒbƒNƒX‚ğì¬‚µ‚Ü‚·‚ªA‚±‚ê‚Í‘€ì§ŒÀ‚Ì &3 ƒoƒCƒg‚ğ’´‚¦‚Ä‚¢‚Ü‚·B‚±‚Ìƒe[ƒuƒ‹‚Í³‚µ‚­ì¬‚³‚ê‚È‚¢‰Â”\«‚ª‚ ‚è‚Ü‚·B
+DocFileDatabaseKeyTooLong.Id=1054
+DocFileDatabaseRowBufferTooLong=&1: ƒe[ƒuƒ‹’è‹`‚Ìsƒoƒbƒtƒ@ ƒTƒCƒY &2 ‚ÍA‘€ì§ŒÀ‚Ì &3 ƒoƒCƒg‚ğ’´‚¦‚Ä‚¢‚Ü‚·B‚±‚Ìƒe[ƒuƒ‹‚Í³‚µ‚­ì¬‚³‚ê‚È‚¢‰Â”\«‚ª‚ ‚è‚Ü‚·B
 DocFileDatabaseRowBufferTooLong.Id=1055
-*** @TRANS OLD
-*** DocFileDatabaseLogicalKeyTooMany=&1: ˜_—ËŞ­°&2‚Í&3Ìß×²ÏØ·°Ì¨°ÙÄŞ‚Ì‘€ì‰Â”\‚ÈŒÀ“x‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileDatabaseLogicalKeyTooMany=&1: Index &2 exceeds operational limit of &3 keys.
+DocFileDatabaseLogicalKeyTooMany=&1: ƒCƒ“ƒfƒbƒNƒX &2 ‚Í‘€ì§ŒÀ‚Ì &3 ƒL[‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileDatabaseLogicalKeyTooMany.Id=1056
-*** @TRANS OLD
-*** DocFileDatabaseLogicalLobCriteria=&1: ˜_—ËŞ­°&2‚ÍÌ§²Ù’è‹`‚ÅLOBÌ¨°ÙÄŞÀ²Ìß‚ğŠÜ‚Ş‚©ALOB¶×Ñ‚ªŠÜ‚Ü‚ê‚éÌ¨°ÙÄŞÀ²Ìß‚Ì‚½‚ßSelect/Omit‚ğ’è‹`‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileDatabaseLogicalLobCriteria=&1: Index &2 cannot have Select/Omit Criteria since the table definition contains LOB field types or field types implemented as a LOB column type.
+DocFileDatabaseLogicalLobCriteria=&1: ƒCƒ“ƒfƒbƒNƒX &2 ‚Í Select/Omit Šî€‚ğ‚Â‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB‚±‚Ì——R‚ÍAƒe[ƒuƒ‹’è‹`‚É LOB ƒtƒB[ƒ‹ƒh ƒ^ƒCƒvA‚Ü‚½‚Í LOB —ñƒ^ƒCƒv‚Æ‚µ‚ÄÀ‘•‚³‚ê‚½ƒtƒB[ƒ‹ƒh ƒ^ƒCƒv‚ªŠÜ‚Ü‚ê‚Ä‚¢‚é‚©‚ç‚Å‚·B
 DocFileDatabaseLogicalLobCriteria.Id=1057
-*** @TRANS OLD
-*** DocFileDatabaseLogicalKeyTooLong=&1: ˜_—ËŞ­°&4‚Í&3ÊŞ²Ä‚Ì‘€ì‰Â”\‚ÈŒÀ“x‚ğ‰z‚¦‚Ä&2ÊŞ²Ä‚Ì’·‚³‚Å²İÃŞ¯¸½‚ğì¬‚µ‚Ü‚·B‚±‚ÌÌ§²Ù‚Í³‚µ‚­ì¬‚³‚ê‚È‚¢‰Â”\«‚ª‚ ‚è‚Ü‚·B
-*** @TRANS NEW
-DocFileDatabaseLogicalKeyTooLong=&1: Index &4 will create an index with a byte length of &2 which exceeds the operational limit of &3 bytes. This table may not be created correctly.
+DocFileDatabaseLogicalKeyTooLong=&1: ƒCƒ“ƒfƒbƒNƒX &4 ‚ÍƒoƒCƒg’· &2 ‚ÌƒCƒ“ƒfƒbƒNƒX‚ğì¬‚µ‚Ü‚·‚ªA‚±‚ê‚Í‘€ì§ŒÀ‚Ì &3 ƒoƒCƒg‚ğ’´‚¦‚Ä‚¢‚Ü‚·B‚±‚Ìƒe[ƒuƒ‹‚Í³‚µ‚­ì¬‚³‚ê‚È‚¢‰Â”\«‚ª‚ ‚è‚Ü‚·B
 DocFileDatabaseLogicalKeyTooLong.Id=1058
 DocFileDatabaseLOBRequiresASQN=&1: Ì¨°ÙÄŞ&2‚ÍLOBÌ¨°ÙÄŞÀ²Ìß‚Å‚·‚ªA*ASQN‘®«‚ª‚ ‚è‚Ü‚¹‚ñBÈ²Ã¨ÌŞiSeries I/O‚ğ‰Â”\‚É‚·‚é‚½‚ß‚ÉLOBÀ²Ìß‚ÌÌ¨°ÙÄŞ‚Í&3‚ğ»Îß°Ä‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
 DocFileDatabaseLOBRequiresASQN.Id=1059
@@ -2367,42 +2200,21 @@ DocFileFieldNotFound=–¼‘O&1‚ÌÌ¨°ÙÄŞ‚ÍØÎß¼ŞÄØÌ¨°ÙÄŞ’è‹`‚ª‚ ‚è‚Ü‚¹‚ñB
 DocFileFieldNotFound.Id=1069
 DocFileFieldRemote=Ì¨°ÙÄŞ&1‚ÍØÓ°Ä‚É‘¶İ‚µ‚Ä‚¢‚Ü‚·B‚±‚Ì’è‹`‚ğ•ÛŠÇAì¬‚·‚é‘O‚ÉÁª¯¸±³Ä‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
 DocFileFieldRemote.Id=1070
-*** @TRANS OLD
-*** DocFileFieldRDMLX=Full RDMLX‚Íg—p•s‰Â‚Å‚·BFull RDMLXÌ¨°ÙÄŞ&1‚Í‚±‚ÌÌ§²Ù’è‹`‚Å‚Íg—p‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileFieldRDMLX=Full RDMLX has not been enabled. Full RDMLX field &1 cannot be used in this table definition.
+DocFileFieldRDMLX=ƒtƒ‹ RDMLX ‚ª—LŒø‚É‚È‚Á‚Ä‚¢‚Ü‚¹‚ñBƒtƒ‹ RDMLX ƒtƒB[ƒ‹ƒh &1 ‚Í‚±‚Ìƒe[ƒuƒ‹’è‹`‚Å‚Íg—p‚Å‚«‚Ü‚¹‚ñB
 DocFileFieldRDMLX.Id=1071
 DocFileFieldLOBTypeInvalid=LOB À²Ìß Cached & Secured ‚Í‰Â”\‚Å‚Í‚ ‚è‚Ü‚¹‚ñBÌ¨°ÙÄŞ&1‚É‚Í*BLOB‚©*CLOB‚ÌÌ¨°ÙÄŞÀ²Ìß‚ª‚ ‚è‚Ü‚¹‚ñB
 DocFileFieldLOBTypeInvalid.Id=1072
-*** @TRANS OLD
-*** DocFileFieldFaSUNIInvalid=Ì¨°ÙÄŞ &1 ‚ÍSUNI‘®«‚ğ‚Á‚Ä‚¨‚èA‚±‚ÌÌ§²Ù‚Åg—p‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñBSUNI‘®«‚ÌÌ¨°ÙÄŞ‚ÍAŠO•”Ì§²Ù‚Å‚Ì‚İg—p‰Â”\‚Å‚·B
-*** @TRANS NEW
-DocFileFieldFaSUNIInvalid=Field &1 has a SUNI attribute and cannot be used in this file. Fields with the SUNI attribute can only be used in Imported Files.
+DocFileFieldFaSUNIInvalid=ƒtƒB[ƒ‹ƒh &1 ‚Í SUNI ‘®«‚ğ‚Â‚Ì‚ÅA‚±‚Ìƒe[ƒuƒ‹‚Å‚Íg—p‚Å‚«‚Ü‚¹‚ñBSUNI ‘®«‚ÌƒtƒB[ƒ‹ƒh‚ÍƒCƒ“ƒ|[ƒg‚³‚ê‚½ƒe[ƒuƒ‹‚Å‚Ì‚İg—p‚Å‚«‚Ü‚·B
 DocFileFieldFaSUNIInvalid.Id=1073
-*** @TRANS OLD
-*** DocFileFieldDuplicated=Ì¨°ÙÄŞ–¼&1‚ÍÌ§²Ù’è‹`‚Åd•¡‚µ‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileFieldDuplicated=Column name &1 is duplicated in table definition.
+DocFileFieldDuplicated=—ñ–¼ &1 ‚Íƒe[ƒuƒ‹’è‹`‚Åd•¡‚µ‚Ä‚¢‚Ü‚·B
 DocFileFieldDuplicated.Id=1074
-*** @TRANS OLD
-*** DocFileFieldRequiresASQN=Ì¨°ÙÄŞ&1‚ÍLANSAÌ§²Ù‚Å‚Íg—p‚Å‚«‚Ü‚¹‚ñBÌ¨°ÙÄŞÀ²Ìß‚É‘®«&2‚ª•K—v‚Å‚·B
-*** @TRANS NEW
-DocFileFieldRequiresASQN=Field &1 cannot be used in a LANSA table. The field type requires field attribute &2.
+DocFileFieldRequiresASQN=ƒtƒB[ƒ‹ƒh &1 ‚Í LANSA ƒe[ƒuƒ‹‚Å‚Íg—p‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh ƒ^ƒCƒv‚É‘®« &2 ‚ª•K—v‚Å‚·B
 DocFileFieldRequiresASQN.Id=1075
-*** @TRANS OLD
-*** DocFileFieldKeyTypeInvalid=Ì¨°ÙÄŞ&1‚ÍLANSAÌ§²Ù‚ÌÌß×²ÏØ·°‚Æ‚µ‚Äg—p‚Å‚«‚Ü‚¹‚ñBÌ¨°ÙÄŞÀ²Ìß‚Í»Îß°Ä‚³‚ê‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileFieldKeyTypeInvalid=Field &1 cannot be used as the primary key to a LANSA table. The field type is not supported.
+DocFileFieldKeyTypeInvalid=ƒtƒB[ƒ‹ƒh &1 ‚ÍALANSA ƒe[ƒuƒ‹‚Ìƒvƒ‰ƒCƒ}ƒŠ ƒL[‚Æ‚µ‚Äg—p‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh ƒ^ƒCƒv‚ªƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocFileFieldKeyTypeInvalid.Id=1076
-*** @TRANS OLD
-*** DocFileFieldKeyASQNInvalid=Ì¨°ÙÄŞ&1‚ÍLANSAÌ§²Ù‚ÌÌß×²ÏØ·°‚Æ‚µ‚Äg—p‚Å‚«‚Ü‚¹‚ñBASQN‘®«‚ÌÌ¨°ÙÄŞ‚Í»Îß°Ä‚³‚ê‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileFieldKeyASQNInvalid=Field &1 cannot be used as the primary key to a LANSA table. Fields with the ASQN attribute are not supported.
+DocFileFieldKeyASQNInvalid=ƒtƒB[ƒ‹ƒh &1 ‚ÍALANSA ƒe[ƒuƒ‹‚Ìƒvƒ‰ƒCƒ}ƒŠ ƒL[‚Æ‚µ‚Äg—p‚Å‚«‚Ü‚¹‚ñBASQN ‘®«‚ÌƒtƒB[ƒ‹ƒh‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
 DocFileFieldKeyASQNInvalid.Id=1077
-*** @TRANS OLD
-*** DocFileFieldKeyLthInvalid=Ì¨°ÙÄŞ&1‚ÍLANSAÌ§²Ù‚ÌÌß×²ÏØ·°‚Æ‚µ‚Äg—p‚Å‚«‚Ü‚¹‚ñB Ì¨°ÙÄŞ’·‚ª&2‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileFieldKeyLthInvalid=Field &1 cannot be used as the primary key to a LANSA table. The field's length is greater than &2.
+DocFileFieldKeyLthInvalid=ƒtƒB[ƒ‹ƒh &1 ‚ÍALANSA ƒe[ƒuƒ‹‚Ìƒvƒ‰ƒCƒ}ƒŠ ƒL[‚Æ‚µ‚Äg—p‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh’·‚ª &2 ‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileFieldKeyLthInvalid.Id=1078
 DocFileFieldAllocNotAllowed=Ì¨°ÙÄŞ&1‚Í0‚ÌŠ„“–»²½Ş‚ª•K—v‚Å‚·BŠ„“–»²½Ş‚Í‰Â•Ï’·‚ÌÌ¨°ÙÄŞÀ²Ìß‚Ì‚İ»Îß°Ä‚³‚ê‚Ü‚·B
 DocFileFieldAllocNotAllowed.Id=1079
@@ -2454,43 +2266,25 @@ DocFileConcatFactorInvalid=ƒ\[ƒXƒtƒB[ƒ‹ƒh &1 ‚ÌƒtƒB[ƒ‹ƒhƒ^ƒCƒv‚ÍA‚±‚Ì‘€ì‚Åƒ
 DocFileConcatFactorInvalid.Id=1102
 DocFileConcatTooLong=˜AŒ‹—v‘f‚Ì‡Œv’·‚ª‰¼‘zÌ¨°ÙÄŞ‚Ì’·‚³‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileConcatTooLong.Id=1103
-*** @TRANS OLD
-*** DocFileFragmentNotRDMLX=Full RDMLS‚Íg—p•s‰Â‚Å‚·BÌ¨°ÙÄŞ&1‚ÍRDMLÌ§²Ù’è‹`‚Å‚ÍÛ¼Ş¯¸‚Ì‹NŒ¹‚ğg—p‚Å‚«‚Ü‚“‚ñB
-*** @TRANS NEW
-DocFileFragmentNotRDMLX=Full RDMLX has not been enabled. Field &1 cannot use a logic derivation in an RDML table definition.
+DocFileFragmentNotRDMLX=ƒtƒ‹ RDMLX ‚ª—LŒø‚É‚È‚Á‚Ä‚¢‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh &1 ‚Í RDML ƒe[ƒuƒ‹’è‹`‚Å˜_—‚Ì”h¶‚ğg—p‚Å‚«‚Ü‚¹‚ñB
 DocFileFragmentNotRDMLX.Id=1104
 DocFilePJFAccessRouteNameMissing=±¸¾½Œo˜H–¼‚ª•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Íg—p‚Å‚«‚Ü‚¹‚ñB
 DocFilePJFAccessRouteNameMissing.Id=1105
-DocFilePJFAccessRouteNotFound=±¸¾½Œo˜H–¼&1‚ªÌ§²Ù‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocFilePJFAccessRouteNotFound=ƒAƒNƒZƒXŒo˜H–¼ &1 ‚Íƒe[ƒuƒ‹‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocFilePJFAccessRouteNotFound.Id=1106
-*** @TRANS OLD
-*** DocFilePJFAccessRouteFileIsPCOF=Ì§²Ù–¼&1‚ª–³Œø‚Å‚·B±¸¾½‚³‚ê‚éÌ§²Ù‚ÉPC Other Ì§²Ù‚Íg—p‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFilePJFAccessRouteFileIsPCOF=Table name &1 is not valid. The accessed table can only ever be an Imported File if the source table is also an Imported File from the same data source.
+DocFilePJFAccessRouteFileIsPCOF=ƒe[ƒuƒ‹–¼ &1 ‚Í–³Œø‚Å‚·Bƒ\[ƒX ƒe[ƒuƒ‹‚à“¯‚¶ƒf[ƒ^ƒ\[ƒX‚©‚çƒCƒ“ƒ|[ƒg‚³‚ê‚½ƒe[ƒuƒ‹‚Ìê‡AƒAƒNƒZƒX‚·‚éƒe[ƒuƒ‹‚ÍƒCƒ“ƒ|[ƒg‚³‚ê‚½ƒe[ƒuƒ‹‚Ì‚İ‰Â”\‚Å‚·B
 DocFilePJFAccessRouteFileIsPCOF.Id=1107
-*** @TRANS OLD
-*** DocFilePJFAccessRouteFilePromotedLOBs=Ì§²Ù–¼&1‚ª–³Œø‚Å‚·B±¸¾½‚³‚ê‚éÌ§²Ù‚Í1‚ÂˆÈã‚ÌBLOB/CLOBÌ¨°ÙÄŞÀ²Ìß‚ª‘¶İ‚µ‚Ä‚¢‚é‚©ABLOB/CLOBÌ¨°ÙÄŞÀ²Ìß‚ÅÀs‚·‚é•K—v‚Ì‚ ‚éÌ¨°ÙÄŞ‚ğŠÜ‚ñ‚Å‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFilePJFAccessRouteFilePromotedLOBs=Table name &1 is not valid. The accessed table contains one or more columns that either have a BLOB/CLOB field type or must be implemented with a BLOB/CLOB field type.
+DocFilePJFAccessRouteFilePromotedLOBs=ƒe[ƒuƒ‹–¼ &1 ‚Í–³Œø‚Å‚·BƒAƒNƒZƒX‚µ‚½ƒe[ƒuƒ‹‚ÍABLOB/CLOB ƒtƒB[ƒ‹ƒh ƒ^ƒCƒv‚ÅÀ‘•‚³‚ê‚½‚©ABLOB/CLOB ƒtƒB[ƒ‹ƒh ƒ^ƒCƒv‚Ì 1 ‚ÂˆÈã‚Ì—ñ‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 DocFilePJFAccessRouteFilePromotedLOBs.Id=1108
 DocFilePJFSourceMissing=ŠîÌ¨°ÙÄŞ–¼‚ª•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Íg—p‚Å‚«‚Ü‚¹‚ñB
 DocFilePJFSourceMissing.Id=1109
-*** @TRANS OLD
-*** DocFilePJFSourceNotFound=–¼‘O&1‚ÌŠîÌ¨°ÙÄŞ‚ÍAØÎß¼ŞÄØ‚ÉÌ¨°ÙÄŞ’è‹`‚ª‚ ‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFilePJFSourceNotInFile=Column name &1 is not defined in table &2.
+DocFilePJFSourceNotFound=ƒ\[ƒXƒtƒB[ƒ‹ƒh–¼ &1 ‚ÍƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh’è‹`‚ª‚ ‚è‚Ü‚¹‚ñB
 DocFilePJFSourceNotFound.Id=1110
 DocFilePJFSourceNotInFile=Ì¨°ÙÄŞ–¼&1‚ÍÌ§²Ù&2‚Å’è‹`‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocFilePJFSourceNotInFile.Id=1111
-*** @TRANS OLD
-*** DocFilePJFSourceInvalid=Ì§²Ù&2‚Ì‰¼‘zÌ¨°ÙÄŞ–¼&1‚Í–‘OŒ‹‡‚ğg—p‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFilePJFSourceInvalid=Virtual field name &1 in table &2 cannot be used as the source of a predetermined join.
+DocFilePJFSourceInvalid=ƒe[ƒuƒ‹ &2 ‚Ì‰¼‘zƒtƒB[ƒ‹ƒh–¼ &1 ‚Í–‘OŒ‹‡‚Ìƒ\[ƒX‚Æ‚µ‚Ä—˜—p‚Å‚«‚Ü‚¹‚ñB
 DocFilePJFSourceInvalid.Id=1112
-*** @TRANS OLD
-*** DocFilePJFTypeMissing=–‘OŒ‹‡Ì¨°ÙÄŞ‚É˜AŒ‹À²Ìß‚ª‚ ‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFilePJFTypeMissing=Predetermined Join Column does not have a join type.
+DocFilePJFTypeMissing=–‘OŒ‹‡—ñ‚É˜AŒ‹ƒ^ƒCƒv‚ª‚ ‚è‚Ü‚¹‚ñB
 DocFilePJFTypeMissing.Id=1113
 DocFilePJFTypeOneToOne=˜AŒ‹À²Ìß‚Í1‘Î1ŠÖŒW‚Ì±¸¾½Œo˜H‚ª•K—v‚Å‚·B
 DocFilePJFTypeOneToOne.Id=1114
@@ -2502,42 +2296,21 @@ DocFilePJFTypeSourceNumeric=ŠîÌ¨°ÙÄŞ‚ª”šÌ¨°ÙÄŞ‚Ìê‡‚Ì‚İ˜AŒ‹À²Ìß‚Í—LŒø‚Å‚·B
 DocFilePJFTypeSourceNumeric.Id=1117
 DocFilePJFTypeTargetNumeric=À°¹Ş¯ÄÌ¨°ÙÄŞ‚ª”šÌ¨°ÙÄŞ‚Ìê‡‚Ì‚İ˜AŒ‹À²Ìß‚Í—LŒø‚Å‚·B
 DocFilePJFTypeTargetNumeric.Id=1118
-*** @TRANS OLD
-*** DocFileLogicalViewNameRequired=˜_—ËŞ­°–¼‚ª•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Íg—p‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileLogicalViewNameRequired=Index name is required. It cannot be null or all spaces.
+DocFileLogicalViewNameRequired=ƒCƒ“ƒfƒbƒNƒX–¼‚Í•K{‚Å‚·BNULL ‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocFileLogicalViewNameRequired.Id=1119
-*** @TRANS OLD
-*** DocFileLogicalViewNameTooLong=˜_—Ì§²Ù–¼‚ª&1•¶š‚ÌÅ‘å’l‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileLogicalViewNameTooLong=Index name has exceeded the maximum length of &1 characters.
+DocFileLogicalViewNameTooLong=ƒCƒ“ƒfƒbƒNƒX–¼‚ªÅ‘å’·‚Ì &1 •¶š‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileLogicalViewNameTooLong.Id=1120
 DocFileLogicalViewNameTooLongRPGIV=–¼‘O‚ª&1•¶š‚ÌÅ‘å’·‚ğ’´‚¦‚Ä‚¢‚Ü‚·B*RPGIV¼½ÃÑİ’è‚ª‰Â”\‚Å‚È‚¢‚½‚ßA‚±‚ÌÅ‘å’l‚Í‹­§‚³‚ê‚Ü‚·B
 DocFileLogicalViewNameTooLongRPGIV.Id=1121
-*** @TRANS OLD
-*** DocFileLogicalViewNameInvalid=˜_—Ì§²Ù–¼‚ª–³Œø‚Å‚·B‹ó”’‚Ü‚½‚Í–³Œø‚È•¶š‚ğŠÜ‚ñ‚Å‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileLogicalViewNameInvalid=Index name is invalid. It contains blanks or invalid characters.
+DocFileLogicalViewNameInvalid=ƒCƒ“ƒfƒbƒNƒX–¼‚Í–³Œø‚Å‚·Bƒuƒ‰ƒ“ƒN‚Ü‚½‚Í–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 DocFileLogicalViewNameInvalid.Id=1122
-*** @TRANS OLD
-*** DocFileLogicalViewNameExistsInFile=˜_—Ì§²Ù–¼&1‚ÍŠù‚É•¨—Ì§²Ù‚É‘¶İ‚µ‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileLogicalViewNameExistsInFile=Index name &1 already exists in the table.
+DocFileLogicalViewNameExistsInFile=ƒCƒ“ƒfƒbƒNƒX–¼ &1 ‚Í‚·‚Å‚Éƒe[ƒuƒ‹‚É‘¶İ‚µ‚Ü‚·B
 DocFileLogicalViewNameExistsInFile.Id=1123
-*** @TRANS OLD
-*** DocFileLogicalViewNameExistsAsPF=–¼‘O&1‚Í˜_—Ì§²Ù–¼‚Ég—p‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñBŠù‚ÉLANSAÌ§²Ù’è‹`‚Åw’è‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileLogicalViewNameExistsAsPF=Name &1 cannot be used for an Index name. It has already been assigned to a LANSA Table definition.
+DocFileLogicalViewNameExistsAsPF=–¼‘O &1 ‚ÍƒCƒ“ƒfƒbƒNƒX–¼‚É‚Íg—p‚Å‚«‚Ü‚¹‚ñB‚±‚Ì–¼‘O‚Í‚·‚Å‚É LANSA ƒe[ƒuƒ‹’è‹`‚ÉŠ„‚è“–‚Ä‚ç‚ê‚Ä‚¢‚Ü‚·B
 DocFileLogicalViewNameExistsAsPF.Id=1124
-*** @TRANS OLD
-*** DocFileLogicalViewNameExistsAsLF=–¼‘O&1‚Í˜_—Ì§²Ù–¼‚Ég—p‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñBŠù‚É‘¼‚ÌLANSA˜_—Ì§²Ù‚Åw’è‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileLogicalViewNameExistsAsLF=Name &1 cannot be used for an Index name. It has already been assigned to another LANSA Index.
+DocFileLogicalViewNameExistsAsLF=–¼‘O &1 ‚ÍƒCƒ“ƒfƒbƒNƒX–¼‚É‚Íg—p‚Å‚«‚Ü‚¹‚ñB‚±‚Ì–¼‘O‚Í‚·‚Å‚É•Ê‚Ì LANSA ƒCƒ“ƒfƒbƒNƒX‚ÉŠ„‚è“–‚Ä‚ç‚ê‚Ä‚¢‚Ü‚·B
 DocFileLogicalViewNameExistsAsLF.Id=1125
-*** @TRANS OLD
-*** DocFileLogicalViewNameExistsAsOF=–¼‘O&1‚Í˜_—Ì§²Ù–¼‚Ég—p‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñBŠù‚É•Ê‚ÌLANSA Other Ì§²Ù’è‹`‚Å˜_—Ì§²Ù‚ªw’è‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileLogicalViewNameExistsAsOF=Name &1 cannot be used for an Index name. It has already been assigned to an index in another Imported Table definition.
+DocFileLogicalViewNameExistsAsOF=–¼‘O &1 ‚ÍƒCƒ“ƒfƒbƒNƒX–¼‚É‚Íg—p‚Å‚«‚Ü‚¹‚ñB‚±‚Ì–¼‘O‚Í‚·‚Å‚É•Ê‚ÌƒCƒ“ƒ|[ƒg ƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒfƒbƒNƒX‚ÉŠ„‚è“–‚Ä‚ç‚ê‚Ä‚¢‚Ü‚·B
 DocFileLogicalViewNameExistsAsOF.Id=1126
 DocFileLogicalViewUserParmsTooLong=Êß×Ò°À‚Ì’·‚³‚ª&1•¶š‚ÌÅ‘å’·‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileLogicalViewUserParmsTooLong.Id=1127
@@ -2551,10 +2324,7 @@ DocFileLogicalViewRecFmtTooLong=Úº°ÄŞÌ«°Ï¯Ä–¼‚ª&1•¶š‚ÌÅ‘å’·‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileLogicalViewRecFmtTooLong.Id=1131
 DocFileLogicalViewRecFmtInvalid=–¼‘O&1‚ª–³Œø‚Å‚·B–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 DocFileLogicalViewRecFmtInvalid.Id=1132
-*** @TRANS OLD
-*** DocFileLogicalViewFieldRequired=­‚È‚­‚Æ‚à1‚Â‚Ì·°‚ğ˜_—Ì§²Ù‚É’è‹`‚µ‚Ä‚­‚¾‚³‚¢B
-*** @TRANS NEW
-DocFileLogicalViewFieldRequired=At least one key must be defined for an index.
+DocFileLogicalViewFieldRequired=ƒCƒ“ƒfƒbƒNƒX‚É‚ÍA­‚È‚­‚Æ‚à 1 ‚Â‚ÌƒL[‚ğ’è‹`‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
 DocFileLogicalViewFiedRequired.Id=1133
 DocFileLogicalViewDescRequired=Œ¾Œê&1‚Ì‹Lq‚ª•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Íg—p‚Å‚«‚Ü‚¹‚ñB
 DocFileLogicalViewDescRequired.Id=1134
@@ -2564,10 +2334,7 @@ DocFileLogicalViewDescTooLongEBCDIC=Œ¾Œê&1‚Ì‹Lq‚ª&2‚ÌÅ‘åEBCDIC’·‚ğ’´‚¦‚Ä‚¢‚Ü‚·
 DocFileLogicalViewDescTooLongEBCDIC.Id=1136
 DocFileLogicalViewDescInvalid=Œ¾Œê&1‚Ì‹Lq‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 DocFileLogicalViewDescInvalid.Id=1137
-*** @TRANS OLD
-*** DocFileLogicalViewCriteriaTypeRequired=˜_—Ì§²Ùİ’è‚ÉÀ²Ìß‚ª‚ ‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileLogicalViewCriteriaTypeRequired=Index criterion does not have a type.
+DocFileLogicalViewCriteriaTypeRequired=ƒCƒ“ƒfƒbƒNƒXğŒ‚Éƒ^ƒCƒv‚ª‚ ‚è‚Ü‚¹‚ñB
 DocFileLogicalViewCriteriaTypeRequired.Id=1138
 DocFileLogicalViewCriteriaVirtualField=•Ï”–¼&1‚É‰¼‘zÌ¨°ÙÄŞ‚Íw’è‚Å‚«‚Ü‚¹‚ñB
 DocFileLogicalViewCriteriaVirtualField.Id=1139
@@ -2583,74 +2350,35 @@ DocFileLogicalViewCriteriaFromValueRequired=From’l‚ª•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Í
 DocFileLogicalViewCriteriaFromValueRequired.Id=1144
 DocFileLogicalViewCriteriaNameNotFound=•Ï”–¼&1‚ÍŒ»s‚Ì’è‹`‚Å‚Í‰ğŒˆ‚³‚ê‚Ü‚¹‚ñ‚Å‚µ‚½B
 DocFileLogicalViewCriteriaNameNotFound.Id=1145
-*** @TRANS OLD
-*** DocFileLogicalViewFieldNotFound=˜_—Ì§²ÙÌ¨°ÙÄŞ–¼&1‚ÍLANSA‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileLogicalViewFieldNotFound=Index column name &1 is not defined to LANSA.
+DocFileLogicalViewFieldNotFound=ƒCƒ“ƒfƒbƒNƒX—ñ–¼ &1 ‚Í LANSA ‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocFileLogicalViewFieldNotFound.Id=1146
-*** @TRANS OLD
-*** DocFileLogicalViewFieldKeyInvalidType=Ì¨°ÙÄŞ&1‚ÍLANSA˜_—Ì§²Ù‚Ì·°‚Æ‚µ‚Äg—p‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñBÌ¨°ÙÄŞÀ²Ìß‚Í»Îß°Ä‚³‚ê‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileLogicalViewFieldKeyInvalidType=Field &1 cannot be used as the key to a LANSA Index. The field type is not supported.
+DocFileLogicalViewFieldKeyInvalidType=ƒtƒB[ƒ‹ƒh &1 ‚Í LANSA ƒCƒ“ƒfƒbƒNƒX‚ÌƒL[‚Æ‚µ‚Ä‚Íg—p‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh ƒ^ƒCƒv‚ªƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocFileLogicalViewFieldKeyInvalidType.Id=1147
-*** @TRANS OLD
-*** DocFileLogicalViewFieldKeyInvalidASQN=Ì¨°ÙÄŞ&1‚ÍLANSA˜_—Ì§²Ù‚ÌÕÆ°¸·°‚Æ‚µ‚Äg—p‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñBASQN‘®«‚ÌÌ¨°ÙÄŞ‚Í»Îß°Ä‚³‚ê‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileLogicalViewFieldKeyInvalidASQN=Field &1 cannot be used as the key to a uniquely keyed LANSA Index. Fields with the ASQN attribute are not supported.
+DocFileLogicalViewFieldKeyInvalidASQN=ƒtƒB[ƒ‹ƒh &1 ‚ÍˆêˆÓƒL[‚ğ‚Â LANSA ƒCƒ“ƒfƒbƒNƒX‚ÌƒL[‚Æ‚µ‚Äg—p‚Å‚«‚Ü‚¹‚ñBASQN ‘®«‚ÌƒtƒB[ƒ‹ƒh‚ÍƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocFileLogicalViewFieldKeyInvalidASQN.Id=1148
-*** @TRANS OLD
-*** DocFileLogicalViewFieldKeyInvalidLth=Ì¨°ÙÄŞ&1‚ÍLANSA˜_—Ì§²Ù‚Ì·°‚Æ‚µ‚Äg—p‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñBÌ¨°ÙÄŞ’·‚ª&2ˆÈã‚Å‚·B
-*** @TRANS NEW
-DocFileLogicalViewFieldKeyInvalidLth=Field &1 cannot be used as the key to a LANSA Index. The field's length is greater than &2.
+DocFileLogicalViewFieldKeyInvalidLth=ƒtƒB[ƒ‹ƒh &1 ‚Í LANSA ƒCƒ“ƒfƒbƒNƒX‚ÌƒL[‚Æ‚µ‚Äg—p‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh’·‚ª &2 ‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileLogicalViewFieldKeyInvalidLth.Id=1149
-*** @TRANS OLD
-*** DocFileLogicalViewFieldNumOrder=”ñ”š·°Ì¨°ÙÄŞ&1‚Å‚Í»Îß°Ä‚³‚ê‚Ä‚¢‚È‚¢”š‚Ì‡”Ô‚Å‚·B”ñ”š·°Ì¨°ÙÄŞ‚Å»Îß°Ä‚³‚ê‚é‚Ì‚ÍUnsigned(U)‚Ì‚İ‚Å‚·B
-*** @TRANS NEW
-DocFileLogicalViewFieldNumOrder=Unsupported numeric ordering assigned to non-numeric key &1. Unsigned is the only value supported by non-numeric keys.
+DocFileLogicalViewFieldNumOrder=”ñ”šƒL[ &1 ‚ÉƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚È‚¢”š•À‚Ñ‡‚ªŠ„‚è“–‚Ä‚ç‚ê‚Ä‚¢‚Ü‚·B”ñ”šƒL[‚ÉƒTƒ|[ƒg‚³‚ê‚é’l‚Í Unsigned ‚Ì‚İ‚Å‚·B
 DocFileLogicalViewFieldNumOrder.Id=1150
-*** @TRANS OLD
-*** DocFileLogicalViewFieldNotAKey=Ì¨°ÙÄŞ&1‚Í·°–³‚µ‚Ì˜_—Ì§²ÙÌ¨°ÙÄŞ‚ğ»Îß°Ä‚µ‚Ü‚¹‚ñB‚±‚Ì‹@”\‚ÍiSeries Other Ì§²Ù‚ÉŒÀ’è‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileLogicalViewFieldNotAKey=Field &1 is not supported as a non-key index column. This feature is limited to IBM i Tables.
+DocFileLogicalViewFieldNotAKey=ƒtƒB[ƒ‹ƒh &1 ‚ÍƒL[‚Ì‚È‚¢ƒCƒ“ƒfƒbƒNƒX—ñ‚Ì‚½‚ßAƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB‚±‚Ì‹@”\‚Í IBM i ƒe[ƒuƒ‹ŒÀ’è‚Å‚·B
 DocFileLogicalViewFieldNotAKey.Id=1151
-*** @TRANS OLD
-*** DocFileLogicalViewFieldNotFoundInPF=˜_—Ì§²ÙÌ¨°ÙÄŞ–¼&1‚Í•¨—Ì§²Ù‚Ì•¨—Ì¨°ÙÄŞ‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileLogicalViewFieldNotFoundInPF=Index column name &1 is not a column in the table.
+DocFileLogicalViewFieldNotFoundInPF=ƒCƒ“ƒfƒbƒNƒX—ñ–¼ &1 ‚Íƒe[ƒuƒ‹‚Ì—ñ‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
 DocFileLogicalViewFieldNotFoundInPF.Id=1152
-*** @TRANS OLD
-*** DocFileLogicalViewFieldNotRealField=˜_—Ì§²ÙÌ¨°ÙÄŞ–¼&1‚Í•¨—Ì§²Ù‚Ì•¨—Ì¨°ÙÄŞ‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileLogicalViewFieldNotRealField=Index column name &1 is not a column in the table.
+DocFileLogicalViewFieldNotRealField=ƒCƒ“ƒfƒbƒNƒX—ñ–¼ &1 ‚Íƒe[ƒuƒ‹‚Ì—ñ‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
 DocFileLogicalViewFieldNotRealField.Id=1153
-*** @TRANS OLD
-*** DocFileLogicalViewFieldExists=˜_—Ì§²ÙÌ¨°ÙÄŞ–¼&1‚ÍŠù‚É‚±‚Ì•¨—Ì§²Ù‚ÌÌ¨°ÙÄŞ‚Æ‚µ‚Ä‘¶İ‚µ‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileLogicalViewFieldExists=Index column name &1 already exists as a column in this index.
+DocFileLogicalViewFieldExists=ƒCƒ“ƒfƒbƒNƒX—ñ–¼ &1 ‚Í‚·‚Å‚É‚±‚ÌƒCƒ“ƒfƒbƒNƒX‚Ì—ñ‚Æ‚µ‚Ä‘¶İ‚µ‚Ä‚¢‚Ü‚·B
 DocFileLogicalViewFieldExists.Id=1154
-*** @TRANS OLD
-*** DocFileNameExists=Ì§²Ù–¼‚ÍŠù‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileNameExists=Table name has already been defined.
+DocFileNameExists=ƒe[ƒuƒ‹–¼‚Í‚·‚Å‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFileNameExists.Id=1155
 DocFileNameExistsAsEntity=–¼‘O&1‚Í&2‚Æ‚µ‚ÄŠù‚ÉLANSAØÎß¼ŞÄØ‚Å’è‹`‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFileNameExistsAsEntity.Id=1156
 DocFileNameCannotBeUsed=–¼‘O‚Íg—p‚Å‚«‚Ü‚¹‚ñB–¼‘O&1‚Í*RPGIV‚Åg—p‚³‚ê‚Ä‚¢‚é–¼‘O‚Æ“¯‚¶‚Å‚·B
 DocFileNameCannotBeUsed.Id=1157
-*** @TRANS OLD
-*** DocFileRRNMismatch=RRN©“®¶¬‚Ìİ’è‚ÆRRNO‚Ì—“‚Ì¶¬‚ÍVisual LANSA OtherÌ§²Ù‚Æ“¯‚¶‚Å‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileRRNMismatch=The setting of Auto RRN Generation and Create RRNO Column must be the same for an Imported Table.
+DocFileRRNMismatch= RRNO —“‚Ìì¬‚Æ RRN ©“®¶¬‚Ìİ’è‚ÍƒCƒ“ƒ|[ƒg‚³‚ê‚½ƒe[ƒuƒ‹‚Æ“¯‚¶‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocFileRRNMismatch.Id=1158
-*** @TRANS OLD
-*** DocFileRRNRequired=RRNO‚Ì—“‚Ì¶¬‚ÍLANSA iSeries OtherÌ§²Ù‰Â”\‚Å‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileRRNRequired=Create RRNO Column must be enabled for IBM i Table.
+DocFileRRNRequired=RRNO —“‚Ìì¬‚Í IBM i ƒe[ƒuƒ‹‚É‘Î‚µ‚Ä—LŒø‚É‚È‚Á‚Ä‚¢‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñB
 DocFileRRNRequired.Id=1159
-*** @TRANS OLD
-*** DocFileAutoRRNInvalid=RRN©“®¶¬Visual LANSA OtherÌ§²Ù‰Â”\‚Å‚Ì‚İ‰Â”\‚Å‚·B
-*** @TRANS NEW
-DocFileAutoRRNInvalid=Auto RRN Generation can only be enabled for Imported Files.
+DocFileAutoRRNInvalid=RRN ©“®¶¬‚ÍƒCƒ“ƒ|[ƒg‚³‚ê‚½ƒe[ƒuƒ‹‚É‘Î‚µ‚Ä‚Ì‚İ—LŒø‚É‚Å‚«‚Ü‚·B
 DocFileAutoRRNInvalid.Id=1160
 DocFileAutoCommitMismatch=©“®ºĞ¯ÄµÌß¼®İ‚ÍºĞ¯ÄÒİÄ§Œä‚ª‰Â”\‚Å‚ ‚é‚±‚Æ‚ª•K—v‚Å‚·B
 DocFileAutoCommitMismatch.Id=1161
@@ -2672,43 +2400,25 @@ DocFileHighSpeedTableNoBatchControl=ÊŞ¯Á§Œä‚Í‚‘¬Ã°ÌŞÙ‚Å‚Íg—p‚Å‚«‚Ü‚¹‚ñB
 DocFileHighSpeedTableNoBatchControl.Id=1169
 DocFileHighSpeedTableTooManyFields=‚‘¬Ã°ÌŞÙ‚Í1`99‚ÌÌ¨°ÙÄŞ‚ğ»Îß°Ä‚µ‚Ü‚·B
 DocFileHighSpeedTableTooManyFields.Id=1170
-DocFileHighSpeedTableExtendedRecordTooLong=Ì§²Ù&1‚ÌÚº°ÄŞ’·‚Í&2‚Å‚·B*HSTABEXTEND‚ğ”º‚¤‚‘¬Ã°ÌŞÙ‚Í1988ÊŞ²Ä‚ğ’´‚¦‚Ä‚Í‚È‚è‚Ü‚¹‚ñB
+DocFileHighSpeedTableExtendedRecordTooLong=ƒe[ƒuƒ‹ &1 ‚ÌƒŒƒR[ƒh’·‚Í &2 ‚Å‚·B*HSTABEXTEND ‚ğ”º‚¤‚‘¬ƒe[ƒuƒ‹‚Í 1988 ƒoƒCƒg‚ğ’´‚¦‚Ä‚Í‚È‚è‚Ü‚¹‚ñB
 DocFileHighSpeedTableExtendedRecordTooLong.Id=1171
-DocFileHighSpeedTableRecordTooLong=Ì§²Ù&1‚ÌÚº°ÄŞ’·‚Í&2‚Å‚·B*HSTABEXTEND‚Ì‚È‚¢‚‘¬Ã°ÌŞÙ‚Í108ÊŞ²Ä‚ğ’´‚¦‚Ä‚Í‚È‚è‚Ü‚¹‚ñB
+DocFileHighSpeedTableRecordTooLong=ƒe[ƒuƒ‹ &1 ‚ÌƒŒƒR[ƒh’·‚Í &2 ‚Å‚·B*HSTABEXTEND ‚Ì‚È‚¢‚‘¬ƒe[ƒuƒ‹‚Í 108 ÊŞ²Ä‚ğ’´‚¦‚Ä‚Í‚È‚è‚Ü‚¹‚ñB
 DocFileHighSpeedTableRecordTooLong.Id=1172
 DocFileHighSpeedTableKeyRequired=‚‘¬Ã°ÌŞÙ‚É‚Í­‚È‚­‚Æ‚à1‚Â‚Ì·°Ì¨°ÙÄŞ‚ª•K—v‚Å‚·B
 DocFileHighSpeedTableKeyRequired.Id=1173
-DocFileHighSpeedTableExtendedKeyTooLong=Ì§²Ù&1‚Ì·°‚Ì‡Œv’·‚Í&2‚Å‚·B*HSTABEXTEND‚ğ”º‚¤‚‘¬Ã°ÌŞÙ‚Í108ÊŞ²Ä‚ğ’´‚¦‚Ä‚Í‚È‚è‚Ü‚¹‚ñB
+DocFileHighSpeedTableExtendedKeyTooLong=ƒe[ƒuƒ‹ &1 ‚ÌƒL[‚Ìƒg[ƒ^ƒ‹‚Ì’·‚³‚Í &2 ‚Å‚·B*HSTABEXTEND ‚ğ”º‚¤‚‘¬ƒe[ƒuƒ‹‚Í 108 ƒoƒCƒg‚ğ’´‚¦‚Ä‚Í‚È‚è‚Ü‚¹‚ñB
 DocFileHighSpeedTableExtendedKeyTooLong.Id=1174
-*** @TRANS OLD
-*** DocFileHighSpeedTableExtendedLogicalKeyTooLong=Ì§²Ù&1‚Ì·°‚Ì‡Œv’·‚Í&2‚Å‚·B*HSTABEXTEND‚ğ”º‚¤‚‘¬Ã°ÌŞÙ‚Í108ÊŞ²Ä‚ğ’´‚¦‚Ä‚Í‚È‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileHighSpeedTableExtendedLogicalKeyTooLong=The total length of the keys of index &1 is &2. High speed tables with *HSTABEXTEND must not exceed 108 bytes.
+DocFileHighSpeedTableExtendedLogicalKeyTooLong=ƒCƒ“ƒfƒbƒNƒX &1 ‚ÌƒL[‚Ìƒg[ƒ^ƒ‹‚Ì’·‚³‚Í &2 ‚Å‚·B*HSTABEXTEND ‚Ì•t‚¢‚½‚‘¬ƒe[ƒuƒ‹‚Í 108 ƒoƒCƒg‚ğ’´‚¦‚Ä‚Í‚¢‚¯‚Ü‚¹‚ñB
 DocFileHighSpeedTableExtendedLogicalKeyTooLong.Id=1175
-*** @TRANS OLD
-*** DocFileHighSpeedTableNoSelectOmit=˜_—Ì§²Ù&1‚ÉSelect/Omitİ’è‚ª‚ ‚è‚Ü‚·B‚‘¬Ã°ÌŞÙ‚Å‚ÍSelect/Omitİ’è‚Íg—p‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileHighSpeedTableNoSelectOmit=Index &1 has select/omit criteria. Select/omit criteria cannot be used with a high speed tables.
+DocFileHighSpeedTableNoSelectOmit=ƒCƒ“ƒfƒbƒNƒX &1 ‚Í select/omit Šî€‚ª‚ ‚è‚Ü‚·BSelect/omit Šî€‚Í‚‘¬ƒe[ƒuƒ‹‚Æ‚Æ‚à‚Ég—p‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 DocFileHighSpeedTableNoSelectOmit.Id=1176
-*** @TRANS OLD
-*** DocFileFieldNoFields=Œx:Ì§²Ù’è‹`‚É•¨—Ì¨°ÙÄŞ‚ª‚ ‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileFieldNoFields=Warning: Table definition does not have any columns.
+DocFileFieldNoFields=Œx: ƒe[ƒuƒ‹’è‹`‚É—ñ‚ª‚ ‚è‚Ü‚¹‚ñB
 DocFileFieldNoFields.Id=1177
-*** @TRANS OLD
-*** DocFileFieldAllLOBs=‚±‚ÌÌ§²Ù’è‹`‚Ì‘S‚Ä‚ÌÌ¨°ÙÄŞ‚ÉBLOB/CLOB‚¢‚Ã‚ê‚©‚ÌÌ¨°ÙÄŞÀ²Ìß‚ª‘¶İ‚µ‚Ä‚¢‚Ü‚·B‚±‚ÌÌ§²Ù’è‹`‚Í»Îß°Ä‚³‚ê‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileFieldAllLOBs=All columns in this table definition have a field type of either BLOB or CLOB. This table definition is not supported.
+DocFileFieldAllLOBs=‚±‚Ìƒe[ƒuƒ‹’è‹`‚Ì‚·‚×‚Ä‚Ì—ñ‚Í BLOB ‚Ü‚½‚Í CLOB ‚Ì‚Ç‚¿‚ç‚©‚ÌƒtƒB[ƒ‹ƒh ƒ^ƒCƒv‚ğ‚Á‚Ä‚¢‚Ü‚·B‚±‚Ìƒe[ƒuƒ‹’è‹`‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
 DocFileFieldAllLOBs.Id=1178
-*** @TRANS OLD
-*** DocFileKeyNoFields=Œx:Ì§²Ù’è‹`‚ÉÌß×²ÏØ·°Ì¨°ÙÄŞ‚ª‚ ‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileKeyNoFields=Warning: Table definition does not have any primary keys.
+DocFileKeyNoFields=Œx: ƒe[ƒuƒ‹’è‹`‚Éƒvƒ‰ƒCƒ}ƒŠ ƒL[‚ª‚ ‚è‚Ü‚¹‚ñB
 DocFileKeyNoFields.Id=1179
-*** @TRANS OLD
-*** DocFileKeyTooManyFields=Ì§²Ù’è‹`‚Í·°Ì¨°ÙÄŞ”20‚Ì§ŒÀ‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileKeyTooManyFields=Table definition exceeds operational limit of 20 primary keys.
+DocFileKeyTooManyFields=ƒe[ƒuƒ‹’è‹`‚Í‘€ì§ŒÀ‚Ì 20 ƒvƒ‰ƒCƒ}ƒŠ ƒL[‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileKeyTooManyFields.Id=1180
 DocFileFragmentReadStatements=‰¼‘zÌ¨°ÙÄŞ‚Ì“Ç‚İŒãÛ¼Ş¯¸(&1s)‚Å’è‹`‚³‚ê‚½RDML•¶‚Ì‡Œvs”‚ª9999s‚ÌÅ‘å’l‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileFragmentReadStatements.Id=1181
@@ -2770,29 +2480,17 @@ DocValidationRuleMsgTxtIgnored=Ò¯¾°¼ŞÌ§²Ù/Ò¯¾°¼ŞID‚ªw’è‚³‚ê‚½ê‡AÒ¯¾°¼ŞÃ·½Ä‚Í
 DocValidationRuleMsgTxtIgnored.Id=1209
 DocValidationRuleMsgIdOrTxtRequired=­‚È‚­‚Æ‚àÒ¯¾°¼ŞÃ·½Ä‚©AÒ¯¾°¼ŞÌ§²Ù/Ò¯¾°¼ŞID‚ğw’è‚µ‚Ä‚­‚¾‚³‚¢B
 DocValidationRuleMsgIdOrTxtRequired.Id=1210
-*** @TRANS OLD
-*** DocValidationRuleLookupFileRequired=‘¶İŒŸ¸‚ÍÌ§²Ù–¼‚ª•K{‚Å‚·B
-*** @TRANS NEW
-DocValidationRuleLookupFileRequired=Lookup rule requires a table name.
+DocValidationRuleLookupFileRequired=ŒŸõƒ‹[ƒ‹‚É‚Íƒe[ƒuƒ‹–¼‚ª•K—v‚Å‚·B
 DocValidationRuleLookupFileRequired.Id=1211
-*** @TRANS OLD
-*** DocValidationRuleLookupFileNotFound=×²ÌŞ×Ø*FIRST‚ÌŒŸ¸Ì§²Ù&1‚ÍLANSA‚Å’è‹`‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocValidationRuleLookupFileNotFound=Lookup table &1 of schema *FIRST is not defined to LANSA.
+DocValidationRuleLookupFileNotFound=ƒXƒL[ƒ} *FIRST ‚ÌŒŸõƒe[ƒuƒ‹ &1 ‚Í LANSA ‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocValidationRuleLookupFileNotFound.Id=1212
 DocValidationRuleLookupKeyRequired=­‚È‚­‚Æ‚à1‚ÂˆÈã‚ÌŒŸ¸·°Ì¨°ÙÄŞ‚ğ’è‹`‚µ‚Ä‚­‚¾‚³‚¢B
 DocValidationRuleLookupKeyRequired.Id=1213
 DocValidationRuleLookupKeyTooMany=ŒŸ¸·°‚Ì”‚ª&1‚ÌÅ‘å’l‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocValidationRuleLookupKeyTooMany.Id=1214
-*** @TRANS OLD
-*** DocValidationRuleLookupKeyGtTarget=ŒŸ¸Ù°Ù‚É’è‹`‚³‚ê‚½·°Ì¨°ÙÄŞ/’l‚ÍŒŸ¸Ì§²Ù‚Å’è‹`‚³‚ê‚½·°‚Ì”‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocValidationRuleLookupKeyGtTarget=Keys/values defined to lookup rule exceed the number of keys defined on the lookup file.
+DocValidationRuleLookupKeyGtTarget=ŒŸõƒ‹[ƒ‹‚É’è‹`‚³‚ê‚½ƒL[/’l‚ÍAŒŸõƒe[ƒuƒ‹‚É’è‹`‚³‚ê‚½ƒL[‚Ì”‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocValidationRuleLookupKeyGtTarget.Id=1215
-*** @TRANS OLD
-*** DocValidationRuleLookupKeyLtTarget=Œx: ŒŸ¸Ù°Ù‚É’è‹`‚³‚ê‚½·°Ì¨°ÙÄŞ/’l‚ªŒŸ¸Ì§²Ù‚Ì·°‚Ì”‚Æ‡’v‚µ‚Ä‚¢‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocValidationRuleLookupKeyLtTarget=Warning: Keys/values defined on lookup rule do not match the number of keys defined on the lookup file.
+DocValidationRuleLookupKeyLtTarget=Œx: ŒŸõƒ‹[ƒ‹‚É’è‹`‚³‚ê‚½ƒL[/’l‚ÍAŒŸõƒe[ƒuƒ‹‚É’è‹`‚³‚ê‚½ƒL[‚Ì”‚Éˆê’v‚µ‚Ü‚¹‚ñB
 DocValidationRuleLookupKeyLtTarget.Id=1216
 DocValidationRuleLookupKeyTooLong=’l&1‚Ì’·‚³‚ª&2‚ÌÅ‘å’·‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocValidationRuleLookupKeyTooLong.Id=1217
@@ -2976,10 +2674,7 @@ DocFieldHeadTooLongEBCDIC=Œ¾Œê&1‚Ì—“Œ©o‚µ‚ª&2‚ÌÅ‘åEBCDIC’·‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFieldHeadTooLongEBCDIC.Id=1306
 DocDescRequired=Œ¾Œê&1‚Ì‹Lq‚ª•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Íg—p‚Å‚«‚Ü‚¹‚ñB
 DocDescRequired.Id=1307
-*** @TRANS OLD
-*** DocFieldNameRequired=Ì¨°ÙÄŞ–¼‚ª•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Íg—p‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFieldNameRequired=Name is required. It cannot be null or all spaces.
+DocFieldNameRequired=–¼‘O‚Í•K{‚Å‚·BNULL ‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocFieldNameRequired.Id=1308
 DocFieldNameNotFound=–¼‘O&1‚ÌÌ¨°ÙÄŞ‚ªLANSA‚É’è‹`‚³‚ê‚Ü‚¹‚ñB
 DocFieldNameNotFound.Id=1309
@@ -3167,7 +2862,7 @@ DocProcessAttachmentFunctionRequired=Ì§İ¸¼®İ–¼‚ª•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Íg—p‚
 DocProcessAttachmentFunctionRequired.Id=1393
 DocProcessAttachmentFunctionNotInProcess=Ì§İ¸¼®İ‚Ì–¼‘O&1‚ªÌßÛ¾½&2‚É‘¶İ‚µ‚Ä‚¢‚Ü‚¹‚ñB
 DocProcessAttachmentFunctionNotInProcess.Id=1394
-DocProcessAttachmentProcessFunctionExists=ÌßÛ¾½/Ì§İ¸¼®İ–¼&1/&2‚ªÌ§²Ù’è‹`‚Åd•¡‚µ‚Ä‚¢‚Ü‚·B
+DocProcessAttachmentProcessFunctionExists=ƒvƒƒZƒX½/ƒtƒ@ƒ“ƒNƒVƒ‡ƒ“–¼ &1/&2 ‚ªƒe[ƒuƒ‹’è‹`‚Åd•¡‚µ‚Ä‚¢‚Ü‚·B
 DocProcessAttachmentProcessFunctionExists.Id=1395
 DocProcessFunctionNextFunctionRequired=ŸÌ§İ¸¼®İ–¼‚ª•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Íg—p‚Å‚«‚Ü‚¹‚ñB
 DocProcessFunctionNextFunctionRequired.Id=1396
@@ -3207,116 +2902,65 @@ DocMessageFileNameExists=Ò¯¾°¼ŞÌ§²Ù–¼‚ÍŠù‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚·B
 DocMessageFileNameExists.Id=1413
 DocTaskNameExists=À½¸–¼&1‚ÍŠù‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚·B
 DocTaskNameExists.Id=1414
-*** @TRANS OLD
-*** DocOtherFileFileCannotBeLocked=LANSAÌ§²Ù’è‹`‚ğXV‚·‚é‚½‚ß‚ÉÛ¯¸‚·‚é‚±‚Æ‚ªo—ˆ‚È‚©‚Á‚½‚½‚ßAÌ§²Ù&1‚ÍÛ°ÄŞ‚³‚ê‚Ü‚¹‚ñ‚Å‚µ‚½BÕ°»Ş°‚ª‚±‚ÌLANSAµÌŞ¼Şª¸Ä‚É‹–‰Â‚³‚ê‚Ä‚¢‚é‚©Šm”F‚µ‚Ä‚­‚¾‚³B
-*** @TRANS NEW
-DocOtherFileFileCannotBeLocked=Table &1 cannot be loaded because a lock to update the LANSA table definition could not be acquired. Ensure that your user is authorized to this LANSA object.
+DocOtherFileFileCannotBeLocked=LANSA ƒe[ƒuƒ‹’è‹`XV‚ÌƒƒbƒN‚ğæ“¾‚Å‚«‚È‚©‚Á‚½‚½‚ßAƒe[ƒuƒ‹ &1 ‚ğƒ[ƒh‚Å‚«‚Ü‚¹‚ñ‚Å‚µ‚½Bƒ†[ƒU[‚ª‚±‚Ì LANSA ƒIƒuƒWƒFƒNƒg‚É‘Î‚µŒ ŒÀ‚ª‚ ‚é‚±‚Æ‚ğŠm”F‚µ‚Ä‚­‚¾‚³‚¢B
 DocOtherFileFileCannotBeLocked.Id=1415
-*** @TRANS OLD
-*** DocOtherFileFileLANSAInternalFile=Ì§²Ù&1‚ªÛ°ÄŞ‚³‚ê‚Ü‚¹‚ñ‚Å‚µ‚½B‚±‚ÌÌ§²Ù‚ÍLANSAŠJ”­ŠÂ‹«‚Åg—p‚³‚ê‚Ä‚¢‚éLANSA“à•”Ì§²Ù‚Å‚·B
-*** @TRANS NEW
-DocOtherFileFileLANSAInternalFile=Table &1 cannot be loaded. It is a LANSA Internal Table definition used by parts of the LANSA development environment.
+DocOtherFileFileLANSAInternalFile=ƒe[ƒuƒ‹ &1 ‚ğƒ[ƒh‚Å‚«‚Ü‚¹‚ñB‚±‚Ìƒe[ƒuƒ‹‚Í LANSA ŠJ”­ŠÂ‹«‚Ìˆê•”‚Æ‚µ‚Äg—p‚³‚ê‚é LANSA “à•”ƒe[ƒuƒ‹’è‹`‚Å‚·B
 DocOtherFileFileLANSAInternalFile.Id=1416
-*** @TRANS OLD
-*** DocOtherFileNotISeriesOtherFile=–¼‘O&1‚ÍiSeries OtherÌ§²Ù‚Å‚Í‚È‚­LANSAÌ§²Ù’è‹`‚Éw’è‚³‚ê‚Ä‚¢‚é‚½‚ßAÌ§²Ù‚ğÛ°ÄŞ‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñBŠù‘¶‚Ì’è‹`‚Í’u‚«Š·‚¦‚ç‚ê‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocOtherFileNotISeriesOtherFile=Table cannot be loaded because name &1 is assigned to a LANSA Table definition that is not an IBM i File. The existing definition will not be replaced.
+DocOtherFileNotISeriesOtherFile=–¼‘O &1 ‚ÍA”ñ IBM i ƒe[ƒuƒ‹‚Ì LANSA ƒe[ƒuƒ‹’è‹`‚ÉŠ„‚è“–‚Ä‚ç‚ê‚Ä‚¢‚é‚½‚ßAƒe[ƒuƒ‹‚ªƒ[ƒh‚Å‚«‚Ü‚¹‚ñBŠù‘¶‚Ì’è‹`‚Í’uŠ·‚³‚ê‚Ü‚¹‚ñB
 DocOtherFileNotISeriesOtherFile.Id=1417
-*** @TRANS OLD
-*** DocOtherFileKeyFieldOmitted=Ì§²Ù’è‹`‚ªÛ°ÄŞ‚³‚ê‚Ü‚¹‚ñ‚Å‚µ‚½BÌ¨°ÙÄŞ&1‚ÍÌß×²ÏØ·°‚Ìˆê•”‚ÅLANSAÌ§²Ù’è‹`‚©‚çœŠO‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocOtherFileKeyFieldOmitted=Table definition cannot be loaded. Field &1 is part of the primary key and has been omitted from the LANSA Table definition.
+DocOtherFileKeyFieldOmitted=ƒe[ƒuƒ‹’è‹`‚ğƒ[ƒh‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh &1 ‚Íƒvƒ‰ƒCƒ}ƒŠ ƒL[‚Ìˆê•”‚ÅALANSA ƒe[ƒuƒ‹’è‹`‚©‚çœŠO‚³‚ê‚Ä‚¢‚Ü‚·B
 DocOtherFileKeyFieldOmitted.Id=1418
-*** @TRANS OLD
-*** DocOtherFileFieldOmitted=Ì¨°ÙÄŞ&1‚ÍLANSAÌ§²Ù’è‹`‚©‚çœŠO‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocOtherFileFieldOmitted=Field &1 has been omitted from the LANSA Table definition.
+DocOtherFileFieldOmitted=ƒtƒB[ƒ‹ƒh &1 ‚Í LANSA ƒe[ƒuƒ‹’è‹`‚©‚çœŠO‚³‚ê‚Ä‚¢‚Ü‚·B
 DocOtherFileFieldOmitted.Id=1419
 DocOtherFileUserDefinedType=Ì¨°ÙÄŞ&2‚É’è‹`‚³‚ê‚½À²Ìß'&1'‚Í»Îß°Ä‚³‚ê‚Ü‚¹‚ñB
 DocOtherFileUserDefinedType.Id=1420
-DocOtherFileAlphaTooLong=‰p”šÌ¨°ÙÄŞ&2‚Ì’·‚³&1‚ÍRDMLÌ§²Ù‚Å‚Í’·‚·‚¬‚Ü‚·B
+DocOtherFileAlphaTooLong=‰p”šƒtƒB[ƒ‹ƒh &2 ‚Ì’·‚³ &1 ‚Í RDML ƒe[ƒuƒ‹‚É‚Í’·‚·‚¬‚Ü‚·B
 DocOtherFileAlphaTooLong.Id=1421
-DocOtherFilePackedTooLong=Êß¯¸Ì¨°ÙÄŞ&2‚Ì’·‚³&1‚ÍRDMLÌ§²Ù‚Å‚Í’·‚·‚¬‚Ü‚·B
+DocOtherFilePackedTooLong=ƒpƒbƒNƒtƒB[ƒ‹ƒh &2 ‚Ì’·‚³ &1 ‚Í RDML ƒe[ƒuƒ‹‚Å‚Í’·‚·‚¬‚Ü‚·B
 DocOtherFilePackedTooLong.Id=1422
-DocOtherFilePackedTooManyDecimals=Êß¯¸Ì¨°ÙÄŞ&2‚Ì¬”“_ˆÈ‰º‚ÌŒ…”&1‚ÍRDMLÌ§²Ù‚Å‚Í’·‚·‚¬‚Ü‚·B
+DocOtherFilePackedTooManyDecimals=ƒpƒbƒNƒtƒB[ƒ‹ƒh &2 ‚Ì¬”“_ˆÈ‰º‚ÌŒ…” &1 ‚Í RDML ƒe[ƒuƒ‹‚Å‚Í’·‚·‚¬‚Ü‚·B
 DocOtherFilePackedTooManyDecimals.Id=1423
-DocOtherFileSignedTooLong=¿Ş°İÌ¨°ÙÄŞ&2‚Ì’·‚³&1‚ÍRDMLÌ§²Ù‚Å‚Í’·‚·‚¬‚Ü‚·B
+DocOtherFileSignedTooLong=ƒ][ƒ“ƒtƒB[ƒ‹ƒh &2 ‚Ì’·‚³ &1 ‚Í RDML ƒe[ƒuƒ‹‚Å‚Í’·‚·‚¬‚Ü‚·B
 DocOtherFileSignedTooLong.Id=1424
-DocOtherFileSignedTooManyDecimals=¿Ş°İÌ¨°ÙÄŞ&2‚Ì¬”“_ˆÈ‰º‚ÌŒ…”&1‚ÍRDMLÌ§²Ù‚Å‚Í’·‚·‚¬‚Ü‚·B
+DocOtherFileSignedTooManyDecimals=ƒ][ƒ“ƒtƒB[ƒ‹ƒh &2 ‚Ì¬”“_ˆÈ‰º‚ÌŒ…” &1 ‚Í RDML ƒe[ƒuƒ‹‚Å‚Í’·‚·‚¬‚Ü‚·B
 DocOtherFileSignedTooManyDecimals.Id=1425
-DocOtherFileRDMLInvalidType=Ì¨°ÙÄŞ&2‚ÌÌ¨°ÙÄŞÀ²Ìß'&1'‚ÍRDMLÌ§²Ù‚Å‚Í–³Œø‚Å‚·B
+DocOtherFileRDMLInvalidType=ƒtƒB[ƒ‹ƒh &2 ‚ÌƒtƒB[ƒ‹ƒh ƒ^ƒCƒv &1 ‚Í RDML ƒe[ƒuƒ‹‚Å‚Í–³Œø‚Å‚·B
 DocOtherFileRDMLInvalidType.Id=1426
-DocOtherFileRDMLInvalidKeyboardShift=Ì¨°ÙÄŞ&2‚Ì·°ÎŞ°ÄŞ¼ÌÄ'%1'‚ÍRDMLÌ§²Ù‚Å‚Í–³Œø‚Å‚·B
+DocOtherFileRDMLInvalidKeyboardShift=ƒtƒB[ƒ‹ƒh &2 ‚ÌƒL[ƒ{[ƒhƒVƒtƒg %1 ‚Í RDML ƒe[ƒuƒ‹‚Å‚Í–³Œø‚Å‚·B
 DocOtherFileRDMLInvalidKeyboardShift.Id=1427
 DocOtherFileInvalidCCSID=Ì¨°ÙÄŞ&1‚ÍCCSID‚ğ»Îß°Ä‚µ‚Ä‚¢‚Ü‚¹‚ñB
 DocOtherFileInvalidCCSID.Id=1428
-DocOtherFileDatalinkType=The Ì¨°ÙÄŞ&2‚Éw’è‚³‚ê‚½ÃŞ°ÀØİ¸Ì¨°ÙÄŞÀ²Ìß(À²Ìß'&1')‚ÍLANSAÌ§²Ù‚Å‚Í»Îß°Ä‚³‚ê‚Ü‚¹‚ñB
+DocOtherFileDatalinkType=ƒtƒB[ƒ‹ƒh &2 ‚ÉŠ„‚è“–‚Ä‚ç‚ê‚½ƒf[ƒ^ƒŠƒ“ƒN ƒtƒB[ƒ‹ƒh ƒ^ƒCƒv (ƒ^ƒCƒv &1) ‚Í LANSA ƒe[ƒuƒ‹ ‚Å‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
 DocOtherFileDatalinkType.Id=1429
 DocOtherFileRowId=Ì¨°ÙÄŞ&1‚ÍROWIDµÌß¼®İ‚Í»Îß°Ä‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocOtherFileRowId.Id=1430
-*** @TRANS OLD
-*** DocOtherFileRDMLXInvalidType=Ì¨°ÙÄŞ&2‚Éw’è‚³‚ê‚½Ì¨°ÙÄŞÀ²Ìß'&1'‚ÍLANSAÌ§²Ù‚Å‚Í»Îß°Ä‚³‚ê‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocOtherFileRDMLXInvalidType=Field type &1 assigned to field &2 is not supported in a LANSA Table definition.
+DocOtherFileRDMLXInvalidType=ƒtƒB[ƒ‹ƒh &2 ‚ÉŠ„‚è“–‚Ä‚ç‚ê‚Ä‚¢‚éƒtƒB[ƒ‹ƒh ƒ^ƒCƒv &1 ‚Í LANSA ƒe[ƒuƒ‹’è‹`‚ÅƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocOtherFileRDMLXInvalidType.Id=1431
-*** @TRANS OLD
-*** DocOtherFileRDMLXInvalidKeyboardShift=Ì¨°ÙÄŞ&2‚Ì·°ÎŞ°ÄŞ¼ÌÄ'&1'‚ÍLANSAÌ§²Ù’è‹`‚Å‚Í–³Œø‚Å‚·B
-*** @TRANS NEW
-DocOtherFileRDMLXInvalidKeyboardShift=Keyboard shift '&1' is not valid for field &2 in a LANSA Table definition.
+DocOtherFileRDMLXInvalidKeyboardShift=LANSA ƒe[ƒuƒ‹’è‹`‚ÅAƒL[ƒ{[ƒh ƒVƒtƒg '&1' ‚ÍƒtƒB[ƒ‹ƒh &2 ‚É‘Î‚µ–³Œø‚Å‚·B
 DocOtherFileRDMLXInvalidKeyboardShift.Id=1432
-*** @TRANS OLD
-*** DocOtherFileLFFieldOmitted=˜_—Ì¨°ÙÄŞ&1‚ª•¨—Ì§²Ù’è‹`‚ÉŒ©‚Â‚©‚ç‚È‚¢‚Ì‚ÅA˜_—Ì§²Ù&2‚©‚çœŠO‚³‚ê‚Ü‚·B
-*** @TRANS NEW
-DocOtherFileLFFieldOmitted=Column &1 could not be found in the table definition so it has been omitted from index &2.
+DocOtherFileLFFieldOmitted=—ñ &1 ‚Íƒe[ƒuƒ‹’è‹`‚É‚È‚¢‚½‚ßAƒCƒ“ƒfƒbƒNƒX &2 ‚©‚çœŠO‚³‚ê‚Ü‚µ‚½B
 DocOtherFileLFFieldOmitted.Id=1433
-*** @TRANS OLD
-*** DocOtherFileLFExistsAsPF=–¼‘O&1‚Í˜_—Ì§²Ù–¼‚Åg—p‚Å‚«‚Ü‚¹‚ñBŠù‚ÉLANSAÌ§²Ù’è‹`‚Å’è‹`‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocOtherFileLFExistsAsPF=Name &1 cannot be used for an index name. It has already been assigned to a LANSA Table definition.
+DocOtherFileLFExistsAsPF=–¼‘O &1 ‚ÍƒCƒ“ƒfƒbƒNƒX–¼‚Ég—p‚Å‚«‚Ü‚¹‚ñB‚±‚Ì–¼‘O‚Í‚·‚Å‚É LANSA ƒe[ƒuƒ‹’è‹`‚ÉŠ„‚è“–‚Ä‚ç‚ê‚Ä‚¢‚Ü‚·B
 DocOtherFileLFExistsAsPF.Id=1434
-*** @TRANS OLD
-*** DocOtherFileLFExistsAsLF=–¼‘O&1‚Í˜_—Ì§²Ù–¼‚Åg—p‚Å‚«‚Ü‚¹‚ñBŠù‚É‘¼‚ÌLANSA˜_—Ì§²Ù‚Å’è‹`‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocOtherFileLFExistsAsLF=Name &1 cannot be used for an index name. It has already been assigned to another LANSA Index.
+DocOtherFileLFExistsAsLF=–¼‘O &1 ‚ÍƒCƒ“ƒfƒbƒNƒX–¼‚Ég—p‚Å‚«‚Ü‚¹‚ñB‚±‚Ì–¼‘O‚Í‚·‚Å‚É•Ê‚Ì LANSA ƒCƒ“ƒfƒbƒNƒX‚ÉŠ„‚è“–‚Ä‚ç‚ê‚Ä‚¢‚Ü‚·B
 DocOtherFileLFExistsAsLF.Id=1435
-*** @TRANS OLD
-*** DocOtherFileLFKeyFieldOmitted=˜_—Ì§²Ù·°Ì¨°ÙÄŞ&1‚ª•¨—Ì§²Ù’è‹`‚ÉŒ©‚Â‚©‚ç‚È‚¢‚Ì‚ÅA˜_—Ì§²Ù&2‚©‚çœŠO‚³‚ê‚Ü‚·B
-*** @TRANS NEW
-DocOtherFileLFKeyFieldOmitted=Index column &1 could not be found in the table definition so it has been omitted from Index &2.
+DocOtherFileLFKeyFieldOmitted=ƒCƒ“ƒfƒbƒNƒX—ñ &1 ‚Íƒe[ƒuƒ‹’è‹`‚É‚È‚¢‚½‚ßAƒCƒ“ƒfƒbƒNƒX &2 ‚©‚çœŠO‚³‚ê‚Ü‚µ‚½B
 DocOtherFileLFKeyFieldOmitted.Id=1436
-*** @TRANS OLD
-*** DocOtherFileLFOmitted=˜_—Ì§²Ù&1‚ÍLANSAÌ§²Ù’è‹`‚©‚çœŠO‚³‚ê‚Ü‚·B
-*** @TRANS NEW
-DocOtherFileLFOmitted=Index &1 has been omitted from the LANSA Table definition.
+DocOtherFileLFOmitted=ƒCƒ“ƒfƒbƒNƒX &1 ‚Í LANSA ƒe[ƒuƒ‹’è‹`‚©‚çœŠO‚³‚ê‚Ü‚µ‚½B
 DocOtherFileLFOmitted.Id=1437
-*** @TRANS OLD
-*** DocOtherFileCreateRRNNotAllowed=Ì§²Ù–¼&1‚ÍLANSA“à•”Ì§²Ù–¼‚Å‚·BLANSA“à•”Ì§²Ù‚É‚ÍCreateRRN‘®«‚ğw’è‚Å‚«‚È‚¢‚½‚ßA‚±‚Ì‘®«‚Í–³‹‚³‚ê‚Ü‚µ‚½B
-*** @TRANS NEW
-DocOtherFileCreateRRNNotAllowed=Table &1 is a LANSA Internal Table name. LANSA Internal tables cannot be assigned the CreateRRN attribute so the attribute has been ignored for this table.
+DocOtherFileCreateRRNNotAllowed=ƒe[ƒuƒ‹ &1 ‚Í LANSA “à•”ƒe[ƒuƒ‹–¼‚Å‚·BLANSA “à•”ƒe[ƒuƒ‹‚Í CreateRRN ‘®«‚ÉŠ„‚è“–‚Ä‚é‚±‚Æ‚ª‚Å‚«‚È‚¢‚½‚ßA‚±‚Ìƒe[ƒuƒ‹‚Å‚Í‚±‚Ì‘®«‚ª–³‹‚³‚ê‚Ü‚µ‚½B
 DocOtherFileCreateRRNNotAllowed.Id=1438
-*** @TRANS OLD
-*** DocOtherFileNoDataSourceColumn=ÃŞ°À¿°½—ñ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñBLANSAÌ§²Ù’è‹`‚ÅÌ¨°ÙÄŞ‚ğì¬‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocOtherFileNoDataSourceColumn=Missing Data Source column. Cannot create column for LANSA Table definition.
+DocOtherFileNoDataSourceColumn=ƒf[ƒ^ƒ\[ƒX—ñ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñBLANSA ƒe[ƒuƒ‹’è‹`‚Ì—ñ‚ğì¬‚Å‚«‚Ü‚¹‚ñB
 DocOtherFileNoDataSourceColumn.Id=1439
-*** @TRANS OLD
-*** DocOtherFileInvalidColumnType=—ñ&2‚Ì—ñÀ²Ìß&1‚ÍLANSAÌ§²Ù’è‹`‚Å‚Í»Îß°Ä‚³‚ê‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocOtherFileInvalidColumnType=The column type &1 of column &2 is not supported by a LANSA Table definition.
+DocOtherFileInvalidColumnType=—ñ &2 ‚Ì—ñƒ^ƒCƒv &1 ‚Í LANSA ’è‹`ƒe[ƒuƒ‹‚ÅƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocOtherFileInvalidColumnType.Id=1440
 DocOtherFileNegativeScale=—ñ&1‚Í&2‚Ì¸“x‚Æ&3‚Ì½¹°Ù‚ª‚ ‚è‚Ü‚·BLANSA‚ÍÏ²Å½‚Í»Îß°Ä‚µ‚Ü‚¹‚ñB
 DocOtherFileNegativeScale.Id=1441
 DocOtherFileScaleGtPrecision=—ñ&1‚Í&2‚Ì¸“x‚Æ&3‚Ì½¹°Ù‚ª‚ ‚è‚Ü‚·BLANSA¸“xˆÈã‚Ì½¹°Ù”‚Íw’è‚Å‚«‚Ü‚¹‚ñB
 DocOtherFileScaleGtPrecision.Id=1442
-*** @TRANS OLD
-*** DocOtherFileNoDataSourceIndexKey=ÃŞ°À¿°½²İÃŞ¯¸½·°‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñBLANSAÌ§²Ù’è‹`‚Ì˜_—ËŞ­°·°‚ğì¬‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocOtherFileNoDataSourceIndexKey=Missing Data Source index key. Cannot create index key for LANSA Table definition.
+DocOtherFileNoDataSourceIndexKey=ƒf[ƒ^ƒ\[ƒX‚ÌƒCƒ“ƒfƒbƒNƒX ƒL[‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñBLANSA ƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒfƒbƒNƒX ƒL[‚ğì¬‚Å‚«‚Ü‚¹‚ñB
 DocOtherFileNoDataSourceIndexKey.Id=1443
-*** @TRANS OLD
-*** DocOtherFileNoDataSourceIndex=ÃŞ°À¿°½²İÃŞ¯¸½‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñBLANSAÌ§²Ù’è‹`‚Ì˜_—ËŞ­°‚ğì¬‚Å‚«‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocOtherFileNoDataSourceIndex=Missing Data Source index. Cannot create Index for LANSA Table definition.
+DocOtherFileNoDataSourceIndex=ƒf[ƒ^ƒ\[ƒX‚ÌƒCƒ“ƒfƒbƒNƒX‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñBLANSA ƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒfƒbƒNƒX‚ğì¬‚Å‚«‚Ü‚¹‚ñB
 DocOtherFileNoDataSourceIndex.Id=1444
 DocCompFrameworkRequired=ºİÎß°ÈİÄ‚ÍÌÚ°ÑÜ°¸‚Éw’è‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
 DocCompFrameworkRequired.Id=1445
@@ -3326,62 +2970,29 @@ DocFileAccessRouteMaxRecordsRangeInvalid=MaxRecords ‚Í0`999‚Ì’l‚Å‚È‚¯‚ê‚Î‚È‚è‚Ü
 DocFileAccessRouteMaxRecordsRangeInvalid.Id=1447
 DocPartitionGrpNameRequired=¸ŞÙ°Ìß–¼‚ª•K{‚Å‚·BNull‚â‘S‚Ä½Íß°½‚Íg—p‚Å‚«‚Ü‚¹‚ñB
 DocPartitionGrpNameRequired.Id=1448
-*** @TRANS OLD
-*** DocFileLogicalViewCriteriaInvalidAll=ALL‚Ì˜_—“Iƒtƒ@ƒCƒ‹Šî€ƒ^ƒCƒv‚ªAÅI“I‚ÈŠî€‚Æ‚µ‚Ä‚Ì‚İg‚í‚ê‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-*** @TRANS NEW
-DocFileLogicalViewCriteriaInvalidAll=Index criterion type of ALL can only be used as the final criterion.
+DocFileLogicalViewCriteriaInvalidAll=ƒCƒ“ƒfƒbƒNƒX‚ÌŠî€ƒ^ƒCƒv ALL ‚ÍAÅIŠî€‚Æ‚µ‚Ä‚Ì‚İg—p‰Â”\‚Å‚·B
 DocFileLogicalViewCriteriaInvalidAll.Id=1449
-DocFileInvalidFileTypeChange=&2‚©‚ç&3‚Ö‚ÌÌ§²Ù&1‚ÌÌ§²ÙÀ²Ìß‚Ì•ÏX‚Ì‚İ‚Í‹–‰Â‚³‚ê‚Ü‚¹‚ñBLANSA‚Å‚Í&4‚©‚ç&5‚Ö‚Ì•ÏX‚Ì‚İ‚ªŒ»İ‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚·B
+DocFileInvalidFileTypeChange=ƒe[ƒuƒ‹ &1 ‚Ìƒe[ƒuƒ‹ ƒ^ƒCƒv &2 ‚©‚ç &3 ‚Ö‚Ì•ÏX‚Í‚Å‚«‚Ü‚¹‚ñBLANSA ‚ÅŒ»İ‹–‰Â‚³‚ê‚Ä‚¢‚é‚Ì‚Í &4 ‚©‚ç &5 ‚Ö‚Ì•ÏX‚Ì‚İ‚Å‚·B
 DocFileInvalidFileTypeChange.Id=1450
-*** @TRANS OLD
-*** DocFileLogicalViewAccessPathMaintenanceNotSupported=±¸¾½Êß½ÒİÃÅİ½‚Å‘I‘ğ‚³‚ê‚½µÌß¼®İ‚Í»Îß°Ä‚³‚ê‚Ä‚¢‚Ü‚¹‚ñBiSeries Other File‚Ì‚İ‚Åg—p‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-*** @TRANS NEW
-DocFileLogicalViewAccessPathMaintenanceNotSupported=Selected option for Access Path Maintenance is not supported. It can only be used for IBM i tables.
+DocFileLogicalViewAccessPathMaintenanceNotSupported=ƒAƒNƒZƒX ƒpƒX ƒƒ“ƒeƒiƒ“ƒX‚Ì‘I‘ğƒIƒvƒVƒ‡ƒ“‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB‚±‚ê‚Í IBM i ƒe[ƒuƒ‹‚É‘Î‚µ‚Ä‚Ì‚İg—p‰Â”\‚Å‚·B
 DocFileLogicalViewAccessPathMaintenanceNotSupported.Id=1451
-*** @TRANS OLD
-*** DocFieldOtherFileKeyboardShift=Œ®”Õ¼ÌÄ‚Í•ÏX‚³‚ê‚Ü‚¹‚ñ‚Å‚µ‚½B Ì¨°ÙÄŞ’è‹`‚ÍOTHERÌ§²Ù‚ÌÛ°ÄŞ’†‚Éì¬‚³‚êA‚P‚ÂˆÈã‚ÌÌ§²Ù‚Åg—p‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFieldOtherFileKeyboardShift=Keyboard shift cannot be changed. The field definition was created when Importing Table Definitions and it is still used by one or more of these tables.
+DocFieldOtherFileKeyboardShift=ƒL[ƒ{[ƒh ƒVƒtƒg‚Í•ÏX‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh’è‹`‚Íƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒ|[ƒg’†‚Éì¬‚³‚êA‚»‚Ì’†‚Ì 1 ‚ÂˆÈã‚Ìƒe[ƒuƒ‹‚É‚æ‚è‚¢‚Ü‚¾g—p‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFieldOtherFileKeyboardShift.Id=1452
-*** @TRANS OLD
-*** DocFieldOtherFileASQN=Ì¨°ÙÄŞ‘®« *ASQN ‚Í’Ç‰Á‚à‚µ‚­‚Ííœ‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñB Ì¨°ÙÄŞ’è‹`‚ÍOTHERÌ§²Ù‚ÌÛ°ÄŞ’†‚Éì¬‚³‚êA‚P‚ÂˆÈã‚ÌÌ§²Ù‚Åg—p‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFieldOtherFileASQN=Field attribute *ASQN cannot added or deleted. The field definition was created when Importing Table Definitions and it is still used by one or more of these tables.
+DocFieldOtherFileASQN=ƒtƒB[ƒ‹ƒh‘®« *ASQN ‚Í’Ç‰Á‚âíœ‚ª‚Å‚«‚Ü‚¹‚ñB ƒtƒB[ƒ‹ƒh’è‹`‚Íƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒ|[ƒg’†‚Éì¬‚³‚êA‚»‚Ì’†‚Ì 1 ‚ÂˆÈã‚Ìƒe[ƒuƒ‹‚É‚æ‚è‚¢‚Ü‚¾g—p‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFieldOtherFileASQN.Id=1453
-*** @TRANS OLD
-*** DocFieldOtherFileFullRDMLX=ÌÙRDMLXİ’è‚Í•ÏX‚³‚ê‚Ü‚¹‚ñ‚Å‚µ‚½B Ì¨°ÙÄŞ’è‹`‚ÍOTHERÌ§²Ù‚ÌÛ°ÄŞ’†‚Éì¬‚³‚êA‚P‚ÂˆÈã‚ÌÌ§²Ù‚Åg—p‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFieldOtherFileFullRDMLX=Full RDMLX flag cannot be changed. The field definition was created when Importing Table Definitions and it is still used by one or more of these tables.
+DocFieldOtherFileFullRDMLX=ƒtƒ‹ RDMLX ƒtƒ‰ƒO‚Í•ÏX‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh’è‹`‚Íƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒ|[ƒg’†‚Éì¬‚³‚êA‚»‚Ì’†‚Ì 1 ‚ÂˆÈã‚Ìƒe[ƒuƒ‹‚É‚æ‚è‚¢‚Ü‚¾g—p‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFieldOtherFileFullRDMLX.Id=1454
-*** @TRANS OLD
-*** DocFieldOtherFileLength=Ì¨°ÙÄŞ’·‚Í•ÏX‚³‚ê‚Ü‚¹‚ñ‚Å‚µ‚½BÌ¨°ÙÄŞ’è‹`‚ÍOTHERÌ§²Ù‚ÌÛ°ÄŞ’†‚Éì¬‚³‚êA‚P‚ÂˆÈã‚ÌÌ§²Ù‚Åg—p‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFieldOtherFileLength=Field length cannot be changed. The field definition was created when Importing Table Definitions and it is still used by one or more of these tables.
+DocFieldOtherFileLength=ƒtƒB[ƒ‹ƒh’·‚Í•ÏX‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh’è‹`‚Íƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒ|[ƒg’†‚Éì¬‚³‚êA‚»‚Ì’†‚Ì 1 ‚ÂˆÈã‚Ìƒe[ƒuƒ‹‚É‚æ‚è‚¢‚Ü‚¾g—p‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFieldOtherFileLength.Id=1455
-*** @TRANS OLD
-*** DocFieldOtherFileDecimals=Ì¨°ÙÄŞ¬”‚Í•ÏX‚³‚ê‚Ü‚¹‚ñ‚Å‚µ‚½BÌ¨°ÙÄŞ’è‹`‚ÍOTHERÌ§²Ù‚ÌÛ°ÄŞ’†‚Éì¬‚³‚êA‚P‚ÂˆÈã‚ÌÌ§²Ù‚Åg—p‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFieldOtherFileDecimals=Field decimals cannot be changed. The field definition was created when Importing Table Definitions and it is still used by one or more of these tables.
+DocFieldOtherFileDecimals=ƒtƒB[ƒ‹ƒh‚Ì¬”“_ˆÈ‰º‚ÌŒ…”‚Í•ÏX‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh’è‹`‚Íƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒ|[ƒg’†‚Éì¬‚³‚êA‚»‚Ì’†‚Ì 1 ‚ÂˆÈã‚Ìƒe[ƒuƒ‹‚É‚æ‚è‚¢‚Ü‚¾g—p‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFieldOtherFileDecimals.Id=1456
-*** @TRANS OLD
-*** DocFieldOtherFileReferenceField=QÆÌ¨°ÙÄŞ–¼‚Í•ÏX‚³‚ê‚Ü‚¹‚ñ‚Å‚µ‚½BÌ¨°ÙÄŞ’è‹`‚ÍOTHERÌ§²Ù‚ÌÛ°ÄŞ’†‚Éì¬‚³‚êA‚P‚ÂˆÈã‚ÌÌ§²Ù‚Åg—p‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFieldOtherFileReferenceField=Reference field name cannot be changed. The field definition was created when Importing Table Definitions and it is still used by one or more of these tables.
+DocFieldOtherFileReferenceField=QÆƒtƒB[ƒ‹ƒh–¼‚Í•ÏX‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh’è‹`‚Íƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒ|[ƒg’†‚Éì¬‚³‚êA‚»‚Ì’†‚Ì 1 ‚ÂˆÈã‚Ìƒe[ƒuƒ‹‚É‚æ‚è‚¢‚Ü‚¾g—p‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFieldOtherFileReferenceField.Id=1457
-*** @TRANS OLD
-*** DocFieldOtherFileFieldType=Ì¨°ÙÄŞÀ²Ìß‚Í•ÏX‚³‚ê‚Ü‚¹‚ñ‚Å‚µ‚½BÌ¨°ÙÄŞ’è‹`‚ÍOTHERÌ§²Ù‚ÌÛ°ÄŞ’†‚Éì¬‚³‚êA‚P‚ÂˆÈã‚ÌÌ§²Ù‚Åg—p‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFieldOtherFileFieldType=Field type cannot be changed. The field definition was created when Importing Table Definitions and it is still used by one or more of these tables.
+DocFieldOtherFileFieldType=ƒtƒB[ƒ‹ƒh ƒ^ƒCƒv‚Í•ÏX‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh’è‹`‚Íƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒ|[ƒg’†‚Éì¬‚³‚êA‚»‚Ì’†‚Ì 1 ‚ÂˆÈã‚Ìƒe[ƒuƒ‹‚É‚æ‚è‚¢‚Ü‚¾g—p‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFieldOtherFileFieldType.Id=1458
-*** @TRANS OLD
-*** DocFileNameTreatedAsInternal=Ì§²Ù–¼ &1 ‚ÍLANSA“à•”Ì§²Ù‚Æ”F¯‚µ‚Ü‚·B ‚±‚ê‚ÍÌ§²Ù‚ª’Êí‚ÌÌ§²Ù‚ÌØ½Ä‚©‚çœŠO‚³‚ê‚éŒ´ˆö‚É‚È‚é‰Â”\«‚ª‚ ‚è‚Ü‚·B
-*** @TRANS NEW
-DocFileNameTreatedAsInternal=Table name &1 will be interpreted as a LANSA Internal table. This may cause the table to be excluded from lists that would normally include the table.
+DocFileNameTreatedAsInternal=ƒe[ƒuƒ‹–¼ &1 ‚Í LANSA “à•”ƒe[ƒuƒ‹‚Æ‚µ‚Ä‰ğß‚³‚ê‚Ü‚·B‚±‚ê‚É‚æ‚èA’Êí‚Å‚ ‚ê‚Îƒe[ƒuƒ‹‚ğŠÜ‚ŞƒŠƒXƒg‚©‚çœŠO‚³‚ê‚é‰Â”\«‚ª‚ ‚è‚Ü‚·B
 DocFileNameTreatedAsInternal.Id=1459
-*** @TRANS OLD
-*** DocOtherFileIsMasterOnlyFile=Ì§²Ù &1 ‚ÍÏ½À°ØÎß¼ŞÄØ‚É‘¶İ‚µ‚Ä‚¢‚ÄÁª¯¸‚³‚ê‚È‚¢‚Æ‚«AØÛ°ÄŞ‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñB ‘¼Ì§²Ù‚ª³‚µ‚­ØÛ°ÄŞ‚³‚ê‚é‚½‚ß‚ÉAÌ§²Ù‚Æ‘S‚Ä‚ÌÌ§²Ù‚ÌÌ¨°ÙÄŞ’è‹`‚ğÁª¯¸‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
-*** @TRANS NEW
-DocOtherFileIsMasterOnlyFile=Table &1 cannot be reloaded as it exists in the Master Repository and is not checked out. You should check out the table and all the table's associated field definitions to ensure that the Imported File is reloaded correctly. 
+DocOtherFileIsMasterOnlyFile=ƒe[ƒuƒ‹ &1 ‚Íƒ}ƒXƒ^[‚ÌƒŠƒ|ƒWƒgƒŠ‚É‘¶İ‚µAƒ`ƒFƒbƒNƒAƒEƒg‚³‚ê‚Ä‚¢‚È‚¢‚½‚ßAƒŠƒ[ƒh‚Å‚«‚Ü‚¹‚ñB‚±‚Ìƒe[ƒuƒ‹‚Æƒe[ƒuƒ‹‚ÉŠÖ˜A•t‚¯‚ç‚ê‚½ƒtƒB[ƒ‹ƒh’è‹`‚Ì‚·‚×‚Ä‚ğƒ`ƒFƒbƒNƒAƒEƒg‚µ‚ÄAƒCƒ“ƒ|[ƒg‚³‚ê‚½ƒe[ƒuƒ‹‚ª³‚µ‚­ƒŠƒ[ƒh‚³‚ê‚é‚æ‚¤‚É‚µ‚Ä‚­‚¾‚³‚¢B 
 DocOtherFileIsMasterOnlyFile.Id=1460
 DocFieldKeyboardShiftProductUnsupported=·°ÎŞ°ÄŞ¼ÌÄ‚ÍŒ»İ‚±‚ÌÊŞ°¼Ş®İ‚ÌLANSA‚Å‚Í»Îß°Ä‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocFieldKeyboardShiftProductUnsupported.Id=1461
@@ -3401,7 +3012,7 @@ DocFieldAttributeNotAtLanguageLevelOne=‘®« &1 ‚Í RDMLXÌ¨°ÙÄŞ‚É‚Ì‚İ’è‹`‚Å‚«‚Ü‚·
 DocFieldAttributeNotAtLanguageLevelOne.Id=1468
 DocFieldAttributeNotAtLanguageLevelTwo=‘®« &1 ‚Í RDMLXÌ¨°ÙÄŞ‚É‚Í’è‹`‚Å‚«‚Ü‚¹‚ñB
 DocFieldAttributeNotAtLanguageLevelTwo.Id=1469
-DocFileKeyIsFloat=Œx: ·°Ì¨°ÙÄŞ &1 ‚ÍfloatÀ²Ìß‚Å‚·B’è‹`ãA•‚“®¬”‚Í•s³Šm‚È‚Ì‚ÅA—\‘z‚³‚ê‚éÃŞ°À‚ªÌ§²Ù‚©‚çŒŸõ‚³‚ê‚È‚¢‚©‚à‚µ‚ê‚Ü‚¹‚ñB‚Å‚«‚ê‚ÎfloatÌ¨°ÙÄŞ‚ğ·°‚Æ‚µ‚Äg—p‚·‚é‚Ì‚Í”ğ‚¯‚Ä‰º‚³‚¢B‚à‚µ‚­‚Í—\‘z‚µ‚½’l‚É‚È‚é‚æ‚¤Ã½Ä‚ğ“O’ê‚µ‚Ä‰º‚³‚¢B
+DocFileKeyIsFloat=Œx: ƒL[ƒtƒB[ƒ‹ƒh &1 ‚Í float ƒ^ƒCƒv‚Å‚·B’è‹`ãA•‚“®¬”‚Í•s³Šm‚È‚½‚ßA—\‘z‚³‚ê‚éƒf[ƒ^‚ªƒe[ƒuƒ‹‚©‚çŒŸõ‚³‚ê‚È‚¢‰Â”\«‚ª‚ ‚è‚Ü‚·Bfloat ƒtƒB[ƒ‹ƒh‚ğƒL[‚Æ‚µ‚Äg—p‚·‚é‚Ì‚Í”ğ‚¯‚é‚©A—\‘z‚Ì’l‚É‚È‚é‚æ‚¤“O’ê“I‚ÈƒeƒXƒg‚ğs‚Á‚Ä‰º‚³‚¢B
 DocFileKeyIsFloat.Id=1470
 DocFileLogicalViewCriteriaSQLNULLCompareOperator=&1 ‚ğ*SQLNULL‚Æ”äŠr‚µ‚½AğŒ‰‰Zq‚Í»Îß°Ä‚³‚ê‚Ü‚¹‚ñB*EQ‚Æ*NE‚¾‚¯‚ª»Îß°Ä‚³‚ê‚Ü‚·B
 DocFileLogicalViewCriteriaSQLNULLCompareOperator.Id=1471
@@ -3447,25 +3058,13 @@ DocTemplateHelpPanelNameTooLong=–¼‘O‚ªÅ‘å’· &1 •¶š‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocTemplateHelpPanelNameTooLong.Id=1491
 DocObjectSecurityUserNameNotUnique=Õ°»Ş°‚Íˆê“x‚µ‚©w’è‚Å‚«‚Ü‚¹‚ñB
 DocObjectSecurityUserNameNotUnique.Id=1492
-*** @TRANS OLD
-*** DocFileDefaultNamingRuleOnly=Ì§²Ù &1 ‚ÍŠO•”Ì§²Ù‚Å‚· - ÃŞÌ«ÙÄˆÈŠO‚Ì–½–¼‹K‘¥‚Ì‘I‘ğ‚Í»Îß°Ä‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileDefaultNamingRuleOnly=Table &1 is an Imported File - selection of a naming rule other than the default is not support.
+DocFileDefaultNamingRuleOnly=ƒe[ƒuƒ‹ &1 ‚ÍƒCƒ“ƒ|[ƒg‚³‚ê‚½ƒe[ƒuƒ‹‚Å‚·B - ƒfƒtƒHƒ‹ƒgˆÈŠO‚Ì–½–¼‹K‘¥‚Ì‘I‘ğ‚ÍƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocFileDefaultNamingRuleOnly.Id=1493
-*** @TRANS OLD
-*** DocOtherFileInvalidAlias=•Ê–¼ &1 ‚ÍLANSAŠO•”Ì§²Ù’è‹`“à‚ÌÌ¨°ÙÄŞ &2 ‚É‘Î‚µ‚Ä–³Œø‚Å‚·B ’l‚Í–³‹‚³‚ê‚Ü‚·B
-*** @TRANS NEW
-DocOtherFileInvalidAlias=Alias name &1 is not valid for field &2 in an Imported Table definition. Value is ignored.
+DocOtherFileInvalidAlias=•Ê–¼ &1 ‚ÍƒCƒ“ƒ|[ƒg ƒe[ƒuƒ‹’è‹`‚ÌƒtƒB[ƒ‹ƒh &2 ‚É‘Î‚µ‚Ä–³Œø‚Å‚·B’l‚Í–³‹‚³‚ê‚Ü‚·B
 DocOtherFileInvalidAlias.Id=1494
-*** @TRANS OLD
-*** DocOtherFileInvalidEditCode=•ÒWº°ÄŞ '&1' ‚ÍLANSAŠO•”Ì§²Ù’è‹`“à‚ÌÌ¨°ÙÄŞ &2 ‚É‘Î‚µ‚Ä–³Œø‚Å‚·B ’l‚Í–³‹‚³‚ê‚Ü‚·B
-*** @TRANS NEW
-DocOtherFileInvalidEditCode=Edit code character &1 is not valid for field &2 in an Imported Table definition. Value is ignored.
+DocOtherFileInvalidEditCode=•ÒWƒR[ƒh•¶š &1 ‚ÍƒCƒ“ƒ|[ƒg ƒe[ƒuƒ‹’è‹`‚ÌƒtƒB[ƒ‹ƒh &2 ‚É‘Î‚µ‚Ä–³Œø‚Å‚·B’l‚Í–³‹‚³‚ê‚Ü‚·B
 DocOtherFileInvalidEditCode.Id=1495
-*** @TRANS OLD
-*** DocOtherFileInvalidEditWord=•ÒWŒê &1 ‚ÍLANSAŠO•”Ì§²Ù’è‹`“à‚ÌÌ¨°ÙÄŞ &2 ‚É‘Î‚µ‚Ä–³Œø‚Å‚·B ’l‚Í–³‹‚³‚ê‚Ü‚·B
-*** @TRANS NEW
-DocOtherFileInvalidEditWord=Edit word &1 is not valid for field &2 in an Imported Table definition. Value is ignored.
+DocOtherFileInvalidEditWord=•ÒWŒê &1 ‚ÍƒCƒ“ƒ|[ƒg ƒe[ƒuƒ‹’è‹`‚ÌƒtƒB[ƒ‹ƒh &2 ‚É‘Î‚µ‚Ä–³Œø‚Å‚·B’l‚Í–³‹‚³‚ê‚Ü‚·B
 DocOtherFileInvalidEditWord.Id=1496
 DocMessageIdExists=Ò¯¾°¼ŞID &1 ‚ÍŠù‚É‘¶İ‚µ‚Ä‚¢‚Ü‚·B
 DocMessageIdExists.Id=1497
@@ -3473,7 +3072,7 @@ DocMessageSubstitutionInvalid=‘ã“ü•Ï” &1 ‚ÌŒ`®‚ª•s³‚Å‚·B
 DocMessageSubstitutionInvalid.Id=1498
 DocMessageSubstitutionUndefined=‘ã“ü•Ï” &1 ‚Í’è‹`‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocMessageSubstitutionUndefined.Id=1499
-DocMessageMessageFileNotFound=Ò¯¾°¼ŞÌ§²Ù &1 ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB
+DocMessageMessageFileNotFound=ƒƒbƒZ[ƒW ƒe[ƒuƒ‹ &1 ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB
 DocMessageMessageFileNotFound.Id=1500
 DocMessageLanguageRequired=Œ¾Œê‚ª•K—v‚Å‚·BÇÙAÌŞ×İ¸‚Í”F‚ß‚ç‚ê‚Ü‚¹‚ñB
 DocMessageLanguageRequired.Id=1501
@@ -3491,23 +3090,17 @@ DocOtherFileNoNegativeScaleValidationRule=Œx: RDML‹æ‰æ‚Å‚ÍÈ¶ŞÃ¨ÌŞ½¹°Ù‚Ì‘Ã“–«Œ
 DocOtherFileNoNegativeScaleValidationRule.Id=1507
 DocWebTechServiceUnknown=•s–¾‚ÈÃ¸ÉÛ¼Ş°»°ËŞ½
 DocWebTechServiceUnknown.Id=1508
-DocRepositoryFileSizeTooLong=Ì§²Ù‚ÌSIZEÊß×Ò°À‚Í &1 •¶š‚ğ’´‚¦‚ç‚ê‚Ü‚¹‚ñB
+DocRepositoryFileSizeTooLong=ƒe[ƒuƒ‹‚Ì SIZE ƒpƒ‰ƒ[ƒ^‚Í &1 •¶š‚ğ’´‚¦‚ç‚ê‚Ü‚¹‚ñB
 DocRepositoryFileSizeTooLong.Id=1509
-DocRepositoryFileLevelCheckTooLong=Ì§²Ù‚ÌLVLCHKÊß×Ò°À‚Í &1 •¶š‚ğ’´‚¦‚ç‚ê‚Ü‚¹‚ñB
+DocRepositoryFileLevelCheckTooLong=ƒe[ƒuƒ‹‚Ì LVLCHK ƒpƒ‰ƒ[ƒ^‚Í &1 •¶š‚ğ’´‚¦‚ç‚ê‚Ü‚¹‚ñB
 DocRepositoryFileLevelCheckTooLong.Id=1510
 DocRepositoryInvalidVersion=–³Œø‚ÈÊŞ°¼Ş®İ”Ô†B
 DocRepositoryInvalidVersion.Id=1511
-*** @TRANS OLD
-*** DocFieldInputFieldAttrsSUNIError=SUNI‘®«‚ÍAŠO•”Ì§²Ù“à‚ÌÌ¨°ÙÄŞ‚É‘Î‚µ‚Ä‚Ì‚İ—LŒø‚Å‚·B
-*** @TRANS NEW
-DocFieldInputFieldAttrsSUNIError=The SUNI attribute is only valid for fields that are used in an Imported File.
+DocFieldInputFieldAttrsSUNIError=SUNI ‘®«‚ÍƒCƒ“ƒ|[ƒg‚³‚ê‚½ƒe[ƒuƒ‹‚Åg—p‚³‚ê‚éƒtƒB[ƒ‹ƒh‚É‘Î‚µ‚Ä‚Ì‚İ—LŒø‚Å‚·B
 DocFieldInputFieldAttrsSUNIError.Id=1512
 DocUserPrincipalNameInvalid=å—v‚È–¼‘O‚Í–³Œø‚Å‚·BÌŞ×İ¸‚Ü‚½‚Í–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 DocUserPrincipalNameInvalid.Id=1513
-*** @TRANS OLD
-*** DocFileLogicalViewTooManyKeys=˜_—Ì§²Ù’è‹`‚Í·°Ì¨°ÙÄŞ”20‚Ì§ŒÀ‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFileLogicalViewTooManyKeys=Index definition exceeds operational limit of 20 key fields.
+DocFileLogicalViewTooManyKeys=ƒCƒ“ƒfƒbƒNƒX’è‹`‚Í‘€ì§ŒÀ‚Ì 20 ƒL[ ƒtƒB[ƒ‹ƒh‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileLogicalViewTooManyKeys.Id=1514
 DocTaskStatusFinished=À½¸ó‹µ‚Í Finished ‚©‚ç•ÏX‚Å‚«‚Ü‚¹‚ñB
 DocTaskStatusFinished.Id=1515
@@ -3539,14 +3132,11 @@ DocRepositoryLibraryPathTooLong=ÌßÛ¸Ş×ÑE×²ÌŞ×Ø–¼‚ªÅ‘å’·‚Ì &1 •¶š‚ğ’´‚¦‚Ä‚¢‚Ü‚
 DocRepositoryLibraryPathTooLong.Id=1528
 DocRepositoryLibraryPathInvalid=ÌßÛ¸Ş×ÑE×²ÌŞ×Ø–¼‚ÉÌŞ×İ¸‚à‚µ‚­‚Í–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 DocRepositoryLibraryPathInvalid.Id=1529
-*** @TRANS OLD
-*** DocFieldOtherFileSUNI=Ì¨°ÙÄŞ‘®«SUNI‚Í’Ç‰Á‚à‚µ‚­‚Ííœ‚Å‚«‚Ü‚¹‚ñB‚±‚ÌÌ¨°ÙÄŞ’è‹`‚ÍŠO•”Ì§²Ù‚ÌÛ°ÄŞ‚Éì¬‚³‚êA‚¢‚­‚Â‚©‚ÌŠO•”Ì§²Ù‚É‚æ‚Á‚ÄŒ»İ‚àg—p‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFieldOtherFileSUNI=Field attribute SUNI cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileSUNI=ƒtƒB[ƒ‹ƒh‘®« SUNI ‚Í’Ç‰ÁAíœ‚Å‚«‚Ü‚¹‚ñB‚±‚ÌƒtƒB[ƒ‹ƒh’è‹`‚Íƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒ|[ƒg’†‚Éì¬‚³‚êA‚»‚Ì’†‚Ì 1 ‚ÂˆÈã‚Ìƒe[ƒuƒ‹‚É‚æ‚è‚¢‚Ü‚¾g—p‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFieldOtherFileSUNI.Id=1530
 DocFileDBTriggerNameNotSet=DB ÄØ¶Ş°–¼‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocFileDBTriggerNameNotSet.Id=1531
-DocFileDBTriggerFileNameClash=DB ÄØ¶Ş°–¼‚ÍÕÆ°¸‚È–¼‘O‚Å‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñBÌ§²Ù‚ªŠù‚É‚»‚Ì–¼‘O‚ğg—p‚µ‚Ä‚¢‚Ü‚·B
+DocFileDBTriggerFileNameClash=DB ƒgƒŠƒK[–¼‚ÍˆêˆÓ‚Ì–¼‘O‚Å‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñBƒe[ƒuƒ‹‚ªŠù‚É‚»‚Ì–¼‘O‚ğg—p‚µ‚Ä‚¢‚Ü‚·B
 DocFileDBTriggerFileNameClash.Id=1532
 DocFileDBTriggerDBTNameClash=DB ÄØ¶Ş°–¼‚ÍÕÆ°¸‚È–¼‘O‚Å‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñBDB ÄØ¶Ş°‚ªŠù‚É‚»‚Ì–¼‘O‚ğg—p‚µ‚Ä‚¢‚Ü‚·B
 DocFileDBTriggerDBTNameClash.Id=1533
@@ -3558,13 +3148,13 @@ DocFileDBTriggerNameTooRPGIV=ÃŞ°ÀÍŞ°½ ÄØ¶Ş° ÌßÛ¸Ş×Ñ–¼‚ªÅ‘å’· &1 •¶š‚ğ’´‚¦‚Ä‚¢‚
 DocFileDBTriggerNameTooRPGIV.Id=1536
 DocFileDBTriggerNameInvalid=ÃŞ°ÀÍŞ°½ ÄØ¶Ş° ÌßÛ¸Ş×Ñ–¼‚ª–³Œø‚Å‚·BÌŞ×İ¸‚Ü‚½‚Í–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 DocFileDBTriggerNameInvalid.Id=1537
-DocFileCreateIOMWarning=Œx: ‚±‚ÌÌ§²Ù‚É±¸¾½‚·‚éŠe RDML Ì§İ¸¼®İ‚É OPTIONS(*DBOPTIMISE) ‚ğw’è‚µ‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñB
+DocFileCreateIOMWarning=Œx: ‚±‚Ìƒe[ƒuƒ‹‚ÉƒAƒNƒZƒX‚·‚éŠe RDML ƒtƒ@ƒ“ƒNƒVƒ‡ƒ“‚É OPTIONS(*DBOPTIMISE) ‚ğw’è‚µ‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñB
 DocFileCreateIOMWarning.Id=1538
 DocFileDBTriggerVirtualsUsed=ÃŞ°ÀÍŞ°½ ÄØ¶Ş° ÌßÛ¸Ş×Ñ‚ª—LŒø‚Å‚·B±¸Ã¨ÌŞ‚È‰¼‘zÌ¨°ÙÄŞ‚ÍÄØ¶Ş°‚Å‚Íg—p‚Å‚«‚Ü‚¹‚ñB
 DocFileDBTriggerVirtualsUsed.Id=1539
-DocFileAccessRouteFileSelfAccessWarning=Œ»İ‚ÌÌ§²Ù‚©‚ç©•ª©g‚Ö‚Ì±¸¾½Œo˜H‚Í OAM ‚Ü‚½‚Í IBM i ‚Ì I/O Ó¼Ş­°Ù‚Å—LŒø‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
+DocFileAccessRouteFileSelfAccessWarning=Œ»İ‚Ìƒe[ƒuƒ‹‚©‚ç©g‚Ö‚ÌƒAƒNƒZƒXŒo˜H‚Í OAM ‚Ü‚½‚Í IBM i ‚Ì I/O ƒ‚ƒWƒ…[ƒ‹‚Å—LŒø‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
 DocFileAccessRouteFileSelfAccessWarning.Id=1540
-FileReadOnlyAccessOnly=“Çæê—pÌ§²Ù &1 ‚Í INSERTAUPDATEADELETE ºÏİÄŞ‚Åg—p‚Å‚«‚Ü‚¹‚ñB
+FileReadOnlyAccessOnly=“Çæê—pƒe[ƒuƒ‹ &1 ‚Í INSERTAUPDATEADELETE ƒRƒ}ƒ“ƒh‚Åg—p‚Å‚«‚Ü‚¹‚ñB
 FileReadOnlyAccessOnly.Id=1541
 DocUserPrincipalNameDuplicate=ÌßØİ¼ÊßÙ–¼‚Í1‚Â‚Ì LANSA Õ°»Ş°‚Å‚µ‚©g—p‚Å‚«‚Ü‚¹‚ñB‚±‚Ì–¼‘O‚ÍŠù‚É &1 ‚É‚æ‚Á‚Äg—p‚³‚ê‚Ä‚¢‚Ü‚·B
 DocUserPrincipalNameDuplicate.Id=1542
@@ -3574,9 +3164,9 @@ GeneratorRequestWebServiceRequired=Web»°ËŞ½‚Ì–¼‘O‚ª•K—v‚Å‚·BÇÙAµ°ÙÌŞ×İ¸‚Íg—p‚
 GeneratorRequestWebServiceRequired.Id=1544
 GeneratorRequestWebServiceExists=&1 ‚ÍŠù‚ÉWeb»°ËŞ½‚Æ‚µ‚Ä’è‹`‚³‚ê‚Ä‚¢‚Ü‚·(&3 ‚Ì &2)B
 GeneratorRequestWebServiceExists.Id=1545
-RdmlxOnlyParameter=ÌÙ RDMLX ‚ª—LŒø‚Å‚È‚¢‚½‚ß &1 Êß×Ò°À‚Íw’è‚Å‚«‚Ü‚¹‚ñB
+RdmlxOnlyParameter=ƒtƒ‹ RDMLX ‚ª—LŒø‚Å‚È‚¢‚½‚ß &1 ƒpƒ‰ƒ[ƒ^‚Íw’è‚Å‚«‚Ü‚¹‚ñB
 RdmlxOnlyParameter.Id=1546
-DocOtherFileViewNotRDMLX=Ì§²Ù &1 ‚ğÛ°ÄŞ‚Å‚«‚Ü‚¹‚ñBSQL ËŞ­°‚Æ‚µ‚Ä’è‹`‚³‚ê‚Ä‚¢‚é‚½‚ßARDMLX ‚ª—LŒø‚É‚È‚Á‚Ä‚¢‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñB
+DocOtherFileViewNotRDMLX=ƒe[ƒuƒ‹ &1 ‚ğƒ[ƒh‚Å‚«‚Ü‚¹‚ñBSQL ƒrƒ…[‚Æ‚µ‚Ä’è‹`‚³‚ê‚Ä‚¢‚é‚½‚ßARDMLX ‚ª—LŒø‚É‚È‚Á‚Ä‚¢‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñB
 DocOtherFileViewNotRDMLX.Id=1547
 DocFieldRdmlxHasErrors=&1 ‚Ì RDMLX ¿°½ º°ÄŞ‚É´×°‚ª‚ ‚è‚Ü‚·B‚±‚Ì’è‹`‚ğ•Û‘¶‚·‚é‘O‚ÉC³‚µ‚Ä‚­‚¾‚³‚¢B
 DocFieldRdmlxHasErrors.Id=1548
@@ -3586,22 +3176,13 @@ DocExternalResourcePathInvalid=&1 ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB
 DocExternalResourcePathInvalid.Id=1553
 DocFilePJFAccessRouteNotActionable=±¸¾½Œo˜H&1‚ªˆ—‚Å‚«‚È‚¢‚½‚ßAPJF’è‹`‚Í»Îß°Ä‚³‚ê‚Ü‚¹‚ñ
 DocFilePJFAccessRouteNotActionable.Id=1554
-*** @TRANS OLD
-*** DocFileAutoRRNNoPrimaryKey=©“®RRN‚ÍÌ§²Ù‚ÉÌß×²ÏØ ·°‚ª‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñB
-*** @TRANS NEW
-DocFileAutoRRNNoPrimaryKey=AutoRRN requires the Table to have a Primary Key.
+DocFileAutoRRNNoPrimaryKey=©“® RRN ‚ªƒvƒ‰ƒCƒ}ƒŠ ƒL[‚ğ‚Â‚É‚Íƒe[ƒuƒ‹‚ª•K{‚Å‚·B
 DocFileAutoRRNNoPrimaryKey.Id=1160
 OptionNotAllowedForResponse=µÌß¼®İ &1 ‚Í‚±‚Ì‰“šÀ²Ìß‚É‚Í‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 OptionNotAllowedForResponse.Id=1161
-*** @TRANS OLD
-*** DocFileTooManyLogicalsRdml=RDML Ì§²Ù‚Ì˜_—Ì§²Ù”‚ªÅ‘å’l &1 ‚ğ’´‚¦‚Ü‚µ‚½B
-*** @TRANS NEW
-DocFileTooManyLogicalsRdml=Number of indexes exceeds maximum of &1 for an RDML table.
+DocFileTooManyLogicalsRdml=ƒCƒ“ƒfƒbƒNƒX”‚ª RDML ƒe[ƒuƒ‹‚É‘Î‚·‚éÅ‘å’l &1 ‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileTooManyLogicalsRdml.Id=1162
-*** @TRANS OLD
-*** DocFileTooManyLogicalsRdmlx=RDMLX Ì§²Ù‚Ì˜_—Ì§²Ù”‚ªÅ‘å’l &1 ‚ğ’´‚¦‚Ü‚µ‚½B
-*** @TRANS NEW
-DocFileTooManyLogicalsRdmlx=Number of indexes files exceeds maximum of &1 for an RDMLX table.
+DocFileTooManyLogicalsRdmlx=ƒCƒ“ƒfƒbƒNƒX ƒe[ƒuƒ‹‚Ì”‚ª RDML ƒe[ƒuƒ‹‚É‘Î‚·‚éÅ‘å’l &1 ‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocFileTooManyLogicalsRdmlx.Id=1163
 GeneratorRequestExternalResourceFileExists=Ì§²Ù&1 ‚ÍŠù‚É‘¶İ‚µ‚Ü‚·B
 GeneratorRequestExternalResourceFileExists.Id=1555
@@ -3625,10 +3206,7 @@ DocFileNameTooLongOracle=&1‚Í’·‚·‚¬‚ÄÃ°ÌŞÙ–¼‚Æ‚µ‚Äg—p‚Å‚«‚Ü‚¹‚ñiOracle‚Ì§ŒÀ‚Í
 DocFileNameTooLongOracle.Id=1564
 DocFileFieldNameTooLongOracle=&1‚Í’·‚·‚¬‚Ä¶×Ñ–¼‚Æ‚µ‚Äg—p‚Å‚«‚Ü‚¹‚ñiOracle‚Ì§ŒÀ‚Í30•¶š‚Ü‚ÅjB‘ã‚í‚è‚É¯•Êq&2‚ªg—p‚³‚ê‚Ü‚·B
 DocFileFieldNameTooLongOracle.Id=1565
-*** @TRANS OLD 
-*** DocFilePhysicalFileNameExistsInFile=&1‚Í‚±‚Ì•¨—Ì§²Ù“à‚Ì˜_—ËŞ­°‚Æ‚µ‚ÄŠù‚É‘¶İ‚µ‚Ü‚·
-*** @TRANS NEW
-DocFilePhysicalFileNameExistsInFile=&1 already exists as an index in this table.
+DocFilePhysicalFileNameExistsInFile=&1 ‚Í‚·‚Å‚É‚±‚Ìƒe[ƒuƒ‹‚ÌƒCƒ“ƒfƒbƒNƒX‚Æ‚µ‚Ä‘¶İ‚µ‚Ü‚·B
 DocFilePhysicalFileNameExistsInFile.Id=1566
 DocFileNotLongNamesEnabled=Œ»İ‚Ì‹æ‰æ‚ÍÛİ¸ŞÈ°Ñ‚ª—LŒø‚Å‚Í‚ ‚è‚Ü‚¹‚ñ
 DocFileNotLongNamesEnabled.Id=1567
@@ -3640,10 +3218,7 @@ GroupByUnicodeNotAllowed=Group_By &2‚ÌÌ¨°ÙÄŞ&1‚ÍÕÆº°ÄŞÌ¨°ÙÄŞ‚Åg—p‚Å‚«‚Ü‚¹‚ñ
 GroupByUnicodeNotAllowed.Id=1571
 UnicodeNotAllowed=Ì¨°ÙÄŞ&1‚ÍÕÆº°ÄŞÌ¨°ÙÄŞ‚È‚Ì‚Åg—p‚Å‚«‚Ü‚¹‚ñ
 UnicodeNotAllowed.Id=1572
-*** @TRANS OLD
-*** DocFileLogicalViewNameTooLongOracle=&1‚Í’·‚·‚¬‚Ä˜_—ËŞ­°–¼‚Æ‚µ‚Äg—p‚Å‚«‚Ü‚¹‚ñiOracle‚Ì§ŒÀ‚Í30•¶š‚Ü‚ÅjB‘ã‚í‚è‚É¯•Êq&2‚ªg—p‚³‚ê‚Ü‚·B
-*** @TRANS NEW
-DocFileLogicalViewNameTooLongOracle=&1 is too long to be used as an index name ( Oracle allows up to 30 characters), the identifier &2 will be used instead.
+DocFileLogicalViewNameTooLongOracle=&1 ‚ÍƒCƒ“ƒfƒbƒNƒX–¼‚Æ‚µ‚Äg—p‚·‚é‚É‚Í’·‚·‚¬‚Ü‚·B( Oracle ‚Ì§ŒÀ‚Í 30 •¶š‚Ü‚Å) ‘ã‚í‚è‚É¯•Êq &2 ‚ªg—p‚³‚ê‚Ü‚·B
 DocFileLogicalViewNameTooLongOracle.Id=1573
 DuplicateDefaultWeblet= &1 &2‚ÌÈ—ª’l‚Ì³ªÌŞÚ¯Ä‚ÍŠù‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚·
 DuplicateDefaultWeblet.Id=1574
@@ -3687,12 +3262,9 @@ GeneratorRequestExternalResourceFolderMandatory=Ì«ÙÀŞ–¼‚ÍÌŞ×İ¸‚É‚Å‚«‚Ü‚¹‚ñB
 GeneratorRequestExternalResourceFolderMandatory.Id=1595
 DocFileLogicalViewCriteriaNotSupported=Ì¨°ÙÄŞ À²Ìß &1 ‚Í‚±‚ÌÀ²Ìß‚ÌğŒ‚Å‚Ìg—p‚Í»Îß°Ä‚³‚ê‚Ü‚¹‚ñB
 DocFileLogicalViewCriteriaNotSupported.Id=1596
-DocFilePhysicalFileNameMustMatchIdentifier=Ì§²Ù–¼‚ğ¯•Êq‚ÆˆÙ‚È‚é‚æ‚¤‚É‚·‚é‚É‚ÍA9•¶šˆÈã‚Ìê‡‚Ì‚İ‰Â”\‚Å‚·B
+DocFilePhysicalFileNameMustMatchIdentifier=ƒe[ƒuƒ‹–¼‚ğ¯•Êq‚ÆˆÙ‚È‚é‚æ‚¤‚É‚·‚é‚É‚ÍA9 •¶šˆÈã‚Ìê‡‚Ì‚İ‰Â”\‚Å‚·B
 DocFilePhysicalFileNameMustMatchIdentifier.Id=1597
-*** @TRANS OLD
-*** DocFileLogicalViewNameMustMatchIdentifier=˜_—Ì§²Ù–¼‚ğ¯•Êq‚ÆˆÙ‚È‚é‚æ‚¤‚É‚·‚é‚É‚ÍA9•¶šˆÈã‚Ìê‡‚Ì‚İ‰Â”\‚Å‚·B
-*** @TRANS NEW
-DocFileLogicalViewNameMustMatchIdentifier=Index name can only be different from the identifier if it is 9 characters or more.
+DocFileLogicalViewNameMustMatchIdentifier=ƒCƒ“ƒfƒbƒNƒX–¼‚Í 9 •¶šˆÈã‚Ìê‡‚É‚Ì‚İA¯•Êq‚ÆˆÙ‚È‚é–¼‘O‚É‚Å‚«‚Ü‚·B
 DocFileLogicalViewNameMustMatchIdentifier.Id=1598
 DocCompNameReservedSuffix=–¼‘O &1 ‚Íg—p‚Å‚«‚Ü‚¹‚ñB‚±‚Ì–¼‘O‚É‚ÍLANSA‚Å—\–ñÏ‚İ‚ÌÚ”ö«‚ª‚Â‚¢‚Ä‚¢‚Ü‚·B
 DocCompNameReservedSuffix.Id=1599
@@ -3762,15 +3334,9 @@ WebRadialBrushDifferentOrigin=•úËóƒuƒ‰ƒV‚Å‚ÍAŠî“_‚Æ’†S‚ª“¯‚¶ê‡‚Ì‚İAWeb ã
 WebRadialBrushDifferentOrigin.Id=1633
 ExpressionNotGroup=® &1 ‚ÌŒ‹‰Ê‚Í LANSA ‚ÌƒOƒ‹[ƒv‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
 ExpressionNotGroup.Id=1634
-*** @TRANS OLD
-*** DocFieldOtherFileSGRA=ƒtƒB[ƒ‹ƒh‘®« SGRA ‚Í’Ç‰Á‚àíœ‚à‚Å‚«‚Ü‚¹‚ñB‚±‚ÌƒtƒB[ƒ‹ƒh’è‹`‚ÍŠO•”ƒtƒ@ƒCƒ‹‚Ìƒ[ƒh‚Éì¬‚³‚êA‚¢‚Ü‚¾ 1 ‚ÂˆÈã‚ÌŠO•”ƒtƒ@ƒCƒ‹‚É‚æ‚èg—p‚³‚ê‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFieldOtherFileSGRA=Field attribute SGRA cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileSGRA=ƒtƒB[ƒ‹ƒh‘®« SGRA ‚Í’Ç‰ÁAíœ‚Å‚«‚Ü‚¹‚ñB‚±‚ÌƒtƒB[ƒ‹ƒh’è‹`‚Íƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒ|[ƒg’†‚Éì¬‚³‚êA‚»‚Ì’†‚Ì 1 ‚ÂˆÈã‚Ìƒe[ƒuƒ‹‚É‚æ‚è‚¢‚Ü‚¾g—p‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFieldOtherFileSGRA.Id=1635
-*** @TRANS OLD
-*** DocFileFieldSGRAInvalid=ƒtƒB[ƒ‹ƒh &1 ‚É‚Í SGRA ‘®«‚ª‚ ‚èA‚±‚Ìƒtƒ@ƒCƒ‹‚Å‚Íg—p‚Å‚«‚Ü‚¹‚ñBSGRA ‘®«‚ğ‚Âƒtƒ@ƒCƒ‹‚ÍŠO•”ƒtƒ@ƒCƒ‹‚Å‚Ì‚İg—p‰Â”\‚Å‚·B
-*** @TRANS NEW
-DocFileFieldSGRAInvalid=Field &1 has a SGRA attribute and cannot be used in this table. Fields with the SGRA attribute can only be used in Imported Files.
+DocFileFieldSGRAInvalid=ƒtƒB[ƒ‹ƒh &1 ‚É‚Í SGRA ‘®«‚ª‚ ‚èA‚±‚Ìƒe[ƒuƒ‹‚Å‚Íg—p‚Å‚«‚Ü‚¹‚ñBSGRA ‘®«‚Ì‚ ‚éƒtƒB[ƒ‹ƒh‚ÍƒCƒ“ƒ|[ƒg‚³‚ê‚½ƒe[ƒuƒ‹‚Å‚Ì‚İg—p‰Â”\‚Å‚·B
 DocFileFieldSGRAInvalid.Id=1636
 NameNotRepositoryStyle=&1 ‚ÍƒXƒ^ƒCƒ‹ ƒRƒ“ƒ|[ƒlƒ“ƒg‚Å‚Í‚ ‚è‚Ü‚¹‚ñ
 NameNotRepositoryStyle.Id=1637
@@ -3864,24 +3430,18 @@ StringValidationNotSupported=&1 ‚Í•¶š—ñŒŸØ‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñ
 StringValidationNotSupported.Id=1681
 NumberValidationNotSupported=&1 ‚Í”’lŒŸØ‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñ
 NumberValidationNotSupported.Id=1682
-*** @TRANS OLD
-*** DocFieldOtherFileGUID=ƒtƒB[ƒ‹ƒh‘®« GUID ‚Í’Ç‰Á‚âíœ‚ª‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh’è‹`‚ªŠO•”ƒtƒ@ƒCƒ‹‚Ìƒ[ƒh’†‚Éì¬‚³‚êA‚Ü‚¾ 1 ‚ÂˆÈã‚ÌŠO•”ƒtƒ@ƒCƒ‹‚ªg—p‚µ‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFieldOtherFileGUID=Field attribute GUID cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileGUID=ƒtƒB[ƒ‹ƒh‘®« GUID ‚Í’Ç‰ÁAíœ‚ª‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh’è‹`‚Íƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒ|[ƒg’†‚Éì¬‚³‚êA‚»‚Ì’†‚Ì 1 ‚ÂˆÈã‚Ìƒe[ƒuƒ‹‚É‚æ‚è‚¢‚Ü‚¾g—p‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFieldOtherFileGUID.Id=1683
-*** @TRANS OLD
-*** DocFieldOtherFileHIID=ƒtƒB[ƒ‹ƒh‘®« HIID ‚Í’Ç‰Á‚âíœ‚ª‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh’è‹`‚ªŠO•”ƒtƒ@ƒCƒ‹‚Ìƒ[ƒh’†‚Éì¬‚³‚êA‚Ü‚¾ 1 ‚ÂˆÈã‚ÌŠO•”ƒtƒ@ƒCƒ‹‚ªg—p‚µ‚Ä‚¢‚Ü‚·B
-*** @TRANS NEW
-DocFieldOtherFileHIID=Field attribute HIID cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileHIID=ƒtƒB[ƒ‹ƒh‘®« HIID ‚Í’Ç‰ÁAíœ‚ª‚Å‚«‚Ü‚¹‚ñBƒtƒB[ƒ‹ƒh’è‹`‚Íƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒ|[ƒg’†‚Éì¬‚³‚êA‚»‚Ì’†‚Ì 1 ‚ÂˆÈã‚Ìƒe[ƒuƒ‹‚É‚æ‚è‚¢‚Ü‚¾g—p‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFieldOtherFileHIID.Id=1684
-DocFileIdentityColumnFullRdmlx=ƒtƒ‹ RDMLX ‚Íƒtƒ@ƒCƒ‹‚É‘Î‚µ—LŒø‰»‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB¯•Ê—ñ‚Íƒtƒ‹ RDMLX ƒtƒ@ƒCƒ‹‚Å‚Ì‚İƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚·B
+DocFileIdentityColumnFullRdmlx=ƒtƒ‹ RDMLX ‚Íƒe[ƒuƒ‹‚É‘Î‚µ—LŒø‰»‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB¯•Ê—ñ‚Íƒtƒ‹ RDMLX ƒe[ƒuƒ‹‚Å‚Ì‚İƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFileIdentityColumnFullRdmlx.Id=1685
-DocFileIdentityColumnUnique=¯•Ê—ñ‚Í 1 ƒtƒ@ƒCƒ‹‚É‚Â‚«A1 ‚Â‚Ì‚İ‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚·B
+DocFileIdentityColumnUnique=¯•Ê—ñ‚Í 1 ƒe[ƒuƒ‹‚É‚Â‚«A1 ‚Â‚Ì‚İ‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFileIdentityColumnUnique.Id=1686
 DocFileIdentityColumnInvalidFieldType=ƒtƒB[ƒ‹ƒh ƒ^ƒCƒv &1 ‚Í¯•Ê—ñ‚É‘Î‚µ—LŒø‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
 DocFileIdentityColumnInvalidFieldType.Id=1687
-DocFileDBtypeIdentityColumnInvalidDecimals=¯•Ê—ñ‚ÍA¬”“_ˆÈ‰ºƒ[ƒ‚Ìİ’è‚Ì‚İ‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚·
-DocFileDBtypeIdentityColumnInvalidDecimals.Id=1688
+DocFileIdentityColumnInvalidDecimals=¯•Ê—ñ‚ÍA¬”“_ˆÈ‰ºƒ[ƒ‚Ìİ’è‚Ì‚İ‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚·
+DocFileIdentityColumnInvalidDecimals.Id=1688
 DocFileDBtypeIdentityColumnInvalidFieldType=ƒtƒB[ƒ‹ƒh ƒ^ƒCƒv &1 ‚Íƒf[ƒ^ ƒ^ƒCƒv &2 ‚Ì¯•Ê—ñ‚É‘Î‚µ—LŒø‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
 DocFileDBtypeIdentityColumnInvalidFieldType.Id=1689
 DocFileDBtypeIdentityColumnLengthTooLong=ƒtƒB[ƒ‹ƒh‚Í¯•Ê—ñ‚Æ‚µ‚ÄŠ„‚è“–‚Ä‚é‚É‚Í’·‚·‚¬‚Ü‚·Bƒf[ƒ^ƒx[ƒX ƒ^ƒCƒv &1 ‚ÌÅ‘å’·‚Í 31 ‚Å‚·B
@@ -3896,16 +3456,14 @@ InvalidContentSecurityPolicy=&1 ‚Í—LŒø‚ÈƒRƒ“ƒeƒ“ƒc ƒZƒLƒ…ƒŠƒeƒB ƒ|ƒŠƒV[ ƒtƒ@ƒCƒ
 InvalidContentSecurityPolicy.Id=1694
 DocWebPageResourceExtResourceOrUrlRequired=ŠO•”ƒŠƒ\[ƒX‚Ü‚½‚Í URL ‚Ì‚¢‚¸‚ê‚©‚ğw’è‚·‚é•K—v‚ª‚ ‚è‚Ü‚·
 DocWebPageResourceExtResourceOrUrlRequired.Id=1695
+
 DocOtherFileNameMatchNewEntity=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½Bƒ[ƒh‚³‚ê‚Ä‚¢‚éƒGƒ“ƒeƒBƒeƒB‚Ì–¼‘O‚Æˆê’v‚µ‚Ü‚·B
 DocOtherFileNameMatchNewEntity.Id=1696
 DocOtherFileNameMatchNewField=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½BV‹KƒtƒB[ƒ‹ƒh‚Ì–¼‘O‚Æˆê’v‚µ‚Ü‚·B
 DocOtherFileNameMatchNewField.Id=1697
 DocOtherFileNameMatchNewPF=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½Bƒ[ƒh‚³‚ê‚Ä‚¢‚éƒe[ƒuƒ‹‚Ì–¼‘O‚Æˆê’v‚µ‚Ü‚·B
 DocOtherFileNameMatchNewPF.Id=1698
-*** @TRANS OLD
-*** DocOtherFileNameMatchNewLF=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½Bƒ[ƒh‚³‚ê‚Ä‚¢‚é˜_—ƒrƒ…[‚Ì–¼‘O‚Æˆê’v‚µ‚Ü‚·B
-*** @TRANS NEW
-DocOtherFileNameMatchNewLF=Name &1 rejected. It matches the name of an index being loaded.
+DocOtherFileNameMatchNewLF=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½Bƒ[ƒh‚³‚ê‚Ä‚¢‚éƒCƒ“ƒfƒbƒNƒX‚Ì–¼‘O‚Æˆê’v‚µ‚Ü‚·B
 DocOtherFileNameMatchNewLF.Id=1699
 DocOtherFileNameMatchNewFieldColumnAttrs=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½BV‹KƒtƒB[ƒ‹ƒh‚Ì–¼‘O‚Æˆê’v‚µ‚Ü‚·‚ªA—ñ‘®«‚ªˆê’v‚µ‚Ü‚¹‚ñB
 DocOtherFileNameMatchNewFieldColumnAttrs.Id=1700
@@ -3931,20 +3489,11 @@ DocOtherFileNameMismatchExistingFieldColumnName=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½B—ñ–¼‚ª
 DocOtherFileNameMismatchExistingFieldColumnName.Id=1710
 DocOtherFileNameMatchExistingFD=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½BŠù‘¶‚ÌƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚Ì–¼‘O‚Æˆê’v‚µ‚Ü‚·B
 DocOtherFileNameMatchExistingFD.Id=1711
-*** @TRANS OLD
-*** DocOtherFileNameMatchExistingPF=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½BŠù‘¶‚ÌƒŠƒ|ƒWƒgƒŠ ƒtƒ@ƒCƒ‹‚Ì–¼‘O‚Æˆê’v‚µ‚Ü‚·B
-DocOtherFileNameMatchExistingPF=Name &1 rejected. It matches the name of an existing repository table.
-*** @TRANS NEW
+DocOtherFileNameMatchExistingPF=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½BŠù‘¶‚ÌƒŠƒ|ƒWƒgƒŠ ƒe[ƒuƒ‹‚Ì–¼‘O‚Æˆê’v‚µ‚Ü‚·B
 DocOtherFileNameMatchExistingPF.Id=1712
-*** @TRANS OLD
-*** DocOtherFileNameMatchExistingLF=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½BŠù‘¶‚ÌƒŠƒ|ƒWƒgƒŠ˜_—ƒtƒ@ƒCƒ‹‚Ì–¼‘O‚Æˆê’v‚µ‚Ü‚·B
-*** @TRANS NEW
-DocOtherFileNameMatchExistingLF=Name &1 rejected. It matches the name of an existing repository index.
+DocOtherFileNameMatchExistingLF=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½BŠù‘¶‚ÌƒŠƒ|ƒWƒgƒŠ ƒCƒ“ƒfƒbƒNƒX‚Ì–¼‘O‚Æˆê’v‚µ‚Ü‚·B
 DocOtherFileNameMatchExistingLF.Id=1713
-*** @TRANS OLD
-*** DocOtherFileNameMatchExistingFileField=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½BŠù‚Éƒtƒ@ƒCƒ‹’è‹`‚É‘¶İ‚·‚éƒtƒB[ƒ‹ƒh‚Ì–¼‘O‚Æˆê’v‚µ‚Ü‚·B
-*** @TRANS NEW
-DocOtherFileNameMatchExistingFileField=Name &1 rejected. It matches the name of a column already in the table definition.
+DocOtherFileNameMatchExistingFileField=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½BŠù‚Éƒe[ƒuƒ‹’è‹`“à‚É‚ ‚é—ñ‚Ì–¼‘O‚Æˆê’v‚µ‚Ü‚·B
 DocOtherFileNameMatchExistingFileField.Id=1714
 DocOtherFileNameMismatchExistingFieldNoAsqn=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½BASQN ‘®«‚ğ‚½‚È‚¢ƒtƒB[ƒ‹ƒh‚Ì–¼‘O‚Æˆê’v‚µ‚Ü‚·B
 DocOtherFileNameMismatchExistingFieldNoAsqn.Id=1715
@@ -3972,24 +3521,22 @@ DocOtherFileDsnNameInvalid.Id=1725
 DocOtherFileDsnNameDefined=ƒf[ƒ^ƒ\[ƒX–¼‚ÍŠù‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚·B•Ê‚Ì–¼‘O‚ğ‘I‚ñ‚Å‚­‚¾‚³‚¢B
 DocOtherFileDsnNameDefined.Id=1726
 
-*** @TRANS ADD
-DefMapExInvalidLength=Invalid length for type &1
+DefMapExInvalidLength=ƒ^ƒCƒv &1 ‚É‘Î‚·‚é–³Œø‚È’·‚³‚Å‚·B
 DefMapExInvalidLength.Id=1727
-DefMapExDecimalsUnsupported=Type &1 does not support decimals.
+DefMapExDecimalsUnsupported=ƒ^ƒCƒv &1 ‚Í¬”“_ˆÈ‰º‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB
 DefMapExDecimalsUnsupported.Id=1728
-DefMapExInvalidFormat=Invalid format for type &1
+DefMapExInvalidFormat=ƒ^ƒCƒv &1 ‚É‘Î‚·‚é–³Œø‚ÈƒtƒH[ƒ}ƒbƒg‚Å‚·B
 DefMapExInvalidFormat.Id=1729
-DefMapExDateSeparatorUnsupported=Type &1 does not require a date separator.
+DefMapExDateSeparatorUnsupported=ƒ^ƒCƒv &1 ‚Í“ú•t‚Ì‹æØ‚è‹L†‚Í•K—v‚ ‚è‚Ü‚¹‚ñB
 DefMapExDateSeparatorUnsupported.Id=1730
-DefMapExTimeSeparatorUnsupported=Type &1 does not require a time separator.
+DefMapExTimeSeparatorUnsupported=ƒ^ƒCƒv &1 ‚ÍŠÔ‚Ì‹æØ‚è‹L†‚Í•K—v‚ ‚è‚Ü‚¹‚ñB
 DefMapExTimeSeparatorUnsupported.Id=1731
-DefMapExInvalidDateSeparator=&1 is an invalid date separator for format &2.
+DefMapExInvalidDateSeparator=&1 ‚ÍƒtƒH[ƒ}ƒbƒg &2 ‚É‘Î‚µA–³Œø‚È“ú•t‹æØ‚è‹L†‚Å‚·B
 DefMapExInvalidDateSeparator.Id=1732
-DefMapExInvalidTimeSeparator=&1 is an invalid time separator for format &2.
+DefMapExInvalidTimeSeparator=&1 ‚ÍƒtƒH[ƒ}ƒbƒg &2 ‚É‘Î‚µA–³Œø‚ÈŠÔ‹æØ‚è‹L†‚Å‚·B
 DefMapExInvalidTimeSeparator.Id=1733
-DefMapExForParmInvalidForType=For(&1) is not supported for type &2
+DefMapExForParmInvalidForType=For(&1) ‚Íƒ^ƒCƒv &2 ‚É‘Î‚µ‚ÄƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DefMapExForParmInvalidForType.Id=1734
-*** @TRANS END
 
 *************************************************************
 ***** LANSA Web WebletGroups                            *****
@@ -4035,10 +3582,7 @@ CrossReference.Reason.VirtualField=‰¼‘zÌ¨°ÙÄŞ
 CrossReference.Reason.WebRoutineXsl=³ªÌŞÙ°ÁİXSL
 CrossReference.Reason.PromptFunction=ÌßÛİÌßÄ Ì§İ¸¼®İ
 CrossReference.Reason.ValidationRule=‘Ã“–«ŒŸ¸
-*** @TRANS OLD
-*** CrossReference.Reason.FileDefinition=Ì§²Ù’è‹`
-*** @TRANS NEW
-CrossReference.Reason.FileDefinition=Table Definition
+CrossReference.Reason.FileDefinition=ƒe[ƒuƒ‹’è‹`
 CrossReference.Reason.FieldDefinition=Ì¨°ÙÄŞ’è‹`
 CrossReference.Reason.PredeterminedJoinField=Œ‹‡Ì¨°ÙÄŞ
 CrossReference.Reason.FieldVisualization=Ì¨°ÙÄŞ ËŞ¼Ş­±×²¾Ş°¼®İ
@@ -4088,138 +3632,143 @@ VersionControl.Actions.AddRemote=ƒŠƒ‚[ƒg ƒŠƒ|ƒWƒgƒŠ’Ç‰Á
 VersionControl.Actions.UpdateRemote=ƒŠƒ‚[ƒg ƒŠƒ|ƒWƒgƒŠXV
 VersionControl.Actions.RemoveRemote=ƒŠƒ‚[ƒg ƒŠƒ|ƒWƒgƒŠíœ
 VersionControl.Actions.GetFileHistory=ƒtƒ@ƒCƒ‹—š—ğæ“¾
-*** @TRANS NEW
-VersionControl.Actions.ResolveConflict=Resolve Conflict
-*** @TRANS END
+VersionControl.Actions.ResolveConflict=‹£‡‚ğ‰ğŒˆ
 
 *************************************************************
 ***** Server Module validations                         *****
 *************************************************************
+DocServerModuleApiPathDuplicateVerb=“¯‚¶ƒpƒX‚Ì•¡”‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“‚ªA“¯‚¶ verb ‚ğŠ„‚è“–‚Ä‚ç‚ê‚Ü‚µ‚½B
+DocServerModuleApiPathRequired=ƒpƒX–¼‚Í•K{‚Å‚·Bƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiLeadingSlashRequired=ƒpƒX–¼‚ÍƒXƒ‰ƒbƒVƒ…‚Ån‚Ü‚Á‚Ä‚¢‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiEncodingNoContentDesc=ƒGƒ“ƒR[ƒh‚ÌƒRƒ“ƒeƒ“ƒc‚ª‹Lq‚³‚ê‚Ä‚¢‚Ü‚¹‚ñBƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ü‚½‚ÍƒƒfƒBƒA ƒ^ƒCƒv ƒAƒCƒeƒ€‚ª’è‹`‚³‚ê‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiHeaderAllowEmptyValueInvalid=AllowEmptyValue ‚Íƒwƒbƒ_[‚ÌˆÊ’u‚É‚Í–³Œø‚Å‚·B
+DocServerModuleApiHeaderAllowReservedInvalid=AllowReserved ‚Íƒwƒbƒ_[‚ÌˆÊ’u‚É‚Í–³Œø‚Å‚·B
+DocServerModuleApiHeaderMediaTypeConflict=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚ÆƒƒfƒBƒA ƒ^ƒCƒv ƒAƒCƒeƒ€‚Ì—¼•û‚ğg‚Á‚ÄƒRƒ“ƒeƒ“ƒc‚ğ‹Lq‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiHeaderNameRequired=ƒwƒbƒ_[–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiHeaderNameNotValid=ƒwƒbƒ_[–¼ &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiHeaderNameReserved=ƒwƒbƒ_[–¼ &1 ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚Ån‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiHeaderNoContentDesc=ƒwƒbƒ_[‚ÌƒRƒ“ƒeƒ“ƒc‚ª‹Lq‚³‚ê‚Ä‚¢‚Ü‚¹‚ñBƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ü‚½‚ÍƒƒfƒBƒA ƒ^ƒCƒv ƒAƒCƒeƒ€‚ª’è‹`‚³‚ê‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiHeaderStyleInvalidUse=ƒXƒ^ƒCƒ‹‚Íƒwƒbƒ_[‚ÌˆÊ’u‚É‚Í–³Œø‚Å‚·B
+DocServerModuleApiMinItemsIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ìƒ^ƒCƒv‚ÍÅ¬ƒAƒCƒeƒ€‚Éƒ[ƒ‚Å‚È‚¢’l‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiMinItemsInvalid=Å‘åƒAƒCƒeƒ€‚Ì’l‚Í–³Œø‚Å‚·B’l‚Íƒ[ƒˆÈã‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiMaxItemsIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ìƒ^ƒCƒv‚ÍÅ‘åƒAƒCƒeƒ€‚Éƒ[ƒ‚Å‚È‚¢’l‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiMaxItemsInvalid=Å‘åƒAƒCƒeƒ€‚Ì’l‚Í–³Œø‚Å‚·B’l‚Íƒ[ƒˆÈã‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiMaxItemsTooSmall=Å‘åƒAƒCƒeƒ€‚Ì’l‚Í–³Œø‚Å‚·B’l‚ÍÅ¬ƒAƒCƒeƒ€‚Ì’lˆÈã‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiMinLengthIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ìƒ^ƒCƒv‚ÍÅ¬’·‚Éƒ[ƒ‚Å‚È‚¢’l‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiMinLengthInvalid=Å¬’·‚Ì’l‚Í–³Œø‚Å‚·B’l‚Íƒ[ƒˆÈã‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiMaxLengthIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ìƒ^ƒCƒv‚ÍÅ‘å’·‚Éƒ[ƒ‚Å‚È‚¢’l‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiMaxLengthInvalid=Å‘å’·‚Ì’l‚Í–³Œø‚Å‚·B’l‚Íƒ[ƒˆÈã‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiMaxLengthTooLarge=Å‘å’·‚Í‘å‚«‚·‚¬‚Ü‚·BƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚ÅƒTƒ|[ƒg‚³‚ê‚éÅ‘å’·‚Ì &1 ‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
+DocServerModuleApiMaxLengthTooSmall=Å‘å’·‚Ì’l‚Í–³Œø‚Å‚·B ’l‚ÍÅ¬’·ˆÈã‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiMinValueIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ìƒ^ƒCƒv‚ÍÅ¬’l‚Éƒ[ƒ‚Å‚È‚¢’l‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiMinValueTooSmall=Å¬’l‚ª¬‚³‚·‚¬‚Ü‚·BƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚ÅƒTƒ|[ƒg‚³‚ê‚éÅ¬’l‚Ì &1 ‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
+DocServerModuleApiMaxValueIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ìƒ^ƒCƒv‚ÍÅ‘å’l‚Éƒ[ƒ‚Å‚È‚¢’l‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiMaxValueTooLarge=Å‘å’l‚ª‘å‚«‚·‚¬‚Ü‚·BƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚ÅƒTƒ|[ƒg‚³‚ê‚éÅ‘å’l‚Ì &1 ‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
+DocServerModuleApiMaxValueTooSmall=Å‘å’l‚Ì’l‚Í–³Œø‚Å‚·B’l‚ÍÅ¬’l‚Ì’lˆÈã‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiOperationIdRequired=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ Id ‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiOperationIdNotValid=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ Id &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiOperationIdDuplicated=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ Id &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiOperationNameReserved=ƒIƒyƒŒ[ƒVƒ‡ƒ“–¼ &1 ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚Ån‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiOperationRequestRequiredIgnored=ƒIƒyƒŒ[ƒVƒ‡ƒ“ verb ‚Í—v‹–{•¶‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñBRequired=true ‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiOperationRequestMediaTypesIgnored=ƒIƒyƒŒ[ƒVƒ‡ƒ“ verb ‚Í—v‹–{•¶‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñBƒƒfƒBƒA ƒ^ƒCƒv ƒAƒCƒeƒ€‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiOperationResponseRequired=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚Ì‹Lq‚Í­‚È‚­‚Æ‚à 1 ‚Â‚Ì‰“š‚Ì‹Lq‚ª•K—v‚Å‚·B
+DocServerModuleApiOperationServerRoutineNameRequired=ƒT[ƒo[ ƒ‹[ƒ`ƒ“–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiOperationServerRoutineNameNotFound=ƒT[ƒo[ ƒ‹[ƒ`ƒ“–¼ &1 ‚ÍƒT[ƒo[ ƒ‹[ƒ`ƒ“‚ğ¯•Ê‚µ‚Ü‚¹‚ñB
+DocServerModuleApiOperationServerRoutineNameNotValid=ƒT[ƒo[ ƒ‹[ƒ`ƒ“–¼ &1 ‚Í–³Œø‚Å‚·BƒT[ƒo[ ƒ‹[ƒ`ƒ“‚Í Response(*Http #...) ƒpƒ‰ƒ[ƒ^‚ğ‚Â•K—v‚ª‚ ‚è‚Ü‚·B
+DocServerModuleApiParameterNameDuplicated=ƒpƒ‰ƒ[ƒ^–¼ &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiParameterNameRequired=ƒpƒ‰ƒ[ƒ^–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiParameterNameNotInPath=ƒpƒX ƒpƒ‰ƒ[ƒ^–¼ {&1} ‚ÍƒpƒX‚Éw’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocServerModuleApiParameterNameNotValid=ƒpƒ‰ƒ[ƒ^–¼ &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiParameterNameReserved=ƒpƒ‰ƒ[ƒ^–¼ &1 ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚Ån‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiParameterRequiredRequired=‘I‘ğ‚ÌˆÊ’u‚Å‚ÍARequired ‚Í TRUE ‚Å‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñB
+DocServerModuleApiParameterAllowEmptyValueInvalid=‘I‘ğ‚ÌˆÊ’u‚Å‚ÍAAllowEmptyValue ‚Í–³Œø‚Å‚·B
+DocServerModuleApiParameterAllowReservedInvalid=‘I‘ğ‚ÌˆÊ’u‚Å‚ÍAAllowReserved ‚Í–³Œø‚Å‚·B
+DocServerModuleApiParameterMediaTypeConflict=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚ÆƒƒfƒBƒA ƒ^ƒCƒv ƒAƒCƒeƒ€‚Ì—¼•û‚ğg‚Á‚ÄƒRƒ“ƒeƒ“ƒc‚ğ‹Lq‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiParameterNoContentDesc=ƒpƒ‰ƒ[ƒ^‚ÌƒRƒ“ƒeƒ“ƒc‚ª‹Lq‚³‚ê‚Ä‚¢‚Ü‚¹‚ñBƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ü‚½‚ÍƒƒfƒBƒA ƒ^ƒCƒv ƒAƒCƒeƒ€‚ª’è‹`‚³‚ê‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiParameterStyleInvalidUse=ƒXƒ^ƒCƒ‹‚Í‘I‘ğ‚ÌˆÊ’u‚É‘Î‚µ‚Ä–³Œø‚Å‚·B
+DocServerModuleApiPathCompoundSegmentNotSupported=ƒpƒX‚ÌƒZƒOƒƒ“ƒg '&1' ‚Í•¡‡ƒZƒOƒƒ“ƒg‚Å‚·BŒ»“_‚Å‚Í•¡‡ƒZƒOƒƒ“ƒg‚ÍƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocServerModuleApiPathEmptySegmentNotAllowed=ƒpƒX ƒeƒ“ƒvƒŒ[ƒg“à‚É‹ó‚ÌƒZƒOƒƒ“ƒg‚Í‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocServerModuleApiPathFragmentNotAllowed=ƒpƒX ƒeƒ“ƒvƒŒ[ƒg‚Éƒtƒ‰ƒOƒƒ“ƒg '&1' ‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·Bƒtƒ‰ƒOƒƒ“ƒg‚Í‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocServerModuleApiPathHasEquivalentPath=ƒpƒX–¼‚ÍƒpƒX &1 ‚É•C“G‚µ‚Ü‚·B‚±‚ê‚ç‚Í“¯ˆê‚Ì‚à‚Ì‚Æ‚İ‚È‚³‚ê‚é‚½‚ßA–³Œø‚Å‚·B
+DocServerModuleApiPathOneSegmentRequired=ƒpƒX ƒeƒ“ƒvƒŒ[ƒg‚É‚Í­‚È‚­‚Æ‚à 1 ‚Â‚ÌƒZƒOƒƒ“ƒg‚ªŠÜ‚Ü‚ê‚Ä‚¢‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiPathParameterNameNotDescribed=ƒpƒX ƒpƒ‰ƒ[ƒ^–¼ {&1} ‚ÍƒpƒX‚Ü‚½‚ÍƒIƒyƒŒ[ƒVƒ‡ƒ“ ƒpƒ‰ƒ[ƒ^‚É‚æ‚è‹Lq‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocServerModuleApiPathQueryNotAllowed=ƒpƒX ƒeƒ“ƒvƒŒ[ƒg‚ÉƒNƒGƒŠ ƒeƒ“ƒvƒŒ[ƒg '&1' ‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·BƒNƒGƒŠ ƒeƒ“ƒvƒŒ[ƒg‚Í‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocServerModuleApiResponseStatusCodeRequired=‰“šƒXƒe[ƒ^ƒX ƒR[ƒh‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiResponseStatusCodeNotValid=‰“šƒXƒe[ƒ^ƒX ƒR[ƒh &1 ‚Í 100-599 ‚Ì 3 •¶š‚Ü‚½‚Í 1XXA2XXA3XXA4XXA5XX ‚È‚Ç‚Ì”ÍˆÍ’è‹`‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB"
+DocServerModuleApiSchemaObjectDescIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚Í‹Lq‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiSchemaObjectDescRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ì‹Lq‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiSchemaObjectFieldNameRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍƒtƒB[ƒ‹ƒh–¼‚ª•K{‚Å‚·B
+DocServerModuleApiSchemaObjectFieldNotFound=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÌƒtƒB[ƒ‹ƒh–¼‚ÍƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚ğ“Á’è‚µ‚Ü‚¹‚ñB
+DocServerModuleApiSchemaObjectFieldNameIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍƒtƒB[ƒ‹ƒh–¼‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiSchemaObjectFormatIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍŒ`®‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiSchemaObjectFormatInvalid=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚Í‘I‘ğ‚ÌŒ`®‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB
+DocServerModuleApiSchemaObjectItemRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍƒXƒL[ƒ} ƒAƒCƒeƒ€‚ª•K{‚Å‚·B
+DocServerModuleApiSchemaObjectItemsIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍƒXƒL[ƒ} ƒAƒCƒeƒ€‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñBƒAƒCƒeƒ€‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiSchemaObjectNameRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiSchemaObjectNameNotAllowed=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg–¼‚ÍƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocServerModuleApiSchemaObjectNameNotValid=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg–¼ &1 ‚É‚Í–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiSchemaObjectNameReserved=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg–¼ &1 ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚©‚çn‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiSchemaObjectPropertiesIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍƒXƒL[ƒ} ƒvƒƒpƒeƒB‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñBƒvƒƒpƒeƒB‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiSchemaObjectPropertiesRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚Í­‚È‚­‚Æ‚à 1 ‚Â‚ÌƒXƒL[ƒ} ƒvƒƒpƒeƒB‚ª•K—v‚Å‚·B
+DocServerModuleApiSchemaObjectReferenceNameRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍQÆ–¼‚ª•K—v‚Å‚·B
+DocServerModuleApiSchemaObjectReferenceNameNotFound=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÌQÆ–¼‚ÍƒXƒL[ƒ} ƒ^ƒCƒv‚ğ“Á’è‚µ‚Ü‚¹‚ñB
+DocServerModuleApiSchemaObjectReferenceNameIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍQÆ–¼‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiSchemaObjectRequiredIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Í•K{‚Æ‚µ‚Äƒtƒ‰ƒO‚ª—§‚Ä‚ç‚ê‚Ä‚¢‚Ü‚·‚ªA‚±‚Ìİ’è‚ğƒTƒ|[ƒg‚·‚é—Bˆê‚ÌƒvƒƒpƒeƒB‚Å‚·Bİ’è‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiSchemaObjectSingleItemOnly=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚Í’Pˆê‚ÌƒXƒL[ƒ} ƒAƒCƒeƒ€‚Ì‚İƒTƒ|[ƒg‚µ‚Ü‚·B
+DocServerModuleApiSchemaPropertyNameDuplicated=ƒXƒL[ƒ} ƒvƒƒpƒeƒB–¼ &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiSchemaTypeNameDuplicated=ƒXƒL[ƒ} ƒ^ƒCƒv–¼ &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiSecuritySchemeApiKeyParameterNameRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ApiKey ƒpƒ‰ƒ[ƒ^–¼ ‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiSecuritySchemeApiKeyParameterNameIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ApiKey ƒpƒ‰ƒ[ƒ^–¼‚Í NULL ‚Å‚Í‚ ‚è‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚·B
+DocServerModuleApiSecuritySchemeApiKeyParameterNameNotValid=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ApiKey ƒpƒ‰ƒ[ƒ^–¼ &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiSecuritySchemeHttpBearerNameIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€‚Ì http ƒxƒAƒ‰[Œ`®‚ª NULL ‚Å‚Í‚ ‚è‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚·B
+DocServerModuleApiSecuritySchemeInIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ApiKey ‚Ì In ‚É’l‚ª‚ ‚è‚Ü‚·B’l‚Í–³‹‚³‚ê‚Ü‚·B
+DocServerModuleApiSecuritySchemeInRequired=ApiKey ‚ÌƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ƒ^ƒCƒv‚Í—LŒø‚È In ‚Ì’l‚ª•K—v‚Å‚·B
+DocServerModuleApiSecuritySchemeNameRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiSecuritySchemeNameNotValid=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€–¼ &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiSecuritySchemeNameDuplicated=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€–¼ &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiSecuritySchemeNameReserved=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€–¼ &1 ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚Ån‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiSecuritySchemeOAuthFlowsRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ƒ^ƒCƒv OAuth2 ‚ÍA­‚È‚­‚Æ‚à 1 ‚Â‚Ì OAuth ƒtƒ[ ƒAƒCƒeƒ€‚ª•K—v‚Å‚·B
+DocServerModuleApiSecuritySchemeOAuthFlowsIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€‚É OAuth ƒtƒ[‚ª‚ ‚è‚Ü‚·BƒAƒCƒeƒ€‚Í–³‹‚³‚ê‚Ü‚·B
+DocServerModuleApiSecuritySchemeOAuthFlowDuplicate=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ‚Ìƒtƒ[ ƒ^ƒCƒv‚Í‚·‚Å‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiSecuritySchemeOAuthFlowAuthorizationUrlRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ƒtƒ[”FØ URL ‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiSecuritySchemeOAuthFlowAuthorizationUrlIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ƒtƒ[”FØ URL ‚É’l‚ª‚ ‚è‚Ü‚·B’l‚Í–³‹‚³‚ê‚Ü‚·B
+DocServerModuleApiSecuritySchemeOAuthFlowTokenUrlRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ƒtƒ[‚Ìƒg[ƒNƒ“ URL ‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiSecuritySchemeOAuthFlowTokenUrlIgnored==ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ƒtƒ[‚Ìƒg[ƒNƒ“ URL ‚É’l‚ª‚ ‚è‚Ü‚·B’l‚Í–³‹‚³‚ê‚Ü‚·B
+DocServerModuleApiSecuritySchemeOAuthFlowScopesRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth2 ƒtƒ[‚Í­‚È‚­‚Æ‚à 1 ‚Â‚ÌƒXƒR[ƒv ƒAƒCƒeƒ€‚ª•K—v‚Å‚·B
+DocServerModuleApiSecuritySchemeOAuthFlowScopeNameRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ƒtƒ[‚ÌƒXƒR[ƒv–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiSecuritySchemeOAuthFlowScopeNameNotValid=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ƒtƒ[‚ÌƒXƒR[ƒv–¼ &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiSecuritySchemeOpenIdConnectUrlRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ƒI[ƒvƒ“ ID ‚ÌÚ‘± URL ‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiSecuritySchemeOpenIdConnectUrlIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ƒI[ƒvƒ“ ID ‚ÌÚ‘± URL ‚É’l‚ª‚ ‚è‚Ü‚·B’l‚Í–³‹‚³‚ê‚Ü‚·B
+DocServerModuleApiSecuritySchemeReferenceNameRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€QÆ–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiSecuritySchemeReferenceNameNotFound=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€QÆ–¼ &1 ‚ÍƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€‚ğ¯•Ê‚µ‚Ü‚¹‚ñB
+
 *** @TRANS NEW
-DocServerModuleApiPathDuplicateVerb=Multiple operations on the same path have been assigned the same verb.
-DocServerModuleApiPathRequired=The path name is required. It cannot be blank or all spaces.
-DocServerModuleApiLeadingSlashRequired=The path name must begin with a forward slash.
-DocServerModuleApiEncodingNoContentDesc=Encoding content is not described. A schema object or media type item must be defined.
-DocServerModuleApiHeaderAllowEmptyValueInvalid=AllowEmptyValue is invalid for a location of header.
-DocServerModuleApiHeaderAllowReservedInvalid=AllowReserved is invalid for a location of header.
-DocServerModuleApiHeaderMediaTypeConflict=Both schema object and media type items cannot be used to describe content.
-DocServerModuleApiHeaderNameRequired=Header name cannot be blank or all spaces.
-DocServerModuleApiHeaderNameNotValid=Header name &1 contains invalid characters.
-DocServerModuleApiHeaderNameReserved=Header name &1 is reserved. Name cannot start with letter 'X'
-DocServerModuleApiHeaderNoContentDesc=Header content is not described. A schema object or media type item must be defined.
-DocServerModuleApiHeaderStyleInvalidUse=Style is invalid for a location of header.
-DocServerModuleApiMinItemsIgnored=Type of schema object does not support a non-zero value for minimum items. Value ignored.
-DocServerModuleApiMinItemsInvalid=Value of minimum items is invalid. It must greater or equal to zero.
-DocServerModuleApiMaxItemsIgnored=Type of schema object does not support a non-zero value for maximum items. Value ignored.
-DocServerModuleApiMaxItemsInvalid=Value of maximum items is invalid. It must greater or equal to zero.
-DocServerModuleApiMaxItemsTooSmall=Value of maximum items is invalid. It must be greater or equal to the value of minimum items.
-DocServerModuleApiMinLengthIgnored=Type of schema object does not support a non-zero value for minimum length. Value ignored.
-DocServerModuleApiMinLengthInvalid=Value of minimum length is invalid. It must greater or equal to zero.
-DocServerModuleApiMaxLengthIgnored=Type of schema object does not support a non-zero value for maximum length. Value ignored.
-DocServerModuleApiMaxLengthInvalid=Value of maximum length is invalid. It must greater or equal to zero.
-DocServerModuleApiMaxLengthTooLarge=Maximum length is too large. It exceeds the maximum length of &1 supported by the schema object.
-DocServerModuleApiMaxLengthTooSmall=Value of maximum length is invalid. It must be greater or equal to the value of minimum length.
-DocServerModuleApiMinValueIgnored=Type of schema object does not support a non-zero value for minimum value. Value ignored.
-DocServerModuleApiMinValueTooSmall=Minimum value is too small. It exceeds the minimum value of &1 supported by the schema object.
-DocServerModuleApiMaxValueIgnored=Type of schema object does not support a non-zero value for maximum value. Value ignored.
-DocServerModuleApiMaxValueTooLarge=Maximum value is too large. It exceeds the maximum value of &1 supported by the schema object.
-DocServerModuleApiMaxValueTooSmall=Value of maximum value is invalid. It must be greater or equal to the value of minimum value.
-DocServerModuleApiOperationIdRequired=Path Operation OperationId cannot be blank or all spaces.
-DocServerModuleApiOperationIdNotValid=Path Operation OperationId &1 contains invalid characters.
-DocServerModuleApiOperationIdDuplicated=Path Operation OperationId &1 has already been used. Name must be unique.
-DocServerModuleApiOperationNameReserved=Operation name &1 is reserved. Name cannot start with letter 'X'
-DocServerModuleApiOperationRequestRequiredIgnored=Operation verb does not support request body. Required=true ignored.
-DocServerModuleApiOperationRequestMediaTypesIgnored=Operation verb does not support request body. Media type items are ignored.
-DocServerModuleApiOperationResponseRequired=Description of path operation requires at least one response description.
-DocServerModuleApiOperationServerRoutineNameRequired=Server routine name cannot be blank or all spaces.
-DocServerModuleApiOperationServerRoutineNameNotFound=Server routine name &1 does not identify a server routine.
-DocServerModuleApiOperationServerRoutineNameNotValid=Server routine named &1 is not valid. Server routine needs to have Response(*Http #...) parameter.
-DocServerModuleApiParameterNameDuplicated=Parameter name &1 has already been used. Name must be unique.
-DocServerModuleApiParameterNameRequired=Parameter name cannot be blank or all spaces.
-DocServerModuleApiParameterNameNotInPath=Path parameter name {&1} is not specified in the path.
-DocServerModuleApiParameterNameNotValid=Parameter name &1 contains invalid characters.
-DocServerModuleApiParameterNameReserved=Parameter name &1 is reserved. Name cannot start with letter 'X'
-DocServerModuleApiParameterRequiredRequired=Required must be true for selected location.
-DocServerModuleApiParameterAllowEmptyValueInvalid=AllowEmptyValue is invalid for selected location.
-DocServerModuleApiParameterAllowReservedInvalid=AllowReserved is invalid for selected location.
-DocServerModuleApiParameterMediaTypeConflict=Both schema object and media type items cannot be used to describe content.
-DocServerModuleApiParameterNoContentDesc=Parameter content is not described. A schema object or media type item must be defined.
-DocServerModuleApiParameterStyleInvalidUse=Style is invalid for selected location.
-DocServerModuleApiPathCompoundSegmentNotSupported=Path segment '&1' is a compound segment. Compound segments are not supported at this time.
-DocServerModuleApiPathParameterNameNotDescribed=Path parameter name {&1} has not be described by a path or operation parameter.
-DocServerModuleApiResponseStatusCodeRequired=Response status code cannot be blank or all spaces.
-DocServerModuleApiResponseStatusCodeNotValid=Response status code &1 must be three characters from 100-599 or range definition like 1XX, 2XX, 3XX, 4XX, 5XX."
-DocServerModuleApiSchemaObjectDescIgnored=Schema object type does not support a description. Value ignored.
-DocServerModuleApiSchemaObjectDescRequired=Schema object description cannot be blank or all spaces.
-DocServerModuleApiSchemaObjectFieldNameRequired=Schema object type requires a field name.
-DocServerModuleApiSchemaObjectFieldNotFound=Schema object type's field name does not identify a repository field.
-DocServerModuleApiSchemaObjectFieldNameIgnored=Schema object type does not support a field name. Value ignored.
-DocServerModuleApiSchemaObjectFormatIgnored=Schema object type does not support a format. Value ignored.
-DocServerModuleApiSchemaObjectFormatInvalid=Schema object type does not support selected Format.
-DocServerModuleApiSchemaObjectItemRequired=Schema object type requires a Schema Item.
-DocServerModuleApiSchemaObjectItemsIgnored=Schema object type does not support Schema Items. Items ignored.
-DocServerModuleApiSchemaObjectNameRequired=Schema object name cannot be blank or all spaces.
-DocServerModuleApiSchemaObjectNameNotAllowed=Schema object name is not supported.
-DocServerModuleApiSchemaObjectNameNotValid=Schema object name &1 contains invalid characters.
-DocServerModuleApiSchemaObjectNameReserved=Schema object name &1 is reserved. Name cannot start with letter 'X'
-DocServerModuleApiSchemaObjectPropertiesIgnored=Schema object type does not support Schema Properties. Properties ignored.
-DocServerModuleApiSchemaObjectPropertiesRequired=Schema object type requires at least one Schema Property.
-DocServerModuleApiSchemaObjectReferenceNameRequired=Schema object type requires a reference name.
-DocServerModuleApiSchemaObjectReferenceNameNotFound=Schema object type's reference name does not identify a schema type.
-DocServerModuleApiSchemaObjectReferenceNameIgnored=Schema object type does not support a reference name. Value ignored.
-DocServerModuleApiSchemaObjectRequiredIgnored=Schema object is flagged as required but only properties support this setting. Setting ignored.
-DocServerModuleApiSchemaObjectSingleItemOnly=Schema object type only supports a single Schema Item.
-DocServerModuleApiSchemaPropertyNameDuplicated=Schema property name &1 has already been used. Name must be unique.
-DocServerModuleApiSchemaTypeNameDuplicated=Schema type name &1 has already been used. Name must be unique.
-DocServerModuleApiSecuritySchemeApiKeyParameterNameRequired=Security scheme ApiKey parameter name cannot be blank or all spaces.
-DocServerModuleApiSecuritySchemeApiKeyParameterNameIgnored=Security scheme ApiKey parameter name is not null. Value is ignored.
-DocServerModuleApiSecuritySchemeApiKeyParameterNameNotValid=Security scheme ApiKey parameter name &1 contains invalid characters.
-DocServerModuleApiSecuritySchemeHttpBearerNameIgnored=Security scheme http bearer format is not null. Value will be ignored.
-DocServerModuleApiSecuritySchemeInIgnored=Security scheme ApiKey In has a value. Value will be ignored.
-DocServerModuleApiSecuritySchemeInRequired=Security scheme type of ApiKey requires a valid In value.
-DocServerModuleApiSecuritySchemeNameRequired=Security scheme name cannot be blank or all spaces.
-DocServerModuleApiSecuritySchemeNameNotValid=Security scheme name &1 contains invalid characters.
-DocServerModuleApiSecuritySchemeNameDuplicated=Security scheme name &1 has already been used. Name must be unique.
-DocServerModuleApiSecuritySchemeNameReserved=Security scheme name &1 is reserved. Name cannot start with letter 'X'
-DocServerModuleApiSecuritySchemeOAuthFlowsRequired=Security scheme type OAuth2 requires at least one OAuth flow item.
-DocServerModuleApiSecuritySchemeOAuthFlowsIgnored=Security scheme has OAuth flows. Items will be ignored.
-DocServerModuleApiSecuritySchemeOAuthFlowDuplicate=Security scheme OAuth Flow type has already been defined.
-DocServerModuleApiSecuritySchemeOAuthFlowAuthorizationUrlRequired=Security scheme OAuth Flow Authorization Url cannot be blank or all spaces.
-DocServerModuleApiSecuritySchemeOAuthFlowAuthorizationUrlIgnored=Security scheme OAuth Flow Authorization Url has a value. Value will be ignored.
-DocServerModuleApiSecuritySchemeOAuthFlowTokenUrlRequired=Security scheme OAuth Flow TokenUrl cannot be blank or all spaces.
-DocServerModuleApiSecuritySchemeOAuthFlowTokenUrlIgnored==Security scheme OAuth Flow Token Url has a value. Value will be ignored.
-DocServerModuleApiSecuritySchemeOAuthFlowScopesRequired=Security scheme OAuth2 Flow requires at least one scope item.
-DocServerModuleApiSecuritySchemeOAuthFlowScopeNameRequired=Security scheme OAuth Flow Scope name cannot be blank or all spaces.
-DocServerModuleApiSecuritySchemeOAuthFlowScopeNameNotValid=Security scheme OAuth Flow Scope name &1 contains invalid characters.
-DocServerModuleApiSecuritySchemeOpenIdConnectUrlRequired=Security scheme Open Id Connect Url cannot be blank or all spaces.
-DocServerModuleApiSecuritySchemeOpenIdConnectUrlIgnored=Security scheme Open Id Connect Url has a value. Value will be ignored.
-DocServerModuleApiSecuritySchemeReferenceNameRequired=Security scheme reference name cannot be blank or all spaces.
-DocServerModuleApiSecuritySchemeReferenceNameNotFound=Security scheme reference name &1 does not identify a security scheme.
+DocServerModuleApiOperationRequestBothBodyAndFormContent=Swagger version 2 supports either form-data or body request content. Both are invalid.
+DocServerModuleApiOperationRequestDuplicateBodyContent=Swagger version 2 supports a single body request content. '&1' is a duplicate body content and is invalid.
+DocServerModuleApiOperationRequestDuplicateFormContent=Swagger version 2 supports a single form-data request content. '&1' is a duplicate form-data content and is invalid.
 *** @TRANS END
 
 *************************************************************
 ***** Services Model                                    *****
 *************************************************************
-*** @TRANS NEW
-SMx.EnumerationOutOfRange=Value &2 is out of range for enumeration &1.
-SMx.InvalidEnumeration=Value &2 is not valid for enumeration &1.
+SMx.EnumerationOutOfRange=’l &2 ‚Í—ñ‹“Œ^ &1 ‚Ì”ÍˆÍŠO‚Å‚·B
+SMx.InvalidEnumeration=’l &2 ‚Í—ñ‹“Œ^ &1 ‚É‘Î‚µ‚Ä—LŒø‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
 
-SMx.Json.InvalidOperation=Invalid Json operation.
-SMx.JsonDom.DualDocumentRootNode=Document already has root node.
-SMx.JsonDom.DualMemberValueNode=Json member node already has a value.
-SMx.JsonDom.Import=Cannot import node of type &1.
-SMx.JsonDom.ImportNullNode=Cannot import *Null node.
-SMx.JsonDom.NodeClone=CloneNode is not supported by node type &1.
-SMx.JsonDom.NodeInsertChild= Cannot insert a *NULL node or a node that would become a child of itself.
-SMx.JsonDom.NodeInsertContainer=Insert of child is not supported by node type &1.
-SMx.JsonDom.NodeInsertContext=Json nodes can only be inserted into models belonging to same context.
-SMx.JsonDom.NodeInsertTypeConflict=Insert of specific type of node &2 is not supported by node type &1.
-SMx.JsonDom.NodeRemoveNotChild=Supplied node is *NULL or not a child.
-SMx.JsonDom.NodeRemoveNotContainer=Removal of child node is not supported by node type &1.
-SMx.JsonDom.NodeValueNotBoolean=Json node (&1) cannot be accessed as boolean value.
-SMx.JsonDom.NodeValueNotDateTime=Json node (&1) cannot be accessed as DateTime value.
-SMx.JsonDom.NodeValueNotDecimal=Json node (&1) cannot be accessed as Decimal value.
-SMx.JsonDom.NodeValueNotInt32=Json node (&1) cannot be accessed as Int32 value.
-SMx.JsonDom.NodeValueNotInt64=Json node (&1) cannot be accessed as Int64 value.
-SMx.JsonDom.NodeValueNotString=Json node (&1) cannot be accessed as String value.
-*** @TRANS END
+SMx.Json.InvalidOperation=–³Œø‚È JSON ‘€ì
+SMx.JsonDom.DualDocumentRootNode=ƒhƒLƒ…ƒƒ“ƒg‚Í‚·‚Å‚Éƒ‹[ƒg ƒm[ƒh‚ğ‚Á‚Ä‚¢‚Ü‚·B
+SMx.JsonDom.DualMemberValueNode=JSON ƒƒ“ƒo[‚Ìƒm[ƒh‚Í‚·‚Å‚É’l‚ğ‚Á‚Ä‚¢‚Ü‚·B
+SMx.JsonDom.Import=ƒ^ƒCƒv &1 ‚Ìƒm[ƒh‚ğƒCƒ“ƒ|[ƒg‚Å‚«‚Ü‚¹‚ñB
+SMx.JsonDom.ImportNullNode=*Null ‚Ìƒm[ƒh‚ğƒCƒ“ƒ|[ƒg‚Å‚«‚Ü‚¹‚ñB
+SMx.JsonDom.NodeClone=CloneNode ‚Íƒm[ƒh ƒ^ƒCƒv &1 ‚ÉƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+SMx.JsonDom.NodeInsertChild=*NULL ƒm[ƒh‚ğ‘}“ü‚Å‚«‚È‚¢A‚Ü‚½‚Í©g‚Ìq‚É‚È‚éƒm[ƒh‚Å‚·B
+SMx.JsonDom.NodeInsertContainer=q‚Ì‘}“ü‚Íƒm[ƒh ƒ^ƒCƒv &1 ‚ÉƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+SMx.JsonDom.NodeInsertContext=JSON ƒm[ƒh‚Í“¯‚¶ƒRƒ“ƒeƒLƒXƒg‚É‘®‚·‚éƒ‚ƒfƒ‹‚É‚Ì‚İ‘}“ü‰Â”\‚Å‚·B
+SMx.JsonDom.NodeInsertTypeConflict=ƒm[ƒh &2 ‚Ì“Á’è‚Ìƒ^ƒCƒv‚Ì‘}“ü‚Íƒm[ƒh ƒ^ƒCƒv &1 ‚ÉƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+SMx.JsonDom.NodeRemoveNotChild=’ñ‹Ÿ‚³‚ê‚½ƒm[ƒh‚Í *NULL ‚Å‚ ‚é‚©Aq‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
+SMx.JsonDom.NodeRemoveNotContainer=qƒm[ƒh‚Ìíœ‚Íƒm[ƒh ƒ^ƒCƒv &1 ‚ÉƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+SMx.JsonDom.NodeValueNotBoolean=JSON ƒm[ƒh (&1) ‚Íƒu[ƒ‹’l‚Æ‚µ‚ÄƒAƒNƒZƒX‚Å‚«‚Ü‚¹‚ñB
+SMx.JsonDom.NodeValueNotDateTime=JSON ƒm[ƒh (&1) DateTime ’l‚Æ‚µ‚ÄƒAƒNƒZƒX‚Å‚«‚Ü‚¹‚ñB
+SMx.JsonDom.NodeValueNotDecimal=JSON ƒm[ƒh (&1) Decimal ’l‚Æ‚µ‚ÄƒAƒNƒZƒX‚Å‚«‚Ü‚¹‚ñB
+SMx.JsonDom.NodeValueNotInt32=JSON ƒm[ƒh (&1) Int32 ’l‚Æ‚µ‚ÄƒAƒNƒZƒX‚Å‚«‚Ü‚¹‚ñB
+SMx.JsonDom.NodeValueNotInt64=JSON ƒm[ƒh (&1) Int64 ’l‚Æ‚µ‚ÄƒAƒNƒZƒX‚Å‚«‚Ü‚¹‚ñB
+SMx.JsonDom.NodeValueNotString=JSON ƒm[ƒh (&1) •¶š—ñ’l‚Æ‚µ‚ÄƒAƒNƒZƒX‚Å‚«‚Ü‚¹‚ñB
