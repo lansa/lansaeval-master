@@ -1,4 +1,4 @@
-﻿LANSA.addComponent({id:"XDEVICE07",nm:"xDeviceFileCopy",ot:"ww",tp:"Widget",de:"Copy local files",tl:14000101,cl:14020003},function(l,oI,u){var fF=function(wP){wP.fireCompleted=function(pStatus,pMessage){var eP=l.ePs();eP.aE("STATUS",pStatus);eP.aS("MESSAGE",pMessage);l.fE(this,"COMPLETED",eP);};};var fW=
+﻿LANSA.addComponent({id:"XDEVICE07",nm:"xDeviceFileCopy",ot:"ww",tp:"Widget",de:"Copy local files",tl:14000101,cl:14020008},function(l,oI,u){var fF=function(wP){wP.fireCompleted=function(pStatus,pMessage){var eP=l.ePs();eP.aE("STATUS",pStatus);eP.aS("MESSAGE",pMessage);l.fE(this,"COMPLETED",eP);};};var fW=
 function( PROTOTYPE, WIDGET )
 {
 var

@@ -1,4 +1,4 @@
-﻿LANSA.addComponent({id:"XDEVICE01",nm:"xDeviceAudioRecord",ot:"ww",tp:"Widget",de:"Control audio recording on mobile device",tl:14000101,cl:14020003},function(l,oI,u){var fF=function(wP){wP.fireStarted=function(pStatus){var eP=l.ePs();eP.aE("STATUS",pStatus);l.fE(this,"STARTED",eP);};wP.fireCompleted=function(pStatus,pMessage){var eP=l.ePs();eP.aE("STATUS",pStatus);eP.aS("MESSAGE",pMessage);l.fE(this,"COMPLETED",eP);};wP.fireRecordFinished=function(){l.fE(this,"RECORDFINISHED");};};var fW=
+﻿LANSA.addComponent({id:"XDEVICE01",nm:"xDeviceAudioRecord",ot:"ww",tp:"Widget",de:"Control audio recording on mobile device",tl:14000101,cl:14020008},function(l,oI,u){var fF=function(wP){wP.fireStarted=function(pStatus){var eP=l.ePs();eP.aE("STATUS",pStatus);l.fE(this,"STARTED",eP);};wP.fireCompleted=function(pStatus,pMessage){var eP=l.ePs();eP.aE("STATUS",pStatus);eP.aS("MESSAGE",pMessage);l.fE(this,"COMPLETED",eP);};wP.fireRecordFinished=function(){l.fE(this,"RECORDFINISHED");};};var fW=
 function( PROTOTYPE, WIDGET )
 {
 var

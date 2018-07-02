@@ -1,4 +1,4 @@
-﻿LANSA.addComponent({id:"XDEMOW_86",nm:"xDemoWebGoogleIcon",ot:"ww",tp:"Widget",de:"Google Icon",tl:14000101,cl:14020003},function(l,oI,u){var fF=function(wP){wP.fireClick=function(){l.fE(this,"CLICK");};};var fW=
+﻿LANSA.addComponent({id:"XDEMOW_86",nm:"xDemoWebGoogleIcon",ot:"ww",tp:"Widget",de:"Google Icon",tl:14000101,cl:14020008},function(l,oI,u){var fF=function(wP){wP.fireClick=function(){l.fE(this,"CLICK");};};var fW=
 function( PROTOTYPE, WIDGET )
 {
 PROTOTYPE.onCreateInstance = function()
