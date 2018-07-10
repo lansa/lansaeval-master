@@ -269,7 +269,10 @@ try {
         Write-Output ("$(Log-Date) *** begin x_err.log")
         Out-File $x_err
         Write-Output ("$(Log-Date) *** end x_err.log")
-        throw
+        $measure = Get-Content $x_err | Measure-Object -Character -Line -Word
+        if ( $Measure.Lines -gt 3 ) {
+            throw "x_err.log contains text after Package Install"
+        }
     }
 
     ###############################################################################

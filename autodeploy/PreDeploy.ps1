@@ -234,7 +234,7 @@ try {
     $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root\*" })
     foreach ($process in $processes ) {
         Write-Output("$(Log-Date) Stopping $($Process.ProcessName)")
-        Stop-Process $process.id -Force
+        &pskill $process.id
     }
 
     # Wait for processes to end
