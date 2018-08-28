@@ -1,5 +1,5 @@
 ################################################################################################################
-# Visual LANSA Web Page and Server Setup
+# Visual LANSA Web Page and Server Setup 
 # This file is provided by LANSA to setup a git repository to distribute runtime artefacts into a test or 
 # demonstration system.
 # This is not for source code.
@@ -68,6 +68,7 @@
 !/x_win95/x_lansa/execute/dc_*.dll
 !/x_win95/x_lansa/execute/w3_p*.exe
 !/x_win95/x_lansa/execute/libexpatw.dll
+!/x_win95/x_lansa/execute/xvl*.dll
 # LIIIXSRV.TXT
 !/x_win95/x_lansa/execute/lcxp0010.dll
 # LIIIX32.TXT
