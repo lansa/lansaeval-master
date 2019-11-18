@@ -9,5 +9,11 @@ DF	WO	a01settin.js	 	 	A01SETTIN	K
 DF	WO	a01signin.js	 	 	A01SIGNIN	L	 	 	 	 
 DF	WO	a01view2.js	 	 	A01VIEW2	K	 	 	 	 
 DF	WO	a01view3.js	 	 	A01VIEW3	K	 	 	 	 
+DF	EO	xvlsmtst.DLL	 	 	XVLSMTST	M	 	 	 	 
+DF	WO	xvlwebtst.js	 	 	XVLWEBTST	O	 	 	 	 
+DF	WO	xvlwebtst.html	 	 	XVLWEBTST	O	 	 	 	 
+DF	WO	xvlwebtst.appcache	 	 	XVLWEBTST	O	 	 	 	 
+DF	WO	xvlimage1.png	 	 	XVLWEBTST	O	 	 	 	 
+DF	WO	xslansaic.png	 	 	XVLWEBTST	O	 	 	 	 
 LI	CA	 	 	 	 	 	 	 	 	 
  	 	 	 	 	 	 	 	 	 	 

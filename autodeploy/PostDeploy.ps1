@@ -1,4 +1,4 @@
-"PostDeploy.ps1" | Write-Host
+"PostDeploy.ps1" | Format-List | Out-String
 
 #Requires -RunAsAdministrator
 
@@ -16,10 +16,10 @@ if ($args.length -gt 0) {
         Write-Host "Working directory is $($args[1])"
         $WorkingDirectory = $args[1]
 
-        Set-Location $WorkingDirectory | Write-Host
+        Write-Host( Set-Location $WorkingDirectory | Format-List | Out-String )
 
-        Write-Host("Re-run script without the log file parameter but using redirection to the log file")
-        & $MyInvocation.MyCommand.Path > $LogFile *>&1 | Write-Host
+        Write-Host( "Re-run script without the log file parameter but using redirection to the log file")
+        Write-Host( & $MyInvocation.MyCommand.Path > $LogFile *>&1 | Format-List | Out-String )
         return
     } else {
         Write-Error("Working Directory parameter missing")
@@ -79,11 +79,11 @@ function Execute-Process
     $output = $p.StandardOutput.ReadToEnd()
     $errorOutput = $p.StandardError.ReadToEnd()
     $p.WaitForExit()
-    $output     | Write-Host
-    $errorOutput | Write-Host
+    Write-Host( $output  | Format-List | Out-String )
+    Write-Host( $errorOutput  | Format-List | Out-String )
 
     # Set $LASTERRORCODE
-    cmd /c exit $p.ExitCode | Write-Host
+    Write-Host( cmd /c exit $p.ExitCode  | Format-List | Out-String )
 
 	# Must continue on error so that everything that can be started is started.
 	# Not all installations have everything installed anyway.
@@ -131,14 +131,14 @@ function Control-Related-WebSites
             Write-Host "$(Log-Date) Web Site = $($SiteVirtualDirectory.Site)"
             if ($Start) {
                 Write-Host ("$(Log-Date) Starting web application pool $($SiteVirtualDirectory.ApplicationPool)")
-                Start-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) | Write-Host
+                Write-Host ( Start-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool)  | Format-List | Out-String )
                 Write-Host ("$(Log-Date) Starting web site $($SiteVirtualDirectory.Site)")
-                Start-Website -name $($SiteVirtualDirectory.Site) | Write-Host
+                Write-Host ( Start-Website -name $($SiteVirtualDirectory.Site) | Format-List | Out-String )
             } else {
                 Write-Host ("$(Log-Date) Stopping web site $($SiteVirtualDirectory.Site)")
-                Stop-Website -name $($SiteVirtualDirectory.Site) | Write-Host
+                Write-Host( Stop-Website -name $($SiteVirtualDirectory.Site)  | Format-List | Out-String )
                 Write-Host ("$(Log-Date) Stopping web application pool $($SiteVirtualDirectory.ApplicationPool)")
-                Stop-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) | Write-Host
+                Write-Host( Stop-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool)  | Format-List | Out-String )
                 # Web Site stopping has not yet ever logged a wait state
                 $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
                 $Loop = 0
@@ -148,7 +148,7 @@ function Control-Related-WebSites
                         throw
                     }
                     Write-Host("$(Log-Date) Waiting for web site to stop")
-                    Start-Sleep -s 1 | Write-Host
+                    Write-Host( Start-Sleep -s 1  | Format-List | Out-String )
                     $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
                 }
 
@@ -162,7 +162,7 @@ function Control-Related-WebSites
                         throw
                     }
                     Write-Host("Waiting for App Pool to stop - current state $($WebAppPoolState.Value)")
-                    Start-Sleep -s 1 | Write-Host
+                    Write-Host( Start-Sleep -s 1  | Format-List | Out-String )
                     $WebAppPoolState = Get-WebAppPoolState -name $($SiteVirtualDirectory.ApplicationPool)
                 }
             }
@@ -191,6 +191,42 @@ function Control-Related-Services
 
     $IntegratorService = Get-WmiObject win32_service | Where-Object{$_.Name -like $ServiceName} | select-object Name, DisplayName, State, PathName
     Out-String -InputObject $IntegratorService | Write-Verbose
+}
+
+# Provide a common routine so its easily modified.
+# It will need to be improved as more understanding arises
+# Using iisreset defaults to /stop /start /force
+# This frequentkly causes automatic kills to occur - 3204 in the system event log.
+# What follows a 3204 is always that other services get killed too.
+# occassionally iis is not restarted (last time there were 84 resets (42 iterations) before this occurred)
+
+function Iis-Reset {
+    Write-Host( "$(Log-Date) iisreset /stop /noforce..." )
+    iisreset /stop /noforce
+    if ( $LASTEXITCODE -ne 0 ) {
+        Write-Host( "$(Log-Date) iisreset /stop /noforce resulted in exit code $LASTEXITCODE" )
+
+        Write-Host( "$(Log-Date) iisreset /kill..." )
+        iisreset /kill
+        if ( $LASTEXITCODE -ne 0 ) {
+            Write-Host( "$(Log-Date) iisreset /kill resulted in exit code $LASTEXITCODE" )
+            iisreset /kill
+
+            Write-Host( "$(Log-Date) Pause 10s to allow IIS to 'recover'..." )
+            Start-Sleep 10
+        }
+    }
+
+    Write-Host( "$(Log-Date) iisreset /start..." )
+    iisreset /start
+    if ( $LASTEXITCODE -ne 0 ) {
+        Write-Host( "$(Log-Date) iisreset /start resulted in exit code $LASTEXITCODE" )
+        Write-Host( "$(Log-Date) iisreset /start again..." )
+        iisreset /start
+        if ( $LASTEXITCODE -ne 0 ) {
+            Write-Host( "$(Log-Date) iisreset /start resulted in exit code $LASTEXITCODE" )
+        }
+    }
 }
 
 ###############################################################################
@@ -222,7 +258,7 @@ try {
 
     $x_lansa_pro = (Join-Path $ExecuteDir '..\x_lansa.pro')
     $x_lansa_pro_old = "$($x_lansa_pro)_old"
-    Copy-Item $x_lansa_pro $x_lansa_pro_old | Write-Host
+    Write-Host( Copy-Item $x_lansa_pro $x_lansa_pro_old | Format-List | Out-String )
     get-content $x_lansa_pro_old | Where-Object { $_ -ne 'INST=MSI' -and $_ -ne '' } | set-content $x_lansa_pro
 
     ###############################################################################
@@ -239,12 +275,14 @@ try {
     }
 
     # DEVF=4096 forces Alternate Name reuse so that tables with the same name in the initial MSI do not cause fatal errors to occur, like xEmployee
-    $Arguments = @("PROC=*INSTALL", "QUET=Y", "MODE=B", "BPQS=Y", "LOCK=NO", "DEVF=4096")
+    $Arguments = @("PROC=*INSTALL", "INST=MSI", "QUET=Y", "MODE=B", "BPQS=Y", "LOCK=NO", "DEVF=4096")
 
-    $Auto = @(Get-Content (Join-Path $Root 'autodeploy\AutoPackageInstallParameters.txt') )
-    $Admin = @(Get-Content (Join-Path $Root 'autodeployadmin\AdminPackageInstallParameters.txt') )
-    $Override = @(Get-Content (Join-Path $Root 'autodeploy\OverridePackageInstallParameters.txt') )
+    # Must have AutoPackageInstallParameters.txt as it contains the APPL setting to use
+    $Auto = @(Get-Content (Join-Path $Root 'autodeploy\AutoPackageInstallParameters.txt') -ErrorAction Stop)
+    $Admin = @(Get-Content (Join-Path $Root 'autodeployadmin\AdminPackageInstallParameters.txt') -ErrorAction SilentlyContinue)
+    $Override = @(Get-Content (Join-Path $Root 'autodeploy\OverridePackageInstallParameters.txt') -ErrorAction SilentlyContinue)
     foreach ( $line in $Auto ){
+        $line | Write-Host
         $line = $line.Trim()
         if (  $line.Length -gt 0) {
             $Arguments += $line
@@ -252,14 +290,16 @@ try {
     }
 
     foreach ( $line in $Override ){
+        $line | Write-Host
         $line = $line.Trim()
         if (  $line.Length -gt 0) {
             $Arguments += $line
         }
     }
 
-    # Admin params must not be overriden
+    # Admin params must not be overriden, so add them last
     foreach ( $line in $Admin ){
+        $line | Write-Host
         $line = $line.Trim()
         if (  $line.Length -gt 0) {
             $Arguments += $line
@@ -275,12 +315,22 @@ try {
         Write-Host ("$(Log-Date) x_err.log size before Package Install $($Measure_before.Lines) lines. Now its $($Measure_after.Lines) lines")
         if ( $Measure_after.Lines -gt ($Measure_before.Lines + 3 ) ) {
             Write-Host ("$(Log-Date) *** begin x_err.log")
-            Out-File $x_err
+            Get-Content $x_err
             Write-Host ("$(Log-Date) *** end x_err.log")
             throw "x_err.log contains extra text after Package Install"
         }
     }
 
+    Write-Host ("$(Log-Date) Deployment Successful")
+    cmd /c exit 0
+} catch {
+    Write-Host ("$(Log-Date) Deployment Failed")
+    Write-Host ("$(Log-Date) Note that its common AND NORMAL for AutoPackageInstallParameters.txt to be missing for the Setup Inital Environment commit. If thats the exception, it may be safely ignored because its fine for that commit to not be 'installed'" )
+    $_
+    cmd /c exit 1
+
+    throw
+} finally {
     ###############################################################################
     Write-Host ("$(Log-Date) Starting listener and web site")
     ###############################################################################
@@ -304,23 +354,22 @@ try {
             }
             Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-sstart") "Starting Listener returned error code"
         }
-        Start-Sleep 5 | Write-Host
+        Write-Host( Start-Sleep 5 | Format-List | Out-String )
         $loop += 1
         Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-q") "Listener startup check returned "
     }
     Write-Host( "Listener started")
 
-    cmd /c exit 0
-} catch {
-    throw
-} finally {
     Write-Host( "$(Log-Date) Bring the Application Server back online")
 
     $webserver = Join-Path $Root 'run\conf\webserver.conf'
     $webserver_saved = Join-Path $Root 'run\conf\webserver.conf.saved'
-    Remove-Item $webserver -ErrorAction SilentlyContinue
     if ( Test-Path $webserver_saved ) {
-        Copy-Item $webserver_saved -Destination $webserver -Force | Write-Host
+        Write-Host( "$(Log-Date) Put the existing webserver.conf back" )
+        Get-Content $webserver_saved > $webserver
+    } else {
+        Write-Host( "$(Log-Date) Use default filters in webserver.conf" )
+        Write-Output '{"use-default":true}' > $webserver
     }
 
     $EncodedPath = $($([System.Web.HttpUtility]::UrlPathEncode($Root)) -replace "\\","%5C").ToUpper()
@@ -331,7 +380,7 @@ try {
     $IIsReset = (Get-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'PluginFullyInstalled' -ErrorAction SilentlyContinue).PluginFullyInstalled
     if ( $IIsReset -eq 1) {
         Write-Host ("$(Log-Date) iisreset always required")
-        iisreset | Write-Host
+        iis-reset | Out-Default | Write-Host
     } else {
         Write-Host ("$(Log-Date) Check if vlweb.dat has been changed. If so an iisreset is required")
         $VLWebDatFile = Join-Path $Root 'x_win95\x_lansa\web\vl\vlweb.dat'
@@ -343,10 +392,15 @@ try {
         if ( (Test-Path $VLWebDatFile -PathType Leaf)) {
             $TargetVLWebDatFile =  Join-Path $ENV:TEMP 'vlweb.dat'
 
+            Write-Host( "$(Log-Date) $TargetVLWebDatFile previous contents...")
+            Get-Content -Path $TargetVLWebDatFile | Out-Default | Write-Host
+            Write-Host( "$(Log-Date) $VLWebDatFile new contents...")
+            Get-Content -Path $VLWebDatFile | Out-Default | Write-Host
+
             if ( (Test-Path $TargetVLWebDatFile -PathType Leaf)) {
                 if ( (Get-FileHash $VLWebDatFile).hash  -ne (Get-FileHash $TargetVLWebDatFile).hash) {
                     Write-Host ("$(Log-Date) vlweb.dat has changed. Calling iisreset")
-                    iisreset | Write-Host
+                    iis-reset | Out-Default | Write-Host
                 } else {
                     Write-Host ("$(Log-Date) vlweb.dat has not changed.")
                 }
