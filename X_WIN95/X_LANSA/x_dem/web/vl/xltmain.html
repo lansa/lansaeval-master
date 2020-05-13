@@ -7,7 +7,12 @@
       <meta name="apple-touch-fullscreen" content="yes">
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <link rel="shortcut icon" type="image/x-icon" href="/%{lansa_webalias}%/%{lansa_partition}%/xlticon.png" />
+      <link href="/%{lansa_webalias}%/%{lansa_partition}%/xlticon.png" rel="shortcut icon" type="image/x-icon">
+      <script src="/%{lansa_webalias}%/%{lansa_runtime}%/material/material-components-web.min.js"></script>
+      <link href="/%{lansa_webalias}%/%{lansa_runtime}%/material/material-components-web.min.css" rel="stylesheet" type="text/css">
+      <link href="/%{lansa_webalias}%/%{lansa_runtime}%/style/roboto.css" rel="stylesheet" type="text/css">
+      <link href="/%{lansa_webalias}%/%{lansa_runtime}%/style/material-icons.css" rel="stylesheet" type="text/css">
+      <link href="/%{lansa_webalias}%/%{lansa_runtime}%/style/theme.css" rel="stylesheet" type="text/css">
    </head>
    <body>
       <script%{nonce_attr}%>
@@ -17,7 +22,7 @@
       <script%{nonce_attr}%>
          (function(LANSA){
             if(!LANSA){document.write("Failed to load /%{lansa_webalias}%/%{lansa_runtime}%/lansa.js");return}
-            LANSA.init({part:"%{lansa_partition}%",sys:"%{lansa_webalias}%",ver:"928121214",lang:{def:"ENG",code:{"ENG":"en","FRA":"fr","JPN":"ja"}},slz:0,md:1,splash:{limg:"spin"}});%{lansa_webroutine_output}%
+            LANSA.init({part:"%{lansa_partition}%",sys:"%{lansa_webalias}%",ver:"1585739718",lang:{def:"ENG",code:{"ENG":"en","FRA":"fr","JPN":"ja"}},slz:0,md:2,ol:0,splash:{limg:"spin"}});%{lansa_webroutine_output}%
             LANSA.showPage("XLTMAIN","xLTMain");
          }(window["LANSA"]))
       </script>

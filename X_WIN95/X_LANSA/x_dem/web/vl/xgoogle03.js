@@ -1,35 +1,33 @@
-﻿LANSA.addComponent({id:"XGOOGLE03",nm:"xGoogleMap",ot:"ww",tp:"Widget",de:"Google Map",tl:14000101,cl:14020008},function(l,oI,u){var fF=function(wP){wP.fireRightClick=function(pLatitude,pLongitude){var eP=l.ePs();eP.aD("LATITUDE",pLatitude);eP.aD("LONGITUDE",pLongitude);l.fE(this,"RIGHTCLICK",eP);};wP.fireCenterChanged=function(pLatitude,pLongitude){var eP=l.ePs();eP.aD("LATITUDE",pLatitude);eP.aD("LONGITUDE",pLongitude);l.fE(this,"CENTERCHANGED",eP);};};var fW=
+﻿LANSA.addComponent({id:"XGOOGLE03",nm:"xGoogleMap",ot:"ww",tp:"Widget",pt:"ap",de:"Google Map",tl:14000101,cl:15000003},function(l,oI,u){var fF=function(wP){wP.fireRightClick=function(pLatitude,pLongitude){var eP=l.ePs();eP.aD("LATITUDE",pLatitude);eP.aD("LONGITUDE",pLongitude);l.fE(this,"RIGHTCLICK",eP);};wP.fireCenterChanged=function(pLatitude,pLongitude){var eP=l.ePs();eP.aD("LATITUDE",pLatitude);eP.aD("LONGITUDE",pLongitude);l.fE(this,"CENTERCHANGED",eP);};};var fW=
 function( PROTOTYPE, WIDGET )
 {
-var apiKey = "YOUR_KEY_HERE";
-try
-{
-if ( localStorage["XGOOGLEMAP_API_KEY"] )
-{
-apiKey = localStorage["XGOOGLEMAP_API_KEY"];
-}
-}
-catch ( e ){}
-var
-newKey = prompt( "Please provide a Google Maps API key to run this demo. Look at the implementation of xGoogleMap for more info.", apiKey );
-if ( newKey )
-{
-apiKey = newKey;
-}
-try
-{
-localStorage["XGOOGLEMAP_API_KEY"] = apiKey;
-}
-catch ( e ){}
-google.load( 'maps', '3', { other_params: 'key=' + apiKey + '&sensor=false', callback: WIDGET.Finalize } );
+var apiKey = "";
+google.load( 'maps', '3', { other_params: 'key=' + apiKey, callback: WIDGET.Finalize } );
 PROTOTYPE.onCreateInstance = function()
 {
-this.m_Latitude = 0;
-this.m_Longitude = 0;
+this.m_Latitude = 40.748817;
+this.m_Longitude = -73.985428;
 this.m_MarkerInfoArray = [];
-}
+};
 PROTOTYPE.onRealizeControl = function( parentDiv )
 {
+if ( apiKey == "" )
+{
+parentDiv.appendChild( document.createTextNode("THIS APPLICATION IS NOT LICENSED TO USE GOOGLE MAPS" ) );
+parentDiv.appendChild( document.createElement("br") );
+parentDiv.appendChild( document.createElement("br") );
+parentDiv.appendChild( document.createElement("br") );
+parentDiv.appendChild( document.createTextNode("To use Google Maps in your application you will need to register with Google for a Developer API Key." ));
+parentDiv.appendChild( document.createElement("br") );
+parentDiv.appendChild( document.createElement("br") );
+parentDiv.appendChild( document.createTextNode("Read the comments in the XGOOGLEMAP Widget for further instructions on how to obtain a Developer API Key and how to use it within your Visual LANSA application." ));
+parentDiv.style.whiteSpace = "normal";
+parentDiv.style.wordWrap = "break-word";
+parentDiv.style.marginTop = "10%"
+parentDiv.style.marginLeft = "10%";
+parentDiv.style.width = "80%";
+return;
+}
 this.m_Map = new google.maps.Map( parentDiv,
 {
 center:                    new google.maps.LatLng( this.m_Latitude, this.m_Longitude ),
@@ -61,7 +59,7 @@ google.maps.event.addListener( this.m_Map, 'zoom_changed', function()
 {
 pThis.m_Zoom = pThis.m_Map.getZoom();
 });
-}
+};
 PROTOTYPE.onSizeChanged = function()
 {
 try
@@ -71,7 +69,7 @@ google.maps.event.trigger( this.m_Map, "resize" );
 this.m_Map.setCenter( center );
 }
 catch( e ){}
-}
+};
 PROTOTYPE.getMapType = function()
 {
 if ( this.m_Map )
@@ -97,7 +95,7 @@ case google.maps.MapTypeId.TERRAIN:
 return "TERRAIN";
 }
 }
-}
+};
 PROTOTYPE.setMapType = function( enumValue )
 {
 switch( enumValue )
@@ -127,7 +125,7 @@ if ( this.m_Map )
 {
 this.m_Map.setMapTypeId( this.m_MapType );
 }
-}
+};
 PROTOTYPE.getZoom = function()
 {
 if ( this.m_Map )
@@ -135,7 +133,7 @@ if ( this.m_Map )
 this.m_Zoom = this.m_Map.getZoom();
 }
 return this.m_Zoom;
-}
+};
 PROTOTYPE.setZoom = function( iValue )
 {
 this.m_Zoom = iValue;
@@ -143,7 +141,7 @@ if ( this.m_Map )
 {
 this.m_Map.setZoom( iValue );
 }
-}
+};
 PROTOTYPE.AddMarker = function( decLatitude, decLongitude, strCaption )
 {
 var
@@ -156,7 +154,7 @@ marker:     null
 };
 this.ShowMarker( markerInfo );
 this.m_MarkerInfoArray.push( markerInfo );
-}
+};
 PROTOTYPE.Center = function( decLatitude, decLongitude )
 {
 this.m_Latitude = decLatitude;
@@ -166,7 +164,7 @@ if ( this.m_Map )
 var center = new google.maps.LatLng( decLatitude, decLongitude );
 this.m_Map.setCenter( center );
 }
-}
+};
 PROTOTYPE.ShowMarker = function( markerInfo )
 {
 if ( this.m_Map )
@@ -179,7 +177,7 @@ map:        this.m_Map,
 title:      markerInfo.caption
 });
 }
-}
+};
 return WIDGET.Loading;
 }
 ;

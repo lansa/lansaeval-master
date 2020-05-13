@@ -1,4 +1,4 @@
-﻿LANSA.addComponent({id:"XLAUNCH01",nm:"xLaunchEmail",ot:"ww",tp:"Widget",de:"Launch the default email editor",tl:14000101,cl:14020008},function(l,oI,u){var fW=
+﻿LANSA.addComponent({id:"XLAUNCH01",nm:"xLaunchEmail",ot:"ww",tp:"Widget",pt:"ap",de:"Launch the default email editor",tl:14000101,cl:15000003},function(l,oI,u){var fW=
 function( PROTOTYPE, WIDGET )
 {
 PROTOTYPE.Compose = function()

@@ -1,4 +1,4 @@
-﻿LANSA.addComponent({id:"XLAUNCH02",nm:"xLaunchSMS",ot:"ww",tp:"Widget",de:"Launch SMS editor on device",tl:14000101,cl:14020008},function(l,oI,u){var fW=
+﻿LANSA.addComponent({id:"XLAUNCH02",nm:"xLaunchSMS",ot:"ww",tp:"Widget",pt:"ap",de:"Launch SMS editor on device",tl:14000101,cl:15000003},function(l,oI,u){var fW=
 function( PROTOTYPE, WIDGET )
 {
 PROTOTYPE.getTo = function()

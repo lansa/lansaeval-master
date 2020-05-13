@@ -1,5 +1,5 @@
-﻿LANSA.addComponent({id:"XDEVICE02",nm:"xDeviceAudioPlayback",ot:"ww",tp:"Widget",de:"Control audio playback on mobile devices",tl:14000101,cl:14020008},function(l,oI,u){var fF=function(wP){wP.fireStarted=function(pStatus){var eP=l.ePs();eP.aE("STATUS",pStatus);l.fE(this,"STARTED",eP);};wP.fireCompleted=function(pStatus,pMessage){var eP=l.ePs();eP.aE("STATUS",pStatus);eP.aS("MESSAGE",pMessage);l.fE(this,"COMPLETED",eP);};wP.fireStopped=function(pStatus){var eP=l.ePs();eP.aE("STATUS",pStatus);l.fE(this,"STOPPED",eP);
-};};var fW=
+﻿LANSA.addComponent({id:"XDEVICE02",nm:"xDeviceAudioPlayback",ot:"ww",tp:"Widget",pt:"ap",de:"Control audio playback on mobile devices",tl:14000101,cl:15000003},function(l,oI,u){var fF=function(wP){wP.fireStarted=function(pStatus){var eP=l.ePs();eP.aE("STATUS",pStatus);l.fE(this,"STARTED",eP);};wP.fireCompleted=function(pStatus,pMessage){var eP=l.ePs();eP.aE("STATUS",pStatus);eP.aS("MESSAGE",pMessage);l.fE(this,"COMPLETED",eP);};wP.fireStopped=function(pStatus){var eP=l.ePs();eP.aE("STATUS",pStatus);
+l.fE(this,"STOPPED",eP);};};var fW=
 function( PROTOTYPE, WIDGET )
 {
 var

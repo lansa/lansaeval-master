@@ -1,4 +1,4 @@
-﻿LANSA.addComponent({id:"XDEVICE08",nm:"xDeviceFileDelete",ot:"ww",tp:"Widget",de:"Delete a local file",tl:14000101,cl:14020008},function(l,oI,u){var fF=function(wP){wP.fireCompleted=function(pStatus,pMessage){var eP=l.ePs();eP.aE("STATUS",pStatus);eP.aS("MESSAGE",pMessage);l.fE(this,"COMPLETED",eP);};};var fW=
+﻿LANSA.addComponent({id:"XDEVICE08",nm:"xDeviceFileDelete",ot:"ww",tp:"Widget",pt:"ap",de:"Delete a local file",tl:14000101,cl:15000003},function(l,oI,u){var fF=function(wP){wP.fireCompleted=function(pStatus,pMessage){var eP=l.ePs();eP.aE("STATUS",pStatus);eP.aS("MESSAGE",pMessage);l.fE(this,"COMPLETED",eP);};};var fW=
 function( PROTOTYPE, WIDGET )
 {
 var

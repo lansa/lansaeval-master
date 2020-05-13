@@ -1,2 +1,0 @@
-APPL=OL1
-PART=DEM

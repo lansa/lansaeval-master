@@ -1,4 +1,4 @@
-﻿LANSA.addComponent({id:"XGOOGLE05",nm:"xGoogleMaterialBarChart",ot:"ww",tp:"Widget",de:"Google Bar Chart",tl:14000101,cl:14020008},function(l,oI,u){var fW=
+﻿LANSA.addComponent({id:"XGOOGLE05",nm:"xGoogleMaterialBarChart",ot:"ww",tp:"Widget",pt:"ap",de:"Google Bar Chart",tl:14000101,cl:15000003},function(l,oI,u){var fW=
 function( PROTOTYPE, WIDGET )
 {
 google.load( 'visualization', '1', { packages:["bar"], callback: WIDGET.Finalize } );
@@ -15,7 +15,7 @@ this.m_Chart = new google.charts.Bar( parentDiv );
 }
 PROTOTYPE.onSizeChanged = function()
 {
-if ( this.m_ParentDiv.clientHeight > 0 )
+if ( ( this.m_ParentDiv.clientHeight > 0 ) && ( this.m_ParentDiv.clientWidth > 0 ) )
 {
 this.DrawChart();
 }

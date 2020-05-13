@@ -1,4 +1,4 @@
-﻿LANSA.addComponent({id:"XLAUNCH03",nm:"xLaunchPhone",ot:"ww",tp:"Widget",de:"Dial a phone number",tl:14000101,cl:14020008},function(l,oI,u){var fW=
+﻿LANSA.addComponent({id:"XLAUNCH03",nm:"xLaunchPhone",ot:"ww",tp:"Widget",pt:"ap",de:"Dial a phone number",tl:14000101,cl:15000003},function(l,oI,u){var fW=
 function( PROTOTYPE, WIDGET )
 {
 PROTOTYPE.Dial = function( strPhoneNumber )
